@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="64" viewBox="0 0 54 64">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_243" data-name="Retângulo 243" width="54" height="64" transform="translate(660 1521)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_4" data-name="Grupo de máscara 4" transform="translate(-660 -1521)" clip-path="url(#clip-path)">
+    <g id="Grupo_1529" data-name="Grupo 1529" opacity="0.37">
+      <path id="Icon_material-money-off" data-name="Icon material-money-off" d="M16.337,9.235c2.161,0,2.962,1.032,3.035,2.55h2.683a4.839,4.839,0,0,0-3.9-4.626V4.5H14.516V7.122a7.2,7.2,0,0,0-1.8.656L14.5,9.563A4.761,4.761,0,0,1,16.337,9.235Zm-8.7-3.448L6.09,7.329l4.176,4.176c0,2.525,1.894,3.9,4.747,4.747l4.261,4.261c-.413.583-1.275,1.1-2.938,1.1-2.5,0-3.484-1.117-3.618-2.55H10.048c.146,2.659,2.137,4.152,4.468,4.65v2.634h3.642v-2.61a6.074,6.074,0,0,0,2.974-1.36l2.7,2.7,1.542-1.542Z" transform="translate(668.271 1545.573)" fill="#fff"/>
+      <g id="Elipse_38" data-name="Elipse 38" transform="translate(660 1537)" fill="none" stroke="#fff" stroke-width="2.5">
+        <circle cx="24" cy="24" r="24" stroke="none"/>
+        <circle cx="24" cy="24" r="22.75" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

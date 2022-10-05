@@ -1,0 +1,105 @@
+.articles {
+    --spacer: 2rem;
+    --columns-size: 75%;
+
+    padding: var(--spacer) 0;
+
+    display: grid;
+    gap: var(--spacer);
+    grid-auto-flow: column;
+    grid-auto-columns: var(--columns-size);
+
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+
+    scroll-snap-type: inline mandatory;
+    // scroll-padding-inline: var(--spacer, 1rem);
+
+    transition: all 0.5s;
+
+    > * {
+        scroll-snap-align: start;
+    }
+
+    @media (min-width: 45em) {
+        --columns-size: 60%;
+    }
+
+    @media (min-width: 1000px) {
+        grid-auto-columns: auto;
+        justify-content: center;
+    }
+}
+
+.article-card {
+    --padding: 1.25rem;
+    display: grid;
+    grid-template-rows: 18rem 1fr max-content;
+
+    header {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    main {
+        padding: var(--padding);
+
+        span {
+            color: #c4c4c4;
+            letter-spacing: 2px;
+            font-weight: 700;
+            display: block;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-block: 0.15rem 1rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    footer {
+        padding: var(--padding);
+        padding-top: 0;
+
+        a {
+            color: var(--blue-light);
+            font-size: 1.125rem;
+            position: relative;
+
+            span {
+                font-size: 1.5rem;
+                position: relative;
+                top: 2px;
+                padding-left: 0.25rem;
+            }
+
+            &::after {
+                content: "";
+                width: 100%;
+                height: 1px;
+                background-color: var(--blue-light);
+                position: absolute;
+                left: 0;
+                bottom: -3px;
+
+                transform: scale(0);
+            }
+
+            &:hover::after,
+            &:focus::after {
+                transform: scale(1);
+                transform-origin: left;
+                transition: transform 300ms ease;
+            }
+        }
+    }
+}

@@ -1,0 +1,148 @@
+.hero {
+    padding-block: var(--spacing);
+    padding-bottom: calc(var(--spacing) * 1.25);
+
+    background-color: var(--blue);
+    color: var(--white);
+
+    background-image: url("https://pages.lenovo.com/rs/183-WCT-620/images/v14--bg-hero.png");
+    background-size: cover;
+
+    background-position: left;
+
+    @media (min-width: 45em) {
+        background-position: center;
+    }
+
+    &__container {
+        display: grid;
+        position: relative;
+        gap: 2rem;
+
+        @media (min-width: 1100px) {
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+        }
+
+        .content {
+            span.custom {
+                display: block;
+                padding: 0.5rem 1.25rem;
+                background-color: var(--white);
+                color: var(--blue);
+                font-weight: 600;
+                max-width: max-content;
+
+                margin-bottom: 3rem;
+            }
+
+            h1 {
+                line-height: 1.2;
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
+
+            p {
+                font-size: 1.125rem;
+            }
+
+            @media (min-width: 45em) {
+                h1 {
+                    max-width: 20ch;
+                    margin-top: 5rem;
+                    font-size: 2.25rem;
+                }
+
+                p {
+                    max-width: 36ch;
+                    margin-bottom: 8rem;
+                }
+            }
+
+            @media (min-width: 70em) {
+                h1 {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+
+    &__img-fixed {
+        position: absolute;
+        bottom: calc(-1.25 * var(--spacing));
+        margin-bottom: -20px;
+        left: 0;
+        margin-left: -10%;
+        max-width: 10rem;
+
+        @media (min-width: 720px) {
+            max-width: 12rem;
+            margin-left: -15%;
+
+            margin-bottom: -26px;
+        }
+
+        @media (min-width: 1200px) {
+            max-width: 20rem;
+            margin-left: -15%;
+
+            margin-bottom: -40px;
+        }
+
+        @media (min-width: 1400px) {
+            max-width: 30rem;
+            margin-left: -35%;
+
+            margin-bottom: -60px;
+        }
+
+        @media (min-width: 1920px) {
+            max-width: 35rem;
+            margin-left: -42%;
+
+            margin-bottom: -75px;
+        }
+    }
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+
+    .intel {
+        display: flex;
+        align-items: flex-end;
+        gap: 0.3rem;
+
+        img {
+            max-width: 3.5rem;
+
+            @media (min-width: 45em) {
+                max-width: 5rem;
+            }
+        }
+
+        span {
+            font-size: 0.9rem;
+        }
+    }
+
+    .win {
+        display: grid;
+        gap: 0.3rem;
+
+        img {
+            max-width: 10rem;
+        }
+
+        span {
+            font-size: 0.8rem;
+        }
+    }
+
+    @media (min-width: 45em) {
+        flex-direction: row;
+    }
+}

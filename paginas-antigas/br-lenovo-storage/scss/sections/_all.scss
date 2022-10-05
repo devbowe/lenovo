@@ -1,0 +1,221 @@
+.inov {
+    background-color: var(--black);
+    background-image: url("https://pages.lenovo.com/rs/183-WCT-620/images/storage__otim-inov-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: var(--white);
+    position: relative;
+
+    @media (min-width: 45em) {
+        background-position: 20%;
+    }
+
+    @media (min-width: 70em) {
+        background-position: center;
+    }
+
+    p + p {
+        margin-top: 1rem;
+    }
+
+    p {
+        max-width: 52ch;
+    }
+
+    ul {
+        margin-top: 2.5rem;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2rem;
+
+        li {
+            max-width: 15ch;
+            text-align: center;
+
+            img {
+                margin-bottom: 1rem;
+                margin-inline: auto;
+            }
+        }
+    }
+
+    &__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "content"
+            "image";
+        gap: 3rem;
+
+        .content {
+            grid-area: content;
+        }
+
+        .image {
+            grid-area: image;
+        }
+
+        @media (min-width: 70em) {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "image content";
+            align-items: center;
+
+            .image {
+                position: absolute;
+                right: 50%;
+            }
+        }
+    }
+}
+
+.results {
+    background-image: url("https://pages.lenovo.com/rs/183-WCT-620/images/storage__otim-results-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60%;
+    color: var(--white);
+    background-color: var(--clr-fallback, red);
+
+    @media (min-width: 45em) {
+        background-position: top center;
+    }
+
+    &__container {
+        h2 {
+            margin-bottom: 5rem;
+            max-width: 20ch;
+            font-family: "Gotham Bold", sans-serif;
+        }
+
+        @media (min-width: 70em) {
+            h2 {
+                margin-bottom: 6rem;
+            }
+
+            a {
+                margin-top: 5rem !important;
+            }
+        }
+    }
+
+    .numbers {
+        display: grid;
+        gap: 1.5rem;
+
+        article {
+            text-align: center;
+            display: grid;
+            grid-template-rows: min-content 1fr;
+
+            h3 {
+                font-weight: 700;
+                font-family: "Gotham Bold", sans-serif;
+                font-size: 2.75rem;
+            }
+
+            p {
+                border: 2px solid var(--clr-accent);
+                border-radius: 8px;
+                text-align: center;
+                max-width: max-content;
+                margin-inline: auto;
+                padding: 1rem;
+                display: grid;
+                place-items: center;
+            }
+        }
+
+        @for $index from 0 to 6 {
+            .item0#{$index} {
+                grid-area: item0#{$index};
+            }
+        }
+
+        grid-template-areas:
+            "item01 item02"
+            "item04 item04"
+            "item03 item05";
+
+        @media (min-width: 45em) {
+            grid-template-areas:
+                "item01 item02 item03"
+                "item04 item05 .";
+            column-gap: 2rem;
+        }
+
+        @media (min-width: 70em) {
+            grid-template-areas: "item01 item02 item03 item04 item05";
+            gap: 3rem;
+
+            h3 {
+                font-size: 2.85rem !important;
+            }
+        }
+    }
+}
+
+.talk {
+    background-image: url("https://pages.lenovo.com/rs/183-WCT-620/images/storage__otim-talk-bg.png");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    p {
+        color: #2a3c46;
+    }
+
+    a {
+        margin-top: 3rem !important;
+    }
+
+    @media (min-width: 45em) {
+        h2 {
+            margin-bottom: 3rem;
+            font-size: 1.6rem;
+        }
+    }
+
+    @media (min-width: 70em) {
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 5rem;
+        }
+
+        p {
+            font-size: 1.125rem;
+        }
+
+        a {
+            margin-top: 5.5rem !important;
+        }
+    }
+}
+
+.mitg,
+.esca,
+.inov,
+.portf {
+    h2 {
+        max-width: 17ch;
+    }
+}
+
+.portf {
+    ul {
+        @media (min-width: 80em) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            max-width: max-content;
+            row-gap: 4rem;
+            column-gap: 6rem;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.lenovo-logo {
+    display: flex;
+    gap: 0.5rem;
+
+    position: absolute;
+    right: 0;
+    top: 20px;
+
+    img {
+        max-width: 2.5rem;
+    }
+
+    span {
+        color: #fff;
+        font-weight: 700;
+        font-family: "Gotham Bold";
+        font-size: 1.35em;
+        line-height: 1.2;
+        margin-top: 10px;
+        text-align: right;
+
+        display: none;
+        text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (min-width: 500px) {
+        top: 100px;
+    }
+
+    @media (min-width: 1300px) {
+        top: 12px;
+        span {
+            display: unset;
+        }
+    }
+
+    @media (min-width: 1500px) {
+        top: 100px;
+    }
+}

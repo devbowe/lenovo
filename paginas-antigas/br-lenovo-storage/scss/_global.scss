@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "Gotham Book";
+    font-display: swap;
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot");
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.woff")
+            format("woff"),
+        url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.ttf")
+            format("truetype"),
+        url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.svg#Gotham Book")
+            format("svg");
+}
+
+@font-face {
+    font-family: "Gotham Bold";
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot"); /* IE9*/
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot?#iefix")
+            format("embedded-opentype"),
+        /* IE6-IE8 */
+            url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.woff2")
+            format("woff2"),
+        /* chrome、firefox */
+            url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.woff")
+            format("woff"),
+        /* chrome、firefox */
+            url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.ttf")
+            format("truetype"),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+            url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.svg#Gotham Book")
+            format("svg"); /* iOS 4.1- */
+}
+
+* {
+    font-family: "Gotham Book", sans-serif;
+}
+
+:root {
+    --spacing: 4rem;
+
+    --white: #fff;
+    --lightGray: #c4c4c4;
+    --black: #000;
+
+    --clr-accent: #de241b;
+    --clr-fallback: #691625;
+
+    @media (min-width: 45em) {
+        --spacing: 5rem;
+    }
+
+    @media (min-width: 70em) {
+        --spacing: 5.5rem;
+    }
+}
+
+html {
+    font-size: 93.75%;
+
+    @media (min-width: 45em) {
+        font-size: 100%;
+    }
+}
+
+body {
+    color: var(--black);
+}
+
+.container {
+    width: min(90%, 80rem);
+    margin-inline: auto;
+}
+
+.spacing {
+    padding-block: var(--spacing);
+}
+
+.btn {
+    font-size: 1rem;
+    padding: 0.8rem 1.25rem;
+    // background: var(--clr-accent);
+    background: linear-gradient(120deg, #de241b, #6e47a5);
+    color: var(--white);
+    font-weight: 700;
+
+    // display: inline-grid;
+    min-width: 20rem;
+    text-align: center;
+    text-transform: uppercase;
+
+    display: grid;
+    max-width: max-content;
+
+    &:hover,
+    &:focus {
+        transition: all 200ms ease;
+        filter: brightness(1.1);
+    }
+
+    &.center {
+        margin-inline: auto;
+    }
+
+    &.mt {
+        margin-top: 2.5rem;
+    }
+
+    &.red {
+        background: var(--clr-accent);
+    }
+
+    @media (max-width: 1100px) {
+        display: none;
+    }
+}
+
+.section-title {
+    font-size: clamp(1.85rem, 3.5vw, 2.25rem);
+    line-height: 1.4;
+
+    margin-bottom: 2rem;
+    max-width: 25ch;
+    font-weight: 600;
+    color: var(--black);
+    font-family: "Gotham Book", sans-serif;
+
+    &.accent {
+        color: var(--clr-accent);
+    }
+
+    &.light {
+        color: var(--white);
+    }
+
+    &.center {
+        text-align: center;
+        margin-inline: auto;
+    }
+
+    @media (min-width: 70em) {
+        margin-bottom: 2.15rem;
+    }
+}
+
+.doted-list {
+    display: grid;
+    gap: 0.65rem;
+
+    li {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.5rem;
+
+        &::before {
+            content: "";
+            background-color: var(--clr-accent, red);
+            width: 5px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            flex-shrink: 0;
+            position: relative;
+            top: 9px;
+        }
+    }
+}
+
+.small {
+    font-size: 0.85rem;
+}
+
+#cta-formulario-mobile {
+    max-width: 100% !important;
+}

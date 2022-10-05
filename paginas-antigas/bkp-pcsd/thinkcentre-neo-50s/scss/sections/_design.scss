@@ -1,0 +1,58 @@
+.design {
+    padding-top: var(--spacing);
+
+    &__container {
+        display: grid;
+        gap: 3rem;
+
+        h2 {
+            max-width: 15ch;
+            font-weight: 600;
+        }
+
+        p + p {
+            margin-top: 1rem;
+        }
+
+        p {
+            max-width: 50ch;
+        }
+
+        a {
+            margin-top: 2rem;
+        }
+    }
+
+    @media (min-width: 45em) {
+        padding-block: 0;
+        overflow: hidden;
+
+        &__container {
+            grid-template-columns: 1fr 1fr;
+            position: relative;
+            padding-block: var(--spacing);
+
+            align-items: center;
+
+            .image {
+                position: absolute;
+                grid-column: 2/3;
+            }
+
+            @media (min-width: 1024px) {
+                .image {
+                    bottom: -7rem;
+                    top: 2rem;
+                }
+            }
+
+            @media (min-width: 1440px) {
+                .image {
+                    bottom: 0;
+                    top: 0;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

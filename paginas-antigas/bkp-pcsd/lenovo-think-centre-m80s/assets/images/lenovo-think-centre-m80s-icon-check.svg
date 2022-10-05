@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#de241b"/>
+      <stop offset="1" stop-color="#6e47a5"/>
+    </linearGradient>
+  </defs>
+  <path id="Icon_ionic-md-checkbox-outline" data-name="Icon ionic-md-checkbox-outline" d="M12.666,16.334l-2.333,2.333,7.5,7.5L34.5,9.5,32.167,7.167,17.833,21.416Zm18.5,14.833H7.833V7.833H24.5V4.5H7.833A3.343,3.343,0,0,0,4.5,7.833V31.167A3.343,3.343,0,0,0,7.833,34.5H31.167A3.343,3.343,0,0,0,34.5,31.167V17.833H31.167Z" transform="translate(-4.5 -4.5)" fill="url(#linear-gradient)"/>
+</svg>

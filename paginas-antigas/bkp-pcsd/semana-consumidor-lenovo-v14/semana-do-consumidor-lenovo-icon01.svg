@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68.562" height="68.562" viewBox="0 0 68.562 68.562">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#de241b"/>
+      <stop offset="1" stop-color="#6e47a5"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_607" data-name="Retângulo 607" width="68.562" height="68.562" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_2269" data-name="Grupo 2269" transform="translate(-348 -1680)">
+    <g id="Grupo_2260" data-name="Grupo 2260" transform="translate(363 1695)">
+      <path id="Caminho_181" data-name="Caminho 181" d="M140.115,121.117h-20.8v20.421h20.8Zm-2.277,18.144H121.6V123.394h16.243Z" transform="translate(-110.309 -112.31)" fill="url(#linear-gradient)"/>
+      <path id="Caminho_182" data-name="Caminho 182" d="M38.759,13.631V11.354H34.178V8.912H31.46V4.331H29.183V8.912H26.015V4.331H23.738V8.912H20.57V4.331H18.293V8.912H15.124V4.331H12.847V8.912H9.679V4.331H7.4V8.912H4.684v2.442H0v2.277H4.684V16.8H0v2.277H4.684v3.168H0v2.277H4.684v3.168H0v2.277H4.684v3.168H0v2.277H4.684v2.442H7.4v4.581H9.679V37.853h3.168v4.581h2.277V37.853h3.168v4.581H20.57V37.853h3.168v4.581h2.277V37.853h3.168v4.581H31.46V37.853h2.718V35.411h4.581V33.134H34.178V29.966h4.581V27.689H34.178V24.521h4.581V22.244H34.178V19.076h4.581V16.8H34.178V13.631ZM31.9,35.576H6.961V11.189H31.9V35.576Z" transform="translate(0 -4.331)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Grupo_2265" data-name="Grupo 2265" transform="translate(348 1680)">
+      <g id="Grupo_1468" data-name="Grupo 1468" clip-path="url(#clip-path)">
+        <path id="Caminho_2323" data-name="Caminho 2323" d="M815.645,393.519a33.907,33.907,0,1,0,33.907,33.907,33.907,33.907,0,0,0-33.907-33.907m0,2.119a31.773,31.773,0,1,1-31.773,31.773,31.773,31.773,0,0,1,31.773-31.773" transform="translate(-781.364 -393.145)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

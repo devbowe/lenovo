@@ -1,0 +1,25 @@
+.new {
+    padding-block: var(--spacing);
+    background: var(--gradient);
+    color: var(--white);
+    text-align: center;
+
+    &__container {
+        > * {
+            margin-inline: auto;
+        }
+
+        h2 {
+            max-width: 30ch;
+            line-height: 1.5;
+        }
+
+        p + p {
+            margin-top: 1rem;
+        }
+
+        a {
+            margin-top: 2.25rem;
+        }
+    }
+}

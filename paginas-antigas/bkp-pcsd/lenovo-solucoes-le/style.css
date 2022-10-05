@@ -1,0 +1,954 @@
+html, body{
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6,p,span,a{
+    margin: 0;
+}
+.clearfix {
+    overflow: auto;
+    display: contents;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#lenovo-solucoes-le a:hover{
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    transition-duration: .3s;
+}
+img{
+    max-width:100%;
+}
+section{
+    scroll-behavior: smooth;
+}
+#lenovo-solucoes-le a{
+    transition-duration: .3s;
+}
+b{
+    font-family: 'Gotham Bold';
+}
+@font-face {font-family: "Gotham Bold";
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot"); /* IE9*/
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.woff") format("woff"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.svg#Gotham Book") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Gotham Book";
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot"); /* IE9*/
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.woff") format("woff"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.svg#Gotham Book") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: 'Gotham Light';
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.eot"); /* IE9*/
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.woff") format("woff"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.svg#Gotham Light") format("svg"); /* iOS 4.1- */
+}
+
+    /* Reset */
+    
+/**formulário**/
+#lenovo-solucoes-le #introducao-e-formulario .formulario{
+    background:#ffffff;
+    height:auto;
+    width: 520px;
+    float:right;
+    padding:45px;
+    -webkit-box-shadow:0 8px 16px 0 rgba(0,0,0,.16);
+    box-shadow:0 8px 16px 0 rgba(0,0,0,.16);
+    zoom: 0.9;
+    z-index: 3;
+    position: relative;
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario #close-form{
+    background:#fff;
+    position:fixed;
+    top:0;
+    right:0;
+    z-index:999;
+    padding:10px;
+    display:none
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .chamada{
+    text-align:center;
+    margin-bottom:5px;
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .chamada h2{
+    color:#000;
+    font-size:32px;
+    font-weight:900;
+    line-height:1.25;
+    margin:0 0 20px 0
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .chamada p{
+    color:#000;
+    font-size:17px;
+    line-height:1.6;
+    font-weight:300;
+    margin:0;
+    padding-bottom: 20px!important;
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .chamada p strong{
+    font-weight:500
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .chamada p a{
+    background:#de241b;
+    color:#fff;
+    display:inline-block;
+    padding:1px 5px 0 5px;
+    font-weight:500
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm{
+    width:100%!important
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoButtonRow,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoFieldWrap,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoFormCol,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoFormRow{
+    width:100%!important
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoFormCol{
+    width:47%!important
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoFormCol{
+    margin:0 0 12px 0!important
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoFormCol:nth-child(even){
+    float:right!important
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoFormRow:nth-child(8) .mktoFormCol:nth-child(1){
+    width:100%!important
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoFormRow:nth-child(8) .mktoFormCol:nth-child(2){
+    display:none
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoAsterix,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoGutter,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoOffset{
+    display:none!important
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=date],#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=email],#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=number],#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=tel],#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=text],#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=url],#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm select.mktoField,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm textarea.mktoField{
+    width:100%!important;
+    height:40px;
+    border:solid 1px #c7c7c7;
+    font-family:"Gotham Book",Helvetica,Arial,sans-serif;
+    color:#000000;
+    font-size:14px;
+    padding-left:16px;
+    font-weight:500;
+    line-height:100%
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=date]::-webkit-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=email]::-webkit-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=number]::-webkit-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=tel]::-webkit-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=text]::-webkit-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=url]::-webkit-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm select.mktoField::-webkit-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm textarea.mktoField::-webkit-input-placeholder{
+    color:#de241b
+}
+.mktoForm div, .mktoForm span, .mktoForm label, .mktoForm p {
+    font-family: 'Gotham Book';
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=date]:-ms-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=email]:-ms-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=number]:-ms-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=tel]:-ms-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=text]:-ms-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=url]:-ms-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm select.mktoField:-ms-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm textarea.mktoField:-ms-input-placeholder{
+    color:#000000
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=date]::-ms-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=email]::-ms-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=number]::-ms-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=tel]::-ms-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=text]::-ms-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=url]::-ms-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm select.mktoField::-ms-input-placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm textarea.mktoField::-ms-input-placeholder{
+    color:#000000
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=date]::placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=email]::placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=number]::placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=tel]::placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=text]::placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm input[type=url]::placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm select.mktoField::placeholder,#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm textarea.mktoField::placeholder{
+    color:#000000
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm select.mktoField{
+    background:#ffffff url(https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_seta-select.svg) top 50% right 16px no-repeat!important;
+    -webkit-appearance:none!important
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm textarea.mktoField{
+    padding-top:15px!important
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoLabel{
+    font-family:"Gotham Book",Helvetica,Arial,sans-serif;
+    color:#000;
+    line-height:1.5;
+    letter-spacing:.29px;
+    font-size:12px
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoButtonWrap{
+    width:100%!important;
+    margin:0!important
+}
+#lenovo-solucoes-le #introducao-e-formulario .formulario .mktoButtonWrap .mktoButton{
+    background:#de241b;
+    font-family:"Gotham Book",Helvetica,Arial,sans-serif;
+    border:none;
+    width:100%!important;
+    font-size:20px;
+    color:#fff;
+    font-weight:900;
+    text-align:center;
+    height:64px;
+    text-transform:uppercase;
+    line-height:2;
+    margin:2px!important
+}
+@media screen and (max-width:1570px){
+    #lenovo-solucoes-le #introducao-e-formulario .formulario{
+        zoom:.9
+    }
+}
+@media screen and (max-width:1370px){
+    #lenovo-solucoes-le #introducao-e-formulario .formulario{
+        zoom:.83
+    }
+}
+@media screen and (max-width:1100px){
+    #lenovo-solucoes-le #introducao-e-formulario .formulario .chamada p {
+        padding: 0;
+    }
+    #lenovo-solucoes-le #introducao-e-formulario .formulario .mktoLabel{
+        word-wrap:break-word!important;
+        white-space:pre-line;
+        width:100%!important
+    }
+    #lenovo-solucoes-le #introducao-e-formulario .formulario{
+        width:89%;
+        max-height:1342px;
+        padding:30px 20px 30px 20px;
+        zoom:1;
+        top:0;
+        left:0;
+        z-index:99999;
+        margin:0!important
+    }
+    #lenovo-solucoes-le #introducao-e-formulario .formulario #close-form{
+        display:block
+    }
+    #lenovo-solucoes-le #introducao-e-formulario .formulario .chamada h2{
+        font-size:26px;
+        margin:0 0 20px 0
+    }
+    #lenovo-solucoes-le #introducao-e-formulario .formulario .chamada p{
+        font-size:18px
+    }
+    #lenovo-solucoes-le #introducao-e-formulario .formulario .mktoFormCol{
+        width:100%!important
+    }
+    #lenovo-solucoes-le #introducao-e-formulario .formulario .mktoFormCol{
+        margin:0 0 22px 0!important
+    }
+    #lenovo-solucoes-le #introducao-e-formulario .formulario .mktoFormCol:nth-child(even){
+        float:left!important
+    }
+}
+.container{
+    width: 90%;
+    max-width: 1224px;
+    margin: 0 auto;
+}
+.bg_video{
+	width: 100%;
+    height: 100vh;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+}
+#lenovo-solucoes-le .logofix{
+    position: fixed;
+    right:0;
+    top: 19%;
+    width: 60px;
+    z-index: 9;
+}
+#lenovo-solucoes-le #introducao-e-formulario {
+    background: #000000 url("lenovo-solucoes-le-bg01.png") center right no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 80px 0;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+#lenovo-solucoes-le #introducao-e-formulario .introducao{
+    width: 39%;
+    float: left;
+}
+#lenovo-solucoes-le #introducao-e-formulario .logointel{
+    padding-top: 44px;
+}
+#lenovo-solucoes-le #introducao-e-formulario h2{
+    font-family: 'Gotham Book';
+    font-size: 50px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: -2.5px;
+    text-align: left;
+    color: #fff;
+}
+#lenovo-solucoes-le #introducao-e-formulario h2 b{
+    color: #de241b;
+    font-family: "Gotham Book";
+}
+#lenovo-solucoes-le #introducao-e-formulario h3{
+    font-family: 'Gotham Book';
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+#lenovo-solucoes-le #introducao-e-formulario p{
+    font-family: 'Gotham Book';
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    padding-top: 24px;
+    padding-bottom: 60px;
+    width: 449px;
+}
+#lenovo-solucoes-le #introducao-e-formulario .chamada p {
+    text-align: center;
+}
+#lenovo-solucoes-le a {
+    text-decoration: none;
+}
+#lenovo-solucoes-le #introducao-e-formulario h4{
+    font-family: 'Gotham Book', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    padding-bottom:16px;
+}
+#lenovo-solucoes-le #introducao-e-formulario h5{
+    font-family: 'Gotham Book', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    margin: 10px;
+}
+#lenovo-solucoes-le #introducao-e-formulario .win{
+    padding-left: 40px;
+}
+@media screen and (max-width:1600px){
+    #lenovo-solucoes-le #introducao-e-formulario .introducao {
+        zoom: 0.9   ;
+    }
+    #lenovo-solucoes-le #introducao-e-formulario .formulario .chamada p {
+        padding: 0;
+    }
+}
+@media screen and (max-width:1000px){
+    #lenovo-solucoes-le #introducao-e-formulario .introducao {
+        width: 83%;
+        padding-bottom: 40px;
+        padding: 30px;
+    }
+    #lenovo-solucoes-le #introducao-e-formulario {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 1100px){
+    #lenovo-solucoes-le img{
+        max-width: 100%;
+    }
+    #lenovo-solucoes-le #introducao-e-formulario .introducao {
+        margin-top: 0;
+    }
+    #lenovo-solucoes-le #introducao-e-formulario .formulario {
+        display: none;
+    }
+}
+#cta-formulario-mobile {
+    background: #de241b;
+    font-family: 'Gotham Bold';
+    width: 100%;
+    height: 46px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0 0 0;
+    display: none;
+    font-weight: 900;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
+@media (max-width: 1100px){
+    #lenovo-solucoes-le #introducao-e-formulario .formulario .mktoForm {
+        margin: 0 auto;
+        width: 90%!important;
+    }
+    .btn-form{
+        display:none;
+    }
+    #cta-formulario-mobile {
+        display: block;
+    }
+    #lenovo-solucoes-le #introducao-e-formulario .formulario {
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        float: none;
+        padding: 0;
+        zoom: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow-y: auto;
+        z-index: 99999;
+        display: none;
+    }
+    #lenovo-solucoes-le #introducao-e-formulario h5 {
+        padding-top: 50px;
+        font-size: 18px;
+    }
+    #lenovo-solucoes-le #introducao-e-formulario h2 {
+        font-size: 34px;
+    }
+    #lenovo-solucoes-le #introducao-e-formulario p {
+        font-family: 'Gotham Book';
+    }   
+    #lenovo-solucoes-le #introducao-e-formulario h3 {
+        font-family: 'Gotham Book';
+        font-size: 22px;
+    }
+    #lenovo-solucoes-le #introducao-e-formulario {
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+}
+#lenovo-solucoes-le #textojur{
+    background-color: #c4c4c4;
+    text-align: center;
+    padding: 38px 0;
+}
+#lenovo-solucoes-le #textojur p{
+    width: 916px;
+    font-family: 'Gotham Book';
+    font-size: 11px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+}
+@media screen and (max-width:1100px){
+    #lenovo-solucoes-le #textojur p {
+        width: 90%;
+        font-size: 10px!important;
+        padding-bottom: 80px;
+    }
+}
+#lenovo-solucoes-le #introducao-e-formulario button{
+    width: auto;
+    height: 28px;
+    margin: 0;
+    padding: 2px 12px 2px 12px;
+    background: transparent;
+    border-radius: 4px;
+    border: solid 1px #ffffff;
+    font-family: 'Gotham Book';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.mktoCheckboxList {
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+#LblemailPermissionStatus {
+    font-family: 'GothamPro',sans-serif;
+    color: #000;
+    line-height: 1.5;
+    letter-spacing: .29px;
+    font-size: 12px;
+    text-align: justify;
+    width: 100%!important;
+    text-indent: 23px;
+}
+#lenovo-solucoes-le #cta-formulario{
+    width: 416px;
+    height: 64px;
+    font-family: 'Gotham Book';
+    background-color: #de241b;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.8;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    display: block;
+    margin-top: 45px;
+}
+.desktop{
+    display:block;
+}
+.mobile{
+    display:none!important;
+}
+@media screen and (max-width:1024px){
+    .desktop{
+        display:none!important;
+    }
+    .mobile{
+        display:block!important;
+    }
+}
+.divbutton{
+    display: block;
+    width: 100%;
+    margin: 34px 0;
+}
+.divbutton a{
+    font-family: 'Gotham Book';
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    width: 392px;
+    padding: 20px 0;
+    background-color: #de241b;
+    text-transform: uppercase;
+    display: block;
+}
+.logolenovo{
+    position: absolute;
+    width: 40px;
+    right: 0;
+    top: 100px;
+  	z-index: 9;
+}
+ul,li{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+
+
+
+
+
+#section02{
+    background: url(lenovo-solucoes-le-bg02.png) left -200px center no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+}
+#section02 .conteudo{
+    padding: 186px 40px;
+    background: #fff;
+    width: 50%;
+    margin-left: auto
+}
+#section02 h2{
+    font-family: "Gotham Bold";
+    font-size: 45px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2a3c46;
+    padding-bottom: 40px;
+}
+#section02 p{
+    font-family: "Gotham Book";
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2a3c46;
+}
+#section03{
+    background: url(lenovo-solucoes-le-bg03.png) center center no-repeat;
+    padding: 110px 0;
+    background-size: cover;
+}
+#section03 .conteudo{
+    max-width: 40%;
+}
+#section03 h2{
+    font-family: "Gotham Bold";
+    font-size: 32px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.66;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 24px;
+}
+#section03 p{
+    font-family: "Gotham Book";
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 24px;
+}
+#section03 a{
+    font-family: "Gotham Book";
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #de241b;
+}
+#section03 > div > div > a:nth-child(3){
+    padding-bottom: 40px;
+    display: block;
+}
+#section04{
+    padding: 120px 0;
+}
+#section04 .conteudo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#section04 ul{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 40px;
+}
+#section04 p{
+    font-family: "Gotham Book";
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2a3c46;
+}
+#section04 img{
+    padding-bottom: 20px;   
+}
+#section05{
+    background: url(lenovo-solucoes-le-bg05.png) center center no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+}
+#section05 h2{
+    font-family: "Gotham Bold";
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+#section05 h3{
+    font-family: "Gotham Bold";
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.96;
+    letter-spacing: normal;
+    text-align: center;
+    color: #de241b;
+    padding-top: 40px;
+}
+#section05 ul{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 100px 0;
+    column-gap: 60px;
+}
+#section05 p{
+    font-family: "Gotham Book";
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    padding-top: 20px;
+}
+#section05 a{
+    margin: 0 auto
+}
+#section06{
+    background: url(lenovo-solucoes-le-bg06.png) center center no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+}
+#section06 h2{
+    font-family: "Gotham Bold";
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2a3c46;
+}
+#section06 h3{
+    font-family: "Gotham Book";
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2a3c46;
+    padding-top: 20px;
+}
+#section06 p{
+    font-family: "Gotham Book";
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2a3c46;
+    padding-top: 5px;
+}
+#section06 ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 40px 0;
+    gap: 50px
+}
+#section06 a{
+    margin: 0 auto
+}
+
+
+/** ipad, surface e tablets **/
+@media screen and (min-width:766px) and (max-width:1024px){
+    #lenovo-solucoes-le #introducao-e-formulario {
+        background: #000000 url(lenovo-solucoes-le-bg01.png) center left no-repeat;
+        background-size: cover;
+    }
+    #lenovo-solucoes-le #introducao-e-formulario p {
+        width: 321px;
+    }
+    .divbutton{
+        display: none;
+    }
+    #lenovo-solucoes-le #introducao-e-formulario h2 {
+        font-size: 47px!important;
+        letter-spacing: -2px;
+    }
+    h2,h3{
+        font-size:30px!important;
+    }
+    #lenovo-solucoes-le #introducao-e-formulario p {
+        width: 461px;
+    }
+    #section02 {
+        background: url(lenovo-solucoes-le-bg02.png) left -370px center no-repeat;
+        background-size: cover;
+    }
+    #section04 .conteudo {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    #section04 > div > div > div:nth-child(1) > img{
+        display: none;
+    }
+    #section05 ul {
+        grid-template-columns: repeat(3,1fr);
+        gap: 60px;
+    }
+    #section06 ul {
+        grid-template-columns: repeat(2,1fr);
+    }
+    #section05 h3 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #section06 br{
+        display: none;
+    }
+    #section03,#section04,#section05,#section06{
+        padding: 60px 0;
+    }
+    #section06 h3 {
+        font-size: 18px!important;
+    }
+    #section04 ul {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        gap: 40px;
+    }
+    #section03 .conteudo {
+        max-width: 50%;
+    }
+}
+
+/**iphone, android, celulares e demais**/
+@media screen and (max-width:766px){
+    #lenovo-solucoes-le #introducao-e-formulario p{
+        padding-bottom: 20px;
+    }
+    #lenovo-solucoes-le #introducao-e-formulario .formulario .chamada {
+        padding-top: 40px;
+    }
+    #introducao-e-formulario .container {
+        width: 100%;
+        margin: 0 auto;
+        background-image: linear-gradient(45deg, black, transparent);
+    }
+    #lenovo-solucoes-le #introducao-e-formulario p {
+        width: 100%;
+    }
+    .logolenovo {
+        width: 35px;
+        top: 60px;
+    }
+    #lenovo-solucoes-le #introducao-e-formulario .introducao {
+        zoom: 1;
+    }
+    h2{
+        font-size: 22px!important;
+    }
+    h3{
+        font-size: 18px!important;
+    }
+    p {
+        font-size: 16px!important;
+    }
+    .divbutton a {
+        font-size: 16px;
+        width: 100%;
+        display: block;
+        height: auto;
+        padding: 12px 0px;
+        display: none;
+    }
+    .divbutton {
+        display: none;
+    }
+    #lenovo-solucoes-le #introducao-e-formulario h3 {
+        font-size: 13px!important;
+    }
+    #lenovo-solucoes-le #introducao-e-formulario h2 {
+        font-size: 38px!important;
+        margin: 20px 0;
+    }
+    #lenovo-solucoes-le #introducao-e-formulario h2 br{
+        display:none;
+    }
+    #lenovo-solucoes-le #introducao-e-formulario .two {
+        font-size: 21px!important;
+    }
+    #section02 .conteudo {
+        padding: 0;
+        background: transparent;
+        width: 100%;
+        margin-top: 340px;
+    }
+    #section02 {
+        background: url(lenovo-solucoes-le-bg02.png) top center no-repeat;
+        background-size: contain;
+        padding-bottom: 40px;
+    }
+    #section03 .conteudo {
+        max-width: 100%;
+    }
+    #section03 {
+        background: url(lenovo-solucoes-le-bg03.png) left center no-repeat;
+    }
+    #section04 .conteudo {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    #section04 > div > div > div:nth-child(1) > img{
+        display: none;
+    }
+    #section04 ul {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+        box-sizing: border-box;
+    }
+    #section05 ul {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 40px 0;
+        gap: 60px;
+    }
+    #section06 ul {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    #lenovo-solucoes-le #introducao-e-formulario {
+        background: #000000 url(lenovo-solucoes-le-bg01.png) center left no-repeat;
+    }
+    #section05 h3 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #section06 br{
+        display: none;
+    }
+    #section03,#section04,#section05,#section06{
+        padding: 60px 0;
+    }
+}

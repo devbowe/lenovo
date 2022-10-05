@@ -1,0 +1,1172 @@
+@font-face{font-family:GothamPro;src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Light.eot);src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Light.woff2) format("woff2"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Light.woff) format("woff"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Light.ttf) format("truetype"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Light.svg#GothamPro-Light) format("svg"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Light.eot?#iefix) format("embedded-opentype");font-weight:100;font-style:normal}@font-face{font-family:GothamPro;src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-LightItalic.eot);src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-LightItalic.woff2) format("woff2"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-LightItalic.woff) format("woff"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-LightItalic.ttf) format("truetype"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-LightItalic.svg#GothamPro-LightItalic) format("svg"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-LightItalic.eot?#iefix) format("embedded-opentype");font-weight:100;font-style:italic}@font-face{font-family:GothamPro;src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro.eot);src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro.woff2) format("woff2"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro.woff) format("woff"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro.ttf) format("truetype"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro.svg#GothamPro) format("svg"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro.eot?#iefix) format("embedded-opentype");font-weight:200;font-style:normal}@font-face{font-family:GothamPro;src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Italic.eot);src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Italic.woff2) format("woff2"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Italic.woff) format("woff"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Italic.ttf) format("truetype"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Italic.svg#GothamPro-Italic) format("svg"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Italic.eot?#iefix) format("embedded-opentype");font-weight:200;font-style:italic}@font-face{font-family:GothamPro;src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Medium.eot);src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Medium.woff2) format("woff2"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Medium.woff) format("woff"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Medium.ttf) format("truetype"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Medium.svg#GothamPro-Medium) format("svg"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Medium.eot?#iefix) format("embedded-opentype");font-weight:400;font-style:normal}@font-face{font-family:GothamPro;src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-MediumItalic.eot);src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-MediumItalic.woff2) format("woff2"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-MediumItalic.woff) format("woff"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-MediumItalic.ttf) format("truetype"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-MediumItalic.svg#GothamPro-MediumItalic) format("svg"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-MediumItalic.eot?#iefix) format("embedded-opentype");font-weight:400;font-style:italic}@font-face{font-family:GothamPro;src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Bold.eot);src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Bold.woff2) format("woff2"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Bold.woff) format("woff"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Bold.ttf) format("truetype"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Bold.svg#GothamPro-Bold) format("svg"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Bold.eot?#iefix) format("embedded-opentype");font-weight:600;font-style:normal}@font-face{font-family:GothamPro;src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-BoldItalic.eot);src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-BoldItalic.woff2) format("woff2"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-BoldItalic.woff) format("woff"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-BoldItalic.ttf) format("truetype"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-BoldItalic.svg#GothamPro-BoldItalic) format("svg"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-BoldItalic.eot?#iefix) format("embedded-opentype");font-weight:600;font-style:italic}@font-face{font-family:GothamPro;src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Black.eot);src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Black.woff2) format("woff2"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Black.woff) format("woff"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Black.ttf) format("truetype"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Black.svg#GothamPro-Black) format("svg"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-Black.eot?#iefix) format("embedded-opentype");font-weight:800;font-style:normal}@font-face{font-family:GothamPro;src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-BlackItalic.eot);src:url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-BlackItalic.woff2) format("woff2"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-BlackItalic.woff) format("woff"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-BlackItalic.ttf) format("truetype"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-BlackItalic.svg#GothamPro-BlackItalic) format("svg"),url(https://pages.lenovo.com/rs/183-WCT-620/images/GothamPro-BlackItalic.eot?#iefix) format("embedded-opentype");font-weight:800;font-style:italic}
+
+html,body{
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+#LblemailPermissionStatus {
+  font-family: 'GothamPro',sans-serif;
+  color: #000;
+  line-height: 1.5;
+  letter-spacing: .29px;
+  font-size: 12px;
+  text-align: justify;
+  width: 100%!important;
+  text-indent: 23px;
+}
+    html, body{
+      margin: 0;
+      scroll-behavior: smooth;
+  }
+  h1,h2,h3,h4,h5,h6,p,span,a{
+      margin: 0;
+  }
+  img{
+    zoom:0.9;
+  }
+  .clearfix {
+      overflow: auto;
+      display: contents;
+  }
+  .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+  #novalp a:hover{
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+      transition-duration: .3s;
+  }
+  section{
+      scroll-behavior: smooth;
+  }
+  #novalp a{
+      transition-duration: .3s;
+  }
+  button{
+      transition-duration: .3s;
+  }
+  button:hover{
+      transition-duration: .3s;
+  }
+  @font-face {font-family: "Gotham Bold";
+      src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot"); /* IE9*/
+      src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.woff2") format("woff2"), /* chrome、firefox */
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.woff") format("woff"), /* chrome、firefox */
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.svg#Gotham Book") format("svg"); /* iOS 4.1- */
+  }
+  
+  @font-face {font-family: "Gotham Book";
+      src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot"); /* IE9*/
+      src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.woff2") format("woff2"), /* chrome、firefox */
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.woff") format("woff"), /* chrome、firefox */
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.svg#Gotham Book") format("svg"); /* iOS 4.1- */
+  }
+  
+  @font-face {font-family: 'Gotham Book';
+      src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot"); /* IE9*/
+      src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.woff2") format("woff2"), /* chrome、firefox */
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.woff") format("woff"), /* chrome、firefox */
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.svg#Gotham Book") format("svg"); /* iOS 4.1- */
+  }
+  
+      /* Reset */
+      
+  /**formulário**/
+  .formulario{
+      background:#ffffffc4;
+      height:auto;
+      width:470px;
+      float:right;
+      padding:30px;
+      -webkit-box-shadow:0 8px 16px 0 rgba(0,0,0,.16);
+      box-shadow:0 8px 16px 0 rgba(0,0,0,.16);
+      zoom: 0.9;
+      position: absolute;
+        z-index: 99;
+        right: 140px;
+        top: 19px;
+  }
+  #novalp .introducao-e-formulario .container{
+    display: flex;
+    align-items: center;
+  }
+  .formulario #close-form{
+      background:#fff;
+      position:fixed;
+      top:0;
+      right:0;
+      z-index:999;
+      padding:10px;
+      display:none
+  }
+  .formulario .chamada{
+      text-align:center;
+      margin-bottom:20px
+  }
+  .formulario .chamada h2{
+      color:#000;
+      font-size:32px;
+      font-weight:900;
+      line-height:1.25;
+      margin:0 0 20px 0
+  }
+  .formulario .chamada p{
+    font-family: 'Gotham Book';
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+      color:#000;
+      line-height:1.6;
+      font-weight:300;
+      margin:0
+  }
+  .formulario .chamada p strong{
+      font-weight:500
+  }
+  .formulario .chamada p a{
+      background:#D60018;
+      color:#fff;
+      display:inline-block;
+      padding:1px 5px 0 5px;
+      font-weight:500
+  }
+  .formulario .mktoForm{
+      width:100%!important
+  }
+  .formulario .mktoButtonRow,.formulario .mktoFieldWrap,.formulario .mktoFormCol,.formulario .mktoFormRow{
+      width:100%!important
+  }
+  .formulario .mktoFormCol{
+      width:47%!important;
+      font-family: 'Gotham Book';
+  }
+  .mktoForm div, .mktoForm span, .mktoForm label, .mktoForm p {
+    font-family: 'Gotham Book';
+}
+  .formulario .mktoFormCol{
+      margin:0 0 12px 0!important
+  }
+  .formulario .mktoFormCol:nth-child(even){
+      float:right!important
+  }
+  .formulario .mktoFormRow:nth-child(8) .mktoFormCol:nth-child(1){
+      width:100%!important
+  }
+  .formulario .mktoFormRow:nth-child(8) .mktoFormCol:nth-child(2){
+      display:none
+  }
+  .formulario .mktoAsterix,.formulario .mktoGutter,.formulario .mktoOffset{
+      display:none!important
+  }
+  .formulario .mktoForm input[type=date],.formulario .mktoForm input[type=email],.formulario .mktoForm input[type=number],.formulario .mktoForm input[type=tel],.formulario .mktoForm input[type=text],.formulario .mktoForm input[type=url],.formulario .mktoForm select.mktoField,.formulario .mktoForm textarea.mktoField{
+      width:100%!important;
+      height:40px;
+      border:solid 1px #c7c7c7;
+      font-family:Lato,Helvetica,Arial,sans-serif;
+      color:#000000;
+      font-size:14px;
+      padding-left:16px;
+      font-weight:500;
+      line-height:100%
+  }
+  .formulario .mktoForm input[type=date]::-webkit-input-placeholder,.formulario .mktoForm input[type=email]::-webkit-input-placeholder,.formulario .mktoForm input[type=number]::-webkit-input-placeholder,.formulario .mktoForm input[type=tel]::-webkit-input-placeholder,.formulario .mktoForm input[type=text]::-webkit-input-placeholder,.formulario .mktoForm input[type=url]::-webkit-input-placeholder,.formulario .mktoForm select.mktoField::-webkit-input-placeholder,.formulario .mktoForm textarea.mktoField::-webkit-input-placeholder{
+      color:#D60018
+  }
+  .formulario .mktoForm input[type=date]:-ms-input-placeholder,.formulario .mktoForm input[type=email]:-ms-input-placeholder,.formulario .mktoForm input[type=number]:-ms-input-placeholder,.formulario .mktoForm input[type=tel]:-ms-input-placeholder,.formulario .mktoForm input[type=text]:-ms-input-placeholder,.formulario .mktoForm input[type=url]:-ms-input-placeholder,.formulario .mktoForm select.mktoField:-ms-input-placeholder,.formulario .mktoForm textarea.mktoField:-ms-input-placeholder{
+      color:#000000
+  }
+  .formulario .mktoForm input[type=date]::-ms-input-placeholder,.formulario .mktoForm input[type=email]::-ms-input-placeholder,.formulario .mktoForm input[type=number]::-ms-input-placeholder,.formulario .mktoForm input[type=tel]::-ms-input-placeholder,.formulario .mktoForm input[type=text]::-ms-input-placeholder,.formulario .mktoForm input[type=url]::-ms-input-placeholder,.formulario .mktoForm select.mktoField::-ms-input-placeholder,.formulario .mktoForm textarea.mktoField::-ms-input-placeholder{
+      color:#000000
+  }
+  .formulario .mktoForm input[type=date]::placeholder,.formulario .mktoForm input[type=email]::placeholder,.formulario .mktoForm input[type=number]::placeholder,.formulario .mktoForm input[type=tel]::placeholder,.formulario .mktoForm input[type=text]::placeholder,.formulario .mktoForm input[type=url]::placeholder,.formulario .mktoForm select.mktoField::placeholder,.formulario .mktoForm textarea.mktoField::placeholder{
+      color:#000000
+  }
+  .formulario .mktoForm select.mktoField{
+      background:#ffffff url(https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_seta-select.svg) top 50% right 16px no-repeat!important;
+      -webkit-appearance:none!important
+  }
+  .formulario .mktoForm textarea.mktoField{
+      padding-top:15px!important
+  }
+  .formulario .mktoLabel{
+      font-family:Lato,Helvetica,Arial,sans-serif;
+      color:#000;
+      line-height:1.5;
+      letter-spacing:.29px;
+      font-size:12px
+  }
+  .formulario .mktoButtonWrap{
+      width:100%!important;
+      margin:0!important
+  }
+  .formulario .mktoButtonWrap .mktoButton{
+      background:#D60018!important;
+      font-family:'Gotham Book'!important;
+      border:none!important;
+      width:100%!important;
+      font-size:20px!important;
+      color:#fff!important;
+      font-weight:900!important;
+      text-align:center!important;
+      height:64px!important;
+      text-transform:uppercase!important;
+      line-height:2!important;
+      margin:2px!important
+  }
+  @media screen and (max-width:1570px){
+      .formulario{
+          zoom:.9
+      }
+  }
+  @media screen and (max-width:1370px){
+      .formulario{
+          zoom:.83
+      }
+  }
+  @media screen and (max-width:1100px){
+      .formulario .mktoLabel{
+          word-wrap:break-word!important;
+          white-space:pre-line;
+          width:100%!important
+      }
+      .formulario{
+          width:89%;
+          max-height:1342px;
+          padding:30px 20px 30px 20px;
+          zoom:1;
+          top:0;
+          left:0;
+          z-index:99999;
+          margin:0!important
+      }
+      .formulario #close-form{
+          display:block
+      }
+      .formulario .chamada{
+          margin-bottom:20px
+      }
+      .formulario .chamada br{
+          display:none
+      }
+      .formulario .chamada h2{
+          font-size:26px;
+          margin:0 0 20px 0
+      }
+      .formulario .chamada p{
+          font-size:18px
+      }
+      .formulario .mktoFormCol{
+          width:100%!important
+      }
+      .formulario .mktoFormCol{
+          margin:0 0 22px 0!important
+      }
+      .formulario .mktoFormCol:nth-child(even){
+          float:left!important
+      }
+  }
+  .container{
+      width: 90%;
+      margin: 0 auto;
+  }
+  .bg_video{
+      width: 100%;
+      height: 100vh;
+      -o-object-fit: cover;
+      object-fit: cover;
+      z-index: -1;
+      position: absolute;
+  }
+  .loading{
+      width: 100%;
+      height: 100vh;
+      -o-object-fit: cover;
+      object-fit: cover;
+      display: flex;
+      align-items:center;
+      text-align:center;
+      z-index: 999;
+      position: fixed;
+      background: #000000
+  }
+  .loading img{
+      width: 350px;
+      margin: 0 auto;
+  }
+  #novalp .logofix{
+      position: absolute;
+      right:0;
+      top: 19%;
+      width: 60px;
+      z-index: 7;
+  }
+  #novalp .logofix2{
+      position: fixed;
+      right:0;
+      top: 34%;
+      width: 60px;
+      z-index: 7;
+    display: none;
+  }
+  #novalp .introducao-e-formulario {
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      background: linear-gradient(45deg, rgb(0 0 0 / 60%), transparent);
+      display: flex;
+      align-items: center;
+  }
+  #novalp .introducao-e-formulario .introducao{
+      width: 47%;
+      float: left;
+  }
+.think {
+    height: 90px;
+    padding-bottom: 40px;
+}
+  #novalp .introducao-e-formulario h2{
+      font-family: 'Gotham Bold';
+      font-size: 32px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.21;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      padding: 40px 0;
+  }
+  #novalp .introducao-e-formulario h3{
+      font-family: 'Gotham Bold';
+      font-size: 22px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.64;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      padding: 20px 0;
+      padding-bottom: 50px;
+  }
+  #novalp .introducao-e-formulario p{
+      font-family: 'Gotham Book';
+      font-size: 17px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.64;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+  }
+  #novalp .introducao-e-formulario .introducao p{
+      padding-bottom: 20px;
+  }
+  #novalp .introducao-e-formulario strong{
+      color: red;
+  }
+  #novalp .formulario .chamada p {
+      text-align: center;
+  }
+  #novalp a {
+      text-decoration: none;
+  }
+  
+  #novalp .formulario h5{
+      font-family: 'Gotham Bold', sans-serif;
+      font-size: 18px;
+      font-weight: 900;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.6;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+      margin: 10px;
+  }
+  @media screen and (max-width:1366px){
+      #novalp .introducao-e-formulario p {
+          font-size: 20px;
+      }
+      #novalp .introducao-e-formulario .introducao {
+          margin-top: 0;
+      }
+      .formulario .chamada p {
+          padding: 0;
+      }
+  }
+  @media screen and (max-width:1000px){
+      #novalp .introducao-e-formulario .introducao {
+          width: 83%;
+          padding-bottom: 40px;
+          padding: 30px;
+      }
+      #novalp .introducao-e-formulario {
+          padding: 0;
+      }
+  }
+  #novalp .section02{
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      background: linear-gradient(45deg, black, transparent);
+      display: flex;
+      color: #ffffff
+  }
+  #novalp .section02 .div01{
+      width: 50%;
+  }
+  #novalp .section02 h2{
+      font-family: 'Gotham Bold';
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 44px;
+      text-align: left;
+      color: #fff;
+      padding-top: 0;
+      height: 150px;
+  }
+    @media screen and (min-width:1600px){
+      #novalp .section02 h2{
+          padding-top: 100px;
+      }
+    }
+  #novalp .section02 p{
+      font-family: 'Gotham Book';
+      font-weight: 300;
+      font-size: 22px;
+      line-height: 40px;
+      text-align: left;
+      color: #fff;
+  }
+  #novalp .section02 h5{
+      font-family: 'Gotham Book';
+      opacity: 0.52;
+      font-size: 17px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.35;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      padding-bottom: 30px;
+  }
+  #novalp .section02 #typed{
+      color:#ff2d16
+  }
+  #novalp .section03{
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      background: linear-gradient(45deg, black, transparent);
+      display: flex;
+      align-items: center;
+      color: #ffffff
+  }
+  #novalp .section03 .div01{
+      width: 50%;
+  }
+  #novalp .section03 h2{
+      font-family: 'Gotham Book';
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 32px;
+      text-align: left;
+      color: #fff;
+      padding-top: 60px;
+  }
+  #novalp .section03 p{
+      font-family: 'Gotham Book';
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 40px;
+      text-align: left;
+      color: #fff;
+      opacity: 0.52;
+      padding-bottom: 50px;
+  }
+  #novalp .section03 strong{
+      color:#ff2d16;
+      font-size: 31px;
+  }
+  #novalp .section03 ul{
+      margin:0;padding:0;
+      list-style: none;
+  }
+  #novalp .section03 li{
+      margin:0;padding:0;
+      font-family: 'Gotham Book';
+      font-weight: 300;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      text-align: left;
+      color: #fff;
+      height: 50px;
+  }
+  #novalp .section03 li img{
+      padding-right: 17px;
+  }
+  #novalp .section03 button{
+      width: 390px;
+      height: 70px;
+      background: #fa5115;
+      font-family: 'Gotham Bold';
+      font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+      border:none;
+      margin-top: 50px;
+      color: #fff;
+  }
+  #novalp .section04{
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+      color: #ffffff;
+      background: linear-gradient(45deg, black, transparent);
+  }
+  #novalp .section04 .div01{
+      width: 50%;
+  }
+  #novalp .section04 h2{
+      font-family: 'Gotham Book';
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 32px;
+      text-align: left;
+      color: #fff;
+      padding: 40px 0;
+  }
+  #novalp .section04 p{
+      font-family: 'Gotham Book';
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 40px;
+      text-align: left;
+      color: #fff;
+      opacity: 0.52;
+      padding-bottom: 50px;
+  }
+  #novalp .section03 strong{
+      color:#ff2d16;
+      font-size: 31px;
+  }
+  #novalp .section04 ul{
+      margin:0;padding:0;
+      list-style: none;
+  }
+  #novalp .section04 li{
+      margin:0;padding:0;
+      font-family: 'Gotham Book';
+      font-weight: 300;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      text-align: left;
+      color: #fff;
+      height: 50px;
+  }
+  #novalp .section04 li img{
+      padding-right: 17px;
+  }
+  #novalp .section04 button{
+      width: 390px;
+      height: 70px;
+      background: #4ABFDD;
+      font-family: 'Gotham Bold';
+      font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+      border:none;
+      margin-top: 50px;
+      color: #fff;
+  }
+  #novalp .section05{
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      background: linear-gradient(45deg, black, transparent);
+      display: flex;
+      align-items: center;
+      color: #ffffff
+  }
+  #novalp .section05 .div01{
+      width: 50%;
+  }
+  #novalp .section05 h2{
+      font-family: 'Gotham Book';
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 32px;
+      text-align: left;
+      color: #fff;
+      padding: 40px 0;
+  }
+  #novalp .section05 p{
+      font-family: 'Gotham Book';
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 40px;
+      text-align: left;
+      color: #fff;
+      opacity: 0.52;
+      padding-bottom: 50px;
+  }
+  #novalp .section05 strong{
+      color:#ff2d16;
+      font-size: 22px;
+  }
+  #novalp .section05 ul{
+      margin:0;padding:0;
+      list-style: none;
+  }
+  #novalp .section05 li{
+      margin:0;padding:0;
+      font-family: 'Gotham Book';
+      font-weight: 300;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      text-align: left;
+      color: #fff;
+      height: 50px;
+  }
+  #novalp .section05 li img{
+      padding-right: 17px;
+  }
+  #novalp .section05 button{
+      width: 390px;
+      height: 70px;
+      background: #da2e70;
+      font-family: 'Gotham Bold';
+      font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+      border:none;
+      margin-top: 50px;
+      color: #fff;
+  }
+  #novalp .section06{
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      background: linear-gradient(45deg, transparent, black);
+      display: flex;
+      align-items: center;
+      color: #ffffff
+  }
+  #novalp .section06 .div01{
+      width: 50%;
+  }
+  #novalp .section06 h2{
+      font-family: 'Gotham Book';
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 32px;
+      text-align: left;
+      color: #fff;
+      padding: 40px 0;
+  }
+  #novalp .section06 p{
+      font-family: 'Gotham Book';
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 40px;
+      text-align: left;
+      color: #fff;
+      opacity: 0.52;
+      padding-bottom: 50px;
+  }
+  #novalp .section06 strong{
+      color:#ff2d16;
+      font-size: 22px;
+  }
+  #novalp .section06 ul{
+      margin:0;padding:0;
+      list-style: none;
+  }
+  #novalp .section06 li{
+      margin:0;padding:0;
+      font-family: 'Gotham Book';
+      font-weight: 300;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      text-align: left;
+      color: #fff;
+      height: 50px;
+  }
+  #novalp .section06 li img{
+      padding-right: 17px;
+  }
+  #novalp .section06 button{
+      width: 390px;
+      height: 70px;
+      background: #d60812;
+      font-family: 'Gotham Bold';
+      font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+      border:none;
+      margin-top: 50px;
+      color: #fff;
+  }
+  #novalp .section07{
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      background: linear-gradient(45deg, black, transparent);
+      display: flex;
+      align-items: center;
+      color: #ffffff
+  }
+  #novalp .section07 .div01{
+      width: 50%;
+  }
+  #novalp .section07 h2{
+      font-family: 'Gotham Book';
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 32px;
+      text-align: left;
+      color: #fff;
+      padding: 40px 0;
+  }
+  #novalp .section07 p{
+      font-family: 'Gotham Book';
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 40px;
+      text-align: left;
+      color: #fff;
+      opacity: 0.52;
+      padding-bottom: 50px;
+  }
+  #novalp .section07 strong{
+      color:#ff2d16;
+      font-size: 22px;
+  }
+  #novalp .section07 ul{
+      margin:0;padding:0;
+      list-style: none;
+  }
+  #novalp .section07 li{
+      margin:0;padding:0;
+      font-family: 'Gotham Book';
+      font-weight: 300;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      text-align: left;
+      color: #fff;
+      height: 50px;
+  }
+  #novalp .section07 li img{
+      padding-right: 17px;
+  }
+  #novalp .section07 button{
+      width: 390px;
+      height: 70px;
+      background: #da2e70;
+      font-family: 'Gotham Bold';
+      font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+      border:none;
+      margin-top: 50px;
+      color: #fff;
+  }
+  #novalp .section08{
+      width: 100%;
+      height: 100vh;
+      background: linear-gradient(45deg, rgb(0 0 0 / 60%), transparent), url(bg-newpage.png) center center no-repeat;
+      display: flex;
+      align-items: center;
+      color: #fff
+  }
+  #novalp .section08 h2{
+      font-family: 'Gotham Book';
+      font-weight: bold;
+      font-size: 44px;
+      line-height: 55px;
+      text-align: left;
+      color: #fff;
+  }
+  #novalp .section08 p{
+      font-family: 'Gotham Book';
+      font-weight: 300;
+      font-size: 22px;
+      line-height: 40px;
+      text-align: left;
+      color: #fff;
+      width: 520px;
+      margin-top: 40px;
+  }
+  #novalp .section08 .div01{
+      width: 50%;
+  }
+  #novalp .section08 button{
+      width: 390px;
+      height: 70px;
+      background: #ff2d16;
+      font-family: 'Gotham Bold';
+      font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+      border: none;
+      margin-top: 60px;
+      color: #fff;
+  }
+  @media screen and (max-width:1600px){
+      #novalp .section02 h2 {
+          font-size: 32px;
+      }
+      #novalp .section02 p {
+          font-size: 16px;
+          line-height: 28px;
+      }
+      /*#novalp .section03 .div01,#novalp .section04 .div01,#novalp .section05 .div01,#novalp .section06 .div01,#novalp .section07 .div01,#novalp .section08 .div01 {
+          zoom: 0.7;
+      }*/
+      #novalp .section08 {
+          background: linear-gradient(45deg, rgb(0 0 0 / 60%), transparent),url(bg-newpage.png) center right no-repeat;
+          background-size: cover;
+      }
+      .bg_video {
+          width: 100%;
+          height: 100vh;
+          display: flex;
+          align-items: center;
+      }
+      #novalp .introducao-e-formulario .container,#novalp .section02 .container,#novalp .section03 .container,#novalp .section04 .container,#novalp .section05 .container,#novalp .section06 .container,#novalp .section07 .container {
+        zoom: 0.8;
+      }
+      #novalp .introducao-e-formulario,#novalp .section02,#novalp .section03,#novalp .section04,#novalp .section05,#novalp .section06,#novalp .section07 {
+        height: 100vh;
+          display: flex;
+          align-items: center;
+      }
+      #novalp .logofix {
+          top: 14%;
+      }
+      #novalp .logofix2 {
+          top: 34%;
+      }
+  }
+  @media screen and (max-width: 1100px){
+      #novalp img{
+          max-width: 100%;
+      }
+      #novalp .logofix {
+          top: 24%;
+          width: 40px;
+      }
+      #novalp .logofix2 {
+          top: 24%;
+          width: 40px;
+      }
+      #novalp .introducao-e-formulario .introducao {
+          margin-top: 0;
+      }
+      .formulario {
+          display: none;
+      }
+      #novalp .section02 .div01,#novalp .section03 .div01,#novalp .section04 .div01,#novalp .section04 .div01,#novalp .section05 .div01,#novalp .section06 .div01,#novalp .section07 .div01,#novalp .section08 .div01 {
+          width: 80%;
+          float: left;
+      }
+      #novalp .section02 h2 {
+          line-height: 33px;
+          font-size: 20px;
+          height: 150px;
+          padding-top: 0;
+          margin-top: -30px;
+      }
+      #novalp .section02 p,#novalp .section03 p,#novalp .section04 p,#novalp .section05 p,#novalp .section06 p,#novalp .section07 p,#novalp .section08 p {
+          font-size: 20px;
+          line-height: 26px;
+          max-width: 100%;
+      }
+      #novalp .section02 button,#novalp .section03 button,#novalp .section04 button,#novalp .section05 button,#novalp .section06 button,#novalp .section07 button,#novalp .section08 button {
+          width: 100%;
+      }
+      
+      .bg_video {
+        height: 100vh;
+        max-height: -webkit-fill-available;
+        }
+      #novalp .section04 {
+          background: linear-gradient(45deg, black, transparent);
+      }
+      #novalp .section02, #novalp .section03, #novalp .section04, #novalp .section05, #novalp .section06, #novalp .section07 {
+          height: 100vh;
+          max-height: -webkit-fill-available;
+      }
+  }
+  #cta-formulario-mobile {
+     background: #d60018;
+      font-family: 'Gotham Bold';
+      width: 100%;
+      height: 38px;
+      font-size: 20px;
+      color: #fff;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 10px 0 0 0;
+      display: none;
+      font-weight: 900;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      z-index: 11;
+  }
+  @media (max-width: 1100px){
+      .btn-form{
+          display:none;
+      }
+      #cta-formulario-mobile {
+          display: block;
+      }
+      .formulario {
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+          background: #fff;
+          float: none;
+          padding: 30px 20px 30px 20px;
+          zoom: 1;
+          position: fixed;
+          top: 0;
+          left: 0;
+          overflow-y: auto;
+          z-index: 99999;
+          display: none;
+      }
+  }
+  #novalp #textojur{
+      background-color: #c4c4c4;
+      text-align: center;
+      padding: 38px 0;
+  }
+  #novalp #textojur p{
+      width: 916px;
+      font-family: 'Gotham Book';
+      font-size: 12px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+      margin: 0 auto;
+  }
+  @media screen and (max-width:1100px){
+      #novalp #textojur p {
+          width: 90%;
+          font-size: 10px;
+          padding-bottom: 80px;
+      }
+  }
+  .mktoCheckboxList {
+      position: absolute;
+      left: 0;
+      top: 2px;
+  }
+  #Lbllvo_isoptinemailsent {
+      font-family: 'GothamPro',sans-serif;
+      color: #000;
+      line-height: 1.5;
+      letter-spacing: .29px;
+      font-size: 12px;
+      text-align: justify;
+      width: 100%!important;
+      text-indent: 23px;
+  }
+  .desktop{
+      display: block;
+  }
+  .mobile{
+      display: none;
+  }
+  @media screen and (max-width:1100px){
+      .desktop{
+          display: none;
+      }
+      .mobile{
+          display: block;
+      }
+      #Lbllvo_isoptinemailsent {
+          width: 100%!important;
+      }
+  }
+  #novalp .trackpoint{
+      background: url(https://pages.lenovo.com/rs/183-WCT-620/images/novalp-trackpoint.png) center center no-repeat;
+      width: 236px;
+      height: 262px;
+      position: absolute;
+      left: 50%;
+      margin-top: 20px;
+      margin-left: -117.50px;
+      z-index: 2;
+      cursor: pointer;
+      bottom: -140px;
+      zoom: 0.8;
+  }
+  @media screen and (max-width:1100px){
+      #novalp .trackpoint {
+          margin-top: 70px;
+          margin-left: -117.50px;
+          zoom: 0.7;
+            display:none;
+      }
+      .loading img {
+          margin-top: -100px;
+      }
+  }
+  .slick-dots{
+    position: absolute;
+    bottom: 0;
+    left: 22px;
+    z-index: 10;
+  }
+  .slick-dots li{
+      display: inline;
+      list-style: none;
+      margin-right: 10px;
+  }
+  .slick-dots button{
+    background: #fff;
+    color: #fff;
+    margin: 6px;
+    border: none;
+    border-radius: 100px;
+    padding: 6px;
+    font-size: 0px;
+    width: 10px;
+    height: 10px;
+    transition-duration: 0ms;
+    cursor: pointer;
+  }
+  .slick-active button,.slick-active2 button{
+    background: #DE241B;
+    margin: 0px;
+    border: #831510 6px solid;
+    transition-duration: 0ms;
+    cursor: pointer;
+  }
+  .line{
+    border: 2px solid #DE241B;
+    position: absolute;
+    bottom: 26px;
+    z-index: 9;
+    left: 74px;
+    width: 0%;
+  }
+  @media screen and (max-width: 767px){
+    #novalp .introducao-e-formulario h2 {
+        font-size: 24px;
+    }    
+    #novalp .introducao-e-formulario h3 {
+        font-size: 19px;
+        line-height: 1.3;
+    }
+    #novalp .introducao-e-formulario h3 br{
+        display: none;
+    }
+    .slick-dots {
+        position: absolute;
+        bottom: 60px;
+        left: 0;
+        z-index: 10;
+    }
+    #novalp .introducao-e-formulario h2 {
+        padding: 20px 0;
+    }
+    #novalp .introducao-e-formulario h3 {
+        padding: 20px 0;
+    }
+    .think {
+        height: 70px;
+        position: absolute;
+        top: 50px;
+        margin: 0;
+        padding: 0;
+    }
+    .line {
+        bottom: 86px;
+        left: 54px;
+    }
+    #novalp .section08 h2 {
+        font-family: 'Gotham Book';
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 36px;
+        text-align: left;
+        color: #fff;
+    }
+    #novalp .introducao-e-formulario, .section02, #novalp .section03, #novalp .section04, #novalp .section05, #novalp .section06, #novalp .section07, #novalp .section08,#novalp .bg_video {
+        height: 85vh!important;
+        max-height: -webkit-fill-available!important;
+    }
+    .line {
+        display: none!important;
+    }
+    #novalp .section04 h2 br,#novalp .section05 h2 br,#novalp .section06 h2 br,#novalp .section07 h2 br,#novalp .section08 h2 br,#novalp .introducao-e-formulario p br{
+        display: none;
+    }
+    #novalp .section02 p, #novalp .section03 p, #novalp .section04 p, #novalp .section05 p, #novalp .section06 p, #novalp .section07 p, #novalp .section08 p {
+        font-size: 17px;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1024px){
+    #novalp .introducao-e-formulario, #novalp .section02, #novalp .section03, #novalp .section04, #novalp .section05, #novalp .section06, #novalp .section07,#novalp .section08,#novalp .bg_video{
+        height: 100vh!important;
+    }
+    .think {
+        position: absolute;
+        top: 180px;
+        margin: 0;
+        padding: 0;
+    }
+    .slick-dots {
+        position: absolute;
+        bottom: 90px;
+        left: 22px;
+        z-index: 10;
+    }
+    #novalp .introducao-e-formulario .container, #novalp .section02 .container, #novalp .section03 .container, #novalp .section04 .container, #novalp .section05 .container, #novalp .section06 .container, #novalp .section07 .container {
+        zoom: 1;
+    }
+    #novalp .section08 {
+        background: linear-gradient(45deg, rgb(0 0 0 / 60%), transparent), url(bg-newpage.png) center center no-repeat;
+    }
+    .introducao-e-formulario p br{
+        display: none;
+    }
+}
+.slick-prev,.slick-next{
+    opacity: 0;
+    width: 0;
+    height: 0;
+    top:0;
+    position: absolute;
+    z-index: -1;
+}

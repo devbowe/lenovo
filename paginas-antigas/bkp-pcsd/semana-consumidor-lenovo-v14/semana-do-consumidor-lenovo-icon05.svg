@@ -1,0 +1,19 @@
+<svg id="Grupo_2272" data-name="Grupo 2272" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68.56" height="68.56" viewBox="0 0 68.56 68.56">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#de241b"/>
+      <stop offset="1" stop-color="#6e47a5"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_699" data-name="Retângulo 699" width="68.56" height="68.56" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_2271" data-name="Grupo 2271" clip-path="url(#clip-path)">
+    <path id="Caminho_2466" data-name="Caminho 2466" d="M34.28,68.56A34.28,34.28,0,1,1,68.56,34.28,34.319,34.319,0,0,1,34.28,68.56m0-66.236A31.956,31.956,0,1,0,66.236,34.28,31.992,31.992,0,0,0,34.28,2.324" fill="url(#linear-gradient)"/>
+    <path id="Caminho_2467" data-name="Caminho 2467" d="M50.358,46H22.873V28.351H50.358ZM25.2,43.675H48.033v-13H25.2Z" transform="translate(-2.335 -2.895)" fill="url(#linear-gradient)"/>
+    <path id="Caminho_2468" data-name="Caminho 2468" d="M43.76,15.582l-1.779-1.8-3.232,3.19V9.449H36.218v7.565l-3.275-3.232-1.779,1.8,6.3,6.217Z" transform="translate(-3.182 1.657)" fill="url(#linear-gradient)"/>
+    <path id="Caminho_2469" data-name="Caminho 2469" d="M31.164,59.5l1.779,1.8,3.232-3.19v7.523h2.531V58.067L41.981,61.3l1.779-1.8-6.3-6.217Z" transform="translate(-3.182 -8.178)" fill="url(#linear-gradient)"/>
+    <path id="Caminho_2470" data-name="Caminho 2470" d="M43.76,15.582l-1.779-1.8-3.232,3.19V9.449H36.218v7.565l-3.275-3.232-1.779,1.8,6.3,6.217Z" transform="translate(-3.023 71.8) rotate(-90)" fill="url(#linear-gradient)"/>
+    <path id="Caminho_2471" data-name="Caminho 2471" d="M31.164,59.5l1.779,1.8,3.232-3.19v7.523h2.531V58.067L41.981,61.3l1.779-1.8-6.3-6.217Z" transform="translate(-3.498 71.8) rotate(-90)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

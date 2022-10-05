@@ -1,0 +1,73 @@
+.hero {
+    padding-block: var(--spacing);
+
+    background-color: var(--black);
+    color: var(--white);
+
+    background-image: url("../images/oti_e14-gen2__banner-hero.png");
+    background-size: cover;
+
+    background-position: left;
+
+    @media (min-width: 45em) {
+        background-position: left;
+    }
+    @media (min-width: 62em) {
+        background-position: center;
+    }
+
+    &__container {
+        display: grid;
+        position: relative;
+        gap: 2rem;
+
+        @media (min-width: 1100px) {
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            gap: 3rem;
+        }
+
+        @media (min-width: 70em) {
+            grid-template-columns: 1.15fr 1fr;
+            gap: 3.25rem;
+        }
+
+        h1 {
+            color: var(--red);
+            font-size: 2.5rem;
+            font-weight: 500;
+
+            @media (min-width: 65em) {
+                font-size: 3rem;
+            }
+        }
+
+        .content span {
+            font-size: 1.5rem;
+            display: block;
+
+            margin-bottom: 4rem;
+        }
+
+        h2 {
+            font-weight: 400;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 2.25rem;
+        }
+
+        p + p {
+            margin-top: 1rem;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            max-width: 40ch;
+        }
+
+        img {
+            margin-top: 4rem;
+        }
+    }
+}

@@ -1,0 +1,368 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br" style><head>
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    "gtm.start": new Date().getTime(),
+                    event: "gtm.js",
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != "dataLayer" ? "&l=" + l : "";
+                j.async = true;
+                j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, "script", "dataLayer", "GTM-5J26ZVM");
+        </script>
+        <!-- End Google Tag Manager -->
+
+        <meta charset="utf-8">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Expires" content="0">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <meta http-equiv="cleartype" content="on">
+        <meta name="keywords" content="lenovo, think, technology, thinkpad, thinksmart, Lenovo">
+        <meta name="title" content="Lenovo TruScale | Infraestructura de TI | Todo como Servicio">
+        <meta name="description" content="Lenovo TruScale tiene el portfolio de soluciones de infraestructura más completa del mercado: todo como servicio, en cualquier lugar, en el modelo de pago por uso.">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="Gabriel Oliveira - bowe.com.br">
+        <meta name="theme-color" content="#000000">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="https://www.lenovo.com/favicon.ico">
+        <title>Lenovo TruScale | Infraestructura de TI | Todo como Servicio</title>
+
+        <!-- FB -->
+        <meta property="og:locale" content="pt_BR">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Lenovo ThinkAgile VX™ | Armazenamento Corporativo">
+        <meta property="og:description" content="Lenovo TruScale tiene el portfolio de soluciones de infraestructura más completa del mercado: todo como servicio, en cualquier lugar, en el modelo de pago por uso.">
+        <meta property="og:url" content>
+        <meta property="og:site_name" content="Lenovo">
+        <script src="https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_assets.min.js"></script>
+        <script src="https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_scripts.js"></script>
+        <script src="//app-ab27.marketo.com/js/forms2/js/forms2.min.js"></script>
+
+        <meta property="og:image" content="https://pages.lenovo.com/rs/183-WCT-620/images/las-truscale-thumb.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="628" />
+        <meta property="og:image:secure_url" content>
+
+        <link rel="stylesheet" href="style.css">
+
+        <script>
+            !function(a){"function"==typeof define&&define.amd?define(["jquery"],a):a(window.jQuery||window.Zepto)}(function(a){var c=function(e,f,c){var i,h,b=this;e=a(e),f="function"==typeof f?f(e.val(),void 0,e,c):f;var g,d={getCaret:function(){try{var c,a=0,f=e.get(0),d=document.selection,b=f.selectionStart;return d&&!~navigator.appVersion.indexOf("MSIE 10")?((c=d.createRange()).moveStart("character",e.is("input")?-e.val().length:-e.text().length),a=c.text.length):(b||"0"===b)&&(a=b),a}catch(g){}},setCaret:function(a){try{if(e.is(":focus")){var b,c=e.get(0);c.setSelectionRange?c.setSelectionRange(a,a):c.createTextRange&&((b=c.createTextRange()).collapse(!0),b.moveEnd("character",a),b.moveStart("character",a),b.select())}}catch(d){}},events:function(){e.on("keydown.mask",function(){i=d.val()}).on("keyup.mask",d.behaviour).on("paste.mask drop.mask",function(){setTimeout(function(){e.keydown().keyup()},100)}).on("change.mask",function(){e.data("changed",!0)}).on("blur.mask",function(){i===e.val()||e.data("changed")||e.trigger("change"),e.data("changed",!1)}).on("focusout.mask",function(){c.clearIfNotMatch&&!h.test(d.val())&&d.val("")})},getRegexMask:function(){for(var c,g,h,d,a=[],e=0;e<f.length;e++)(c=b.translation[f[e]])?(g=c.pattern.toString().replace(/.{1}$|^.{1}/g,""),h=c.optional,(c=c.recursive)?(a.push(f[e]),d={digit:f[e],pattern:g}):a.push(h||c?g+"?":g)):a.push(f[e].replace(/[-\/\\^$*+?.()|[\]{}]/g,"\\$&"));return a=a.join(""),d&&(a=a.replace(new RegExp("("+d.digit+"(.*"+d.digit+")?)"),"($1)?").replace(new RegExp(d.digit,"g"),d.pattern)),new RegExp(a)},destroyEvents:function(){e.off("keydown keyup paste drop change blur focusout DOMNodeInserted ".split(" ").join(".mask ")).removeData("changeCalled")},val:function(a){var b=e.is("input");return 0<arguments.length?b?e.val(a):e.text(a):b?e.val():e.text()},getMCharsBeforeCount:function(a,e){for(var d=0,c=0,g=f.length;c<g&&c<a;c++)b.translation[f.charAt(c)]||(a=e?a+1:a,d++);return d},caretPos:function(a,e,c,g){return b.translation[f.charAt(Math.min(a-1,f.length-1))]?Math.min(a+c-e-g,c):d.caretPos(a+1,e,c,g)},behaviour:function(c){var e=(c=c||window.event).keyCode||c.which;if(-1===a.inArray(e,b.byPassKeys)){var f=d.getCaret(),i=d.val(),g=i.length,k=f<g,h=d.getMasked(),j=h.length,l=d.getMCharsBeforeCount(j-1)-d.getMCharsBeforeCount(g-1);return h!==i&&d.val(h),!k||65===e&&c.ctrlKey||(8!==e&&46!==e&&(f=d.caretPos(f,g,j,l)),d.setCaret(f)),d.callbacks(c)}},getMasked:function(i){var g,m,j=[],r=d.val(),a=0,n=f.length,h=0,s=r.length,e=1,o="push",k=-1;for(c.reverse?(o="unshift",e=-1,g=0,a=n-1,h=s-1,m=function(){return -1<a&& -1<h}):(g=n-1,m=function(){return a<n&&h<s});m();){var p=f.charAt(a),q=r.charAt(h),l=b.translation[p];l?(q.match(l.pattern)?(j[o](q),l.recursive&&(-1===k?k=a:a===g&&(a=k-e),g===k&&(a-=e)),a+=e):l.optional&&(a+=e,h-=e),h+=e):(i||j[o](p),q===p&&(h+=e),a+=e)}return i=f.charAt(g),n!==s+1||b.translation[i]||j.push(i),j.join("")},callbacks:function(b){var a=d.val(),g=a!==i;!0===g&&"function"==typeof c.onChange&&c.onChange(a,b,e,c),!0===g&&"function"==typeof c.onKeyPress&&c.onKeyPress(a,b,e,c),"function"==typeof c.onComplete&&a.length===f.length&&c.onComplete(a,b,e,c)}};b.mask=f,b.options=c,b.remove=function(){var a;return d.destroyEvents(),d.val(b.getCleanVal()).removeAttr("maxlength"),a=d.getCaret(),d.setCaret(a-d.getMCharsBeforeCount(a)),e},b.getCleanVal=function(){return d.getMasked(!0)},b.init=(c=c||{},b.byPassKeys=[9,16,17,18,36,37,38,39,40,91,],b.translation={0:{pattern:/\d/},9:{pattern:/\d/,optional:!0},"#":{pattern:/\d/,recursive:!0},A:{pattern:/[a-zA-Z0-9]/},S:{pattern:/[a-zA-Z]/}},b.translation=a.extend({},b.translation,c.translation),b=a.extend(!0,{},b,c),h=d.getRegexMask(),!1!==c.maxlength&&e.attr("maxlength",f.length),c.placeholder&&e.attr("placeholder",c.placeholder),e.attr("autocomplete","off"),d.destroyEvents(),d.events(),g=d.getCaret(),void(d.val(d.getMasked()),d.setCaret(g+d.getMCharsBeforeCount(g,!0))))},d={},b=function(){var b=a(this),c={};b.attr("data-mask-reverse")&&(c.reverse=!0),"false"===b.attr("data-mask-maxlength")&&(c.maxlength=!1),b.attr("data-mask-clearifnotmatch")&&(c.clearIfNotMatch=!0),b.mask(b.attr("data-mask"),c)};a.fn.mask=function(f,g){var b=this.selector,e=function(){var b=a(this).data("mask"),d=JSON.stringify;if("object"!=typeof b||d(b.options)!==d(g)||b.mask!==f)return a(this).data("mask",new c(this,f,g))};this.each(e),b&&!d[b]&&(d[b]=!0,setTimeout(function(){a(document).on("DOMNodeInserted.mask",b,e)},500))},a.fn.unmask=function(){try{return this.each(function(){a(this).data("mask").remove().removeData("mask")})}catch(b){}},a.fn.cleanVal=function(){return this.data("mask").getCleanVal()},a("*[data-mask]").each(b),a(document).on("DOMNodeInserted.mask","*[data-mask]",b)})
+
+            MktoForms2.loadForm(
+                "//app-ab27.marketo.com",
+                "183-WCT-620",
+                3099,
+                function (form) {
+
+                    $("#FirstName").keypress(function (e) {
+                        var keyCode = e.keyCode ? e.keyCode : e.which;
+                        if (keyCode > 47 && keyCode < 58) {
+                            e.preventDefault();
+                        }
+                    });
+
+                    $("#FirstName").on("input", function () {
+                        $(this).val(
+                            $(this)
+                                .val()
+                                .replace(/[^a-z0-9]/gi, "")
+                        );
+                    });
+
+                    $("#LastName").keypress(function (e) {
+                        var keyCode = e.keyCode ? e.keyCode : e.which;
+                        if (keyCode > 47 && keyCode < 58) {
+                            e.preventDefault();
+                        }
+                    });
+
+                    $("#LastName").on("input", function () {
+                        $(this).val(
+                            $(this)
+                                .val()
+                                .replace(/[^a-z0-9]/gi, "")
+                        );
+                    });
+
+                    $("input").change(function () {
+                        comentarios =
+                            "Cargo: " +
+                            $("select[name='Title']").val() +
+                            " - " +
+                            "Segmento: " +
+                            $("select[name='segment']").val() +
+                            " - " +
+                            "Número de Funcionários: " +
+                            $("input[name='employeeSizeRange']").val() +
+                            " - " +
+                            "utm_campaign: " +
+                            $("input[name='mktoutmcampaign']").val() +
+                            " - " +
+                            "utm_content: " +
+                            $("input[name='mktoutmcontentdownload']").val() +
+                            " - " +
+                            "utm_medium: " +
+                            $("input[name='mktoutmmedium']").val() +
+                            " - " +
+                            "utm_source: " +
+                            $("input[name='mktoutmsource']").val() +
+                            " - " +
+                            "Lead Source: " +
+                            $("input[name='sourceCampaign']").val() +
+                            " - " +
+                            "Página: " +
+                            window.location.href;
+
+                        $("input[name='dCGPersonNotes']").val(comentarios);
+                        $("input[name='iDGPersonNotes']").val(comentarios);
+                    });
+                    $("input[name='leadSourceLastDCG']").val(
+                        "DCG_23FY_LA_LAHQ_EAAS_BRND_TRUS_MED_563731_Bowe-TruScale-ContactMe"
+                    );
+                    $("input[name='leadSourceLast']").val(
+                        "DCG_23FY_LA_LAHQ_EAAS_BRND_TRUS_MED_563731_Bowe-TruScale-ContactMe"
+                    );
+                    $("input[name='sourceCampaign']").val(
+                        "DCG_23FY_LA_LAHQ_EAAS_BRND_TRUS_MED_563731_Bowe-TruScale-ContactMe"
+                    );
+                }
+            );
+        </script>
+
+</style>
+
+    </head>
+    <body id="conheca-lenovo-truscale">
+        
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5J26ZVM" height="0" width="0" style="display: none; visibility: hidden" ></iframe></noscript><!-- End Google Tag Manager (noscript) -->
+
+        <section id="introducao-e-formulario">
+            <img src="https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_logo-lenovo.svg" alt="Lenovo" title="Lenovo" class="lenovo-logo">
+            <div class="container">
+                <div class="introducao">
+                    <h2>
+                        Lenovo<br>
+                        <b>TruScale™</b>
+                    </h2>
+                    <h3>
+                        Todo como servicio.<br>
+                        En cualquier lugar del mundo.<br> 
+                        De pago por uso.
+                    </h3>
+                    <p>
+                        Con Lenovo TruScale, su organización tiene <b>el portfolio de soluciones más completo del mercado</b>, desde dispositivos hasta el data center, todo como servicio, en cualquier lugar, de pago por uso, <b>para extraer todo el potencial de la tecnología, de sus equipos y de su negocio.</b>
+                        <br><br>
+                        <b>Del bolsillo a la nube,</b> todo para que puedas
+                        <b>innovar más rápido y soñar en grande</b> para llegar a donde usted solo podía imaginar.<br><br>
+                        Powered by
+                    </p>
+                    <img src="https://pages.lenovo.com/rs/183-WCT-620/images/conheca-lenovo-truscale-logo-intel.svg">
+                </div>
+                <!-- introducao -->
+
+                <div class="formulario" id="form">
+                    <a href="#" id="close-form" title="Fechar formulário">
+                        <img src="https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_close-form.svg" alt="Fechar formulário">
+                    </a>
+
+                    <header class="chamada">
+                        <h5>
+                            <b>Complete el formulario y vamos a hablar más.
+                            </b>
+                        </h5>
+                    </header>
+                    <!-- chamada -->
+
+                    <form id="mktoForm_3099"></form>
+                </div>
+                <!-- formulario -->
+
+                <div class="clearfix"></div>
+            </div>
+            <!-- container -->
+        </section><!-- introducao e formulario -->
+
+        <section id="section02">
+            <div class="container">
+                <h2>
+                    Todo como servicio
+                </h2>
+                <p>
+                    Desde el data center hasta el borde y más allá. Combine la comodidad y la flexibilidad de una infraestructura similar a la nube que puede ser escalada según las demandas de su organización, con toda la seguridad y el control de una solución on-premise tradicional.
+                </p>
+                <div class="divbutton">
+                    <a href="#form">Quiero todo como servicio</a>
+                </div>
+            </div><!--container-->
+        </section><!-- section02 -->
+
+        <section id="section03">
+            <div class="container">
+                <h2>
+                    El 92% de las empresas adoptará soluciones como servicio en los próximos dos años
+                </h2>
+                <h5>Lenovo's Global Study of CIOs 2022</h5>
+            </div><!--container-->
+        </section><!-- section03 -->
+
+        <section id="section04">
+            <div class="container">
+                <div class="items">
+                    <div>
+                        <h2>
+                            En cualquier lugar del mundo
+                        </h2>
+                        <p>
+                            Con empresas distribuidas y equipos híbridos, usted no tendrá dificultad para garantizar el rendimiento, la eficiencia, el control y la escalabilidad, ya que Lenovo TruScale ofrece soluciones de infraestructura más inteligentes que le permiten a usted y a todos sus profesionales extraer lo máximo de la tecnología.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>
+                            De pago por uso
+                        </h2>
+                        <p>
+                            Migre del modelo CAPEX a OPEX y reduzca costos con infraestructura, equipos, licencias de software, personal de TI, entrenamientos y otros. Pague solo por lo que usa y ajuste, dimensione y escale rápida y fácilmente de acuerdo con las necesidades de su negocio.
+                        </p>
+                    </div>
+                </div>
+                <div class="divbutton">
+                    <a href="#form">Quiero expandir</a>
+                </div>
+            </div><!--container-->
+        </section><!-- section04 -->
+
+        <section id="section05">
+            <div class="container">
+                <h2>
+                    Y diversas ventajas competitivas
+                </h2>
+                <ul>
+                    <li>
+                        <img src="br-truscale-icon01.svg">
+                        <h3>+ ESCALABILIDAD</h3>
+                        <p>Aumente o disminuya el hardware, el software o los servicios a medida que cambian sus necesidades.</p>
+                    </li>
+                    <li>
+                        <img src="br-truscale-icon02.svg">
+                        <h3>+ FLEXIBILIDAD</h3>
+                        <p>Siéntase libre de hacer cambios siempre que lo necesite y pague solo por lo que use.</p>
+                    </li>
+                    <li>
+                        <img src="br-truscale-icon03.svg">
+                        <h3>+ PRACTICIDAD</h3>
+                        <p>La implementación, la gestión y el soporte corren por nuestra cuenta. Concéntrese en su negocio.</p>
+                    </li>
+                    <li>
+                        <img src="br-truscale-icon04.svg">
+                        <h3>+ ECONOMÍA</h3>
+                        <p>Reduzca los costos de infraestructura de TI e invierta en mejorar sus productos o servicios y expandir su negocio.</p>
+                    </li>
+                    <li>
+                        <img src="br-truscale-icon05.svg">
+                        <h3>+ CONTROL</h3>
+                        <p>Lenovo monitorea su entorno de TI 24x7x365 y actúa de manera proactiva para evitar fallos y errores.</p>
+                    </li>
+                    <li>
+                        <img src="br-truscale-icon06.svg">
+                        <h3>+ SEGURIDAD</h3>
+                        <p>Con el monitoreo continuo, reducimos el riesgo de ciberataques, como el robo de datos.</p>
+                    </li>
+                </ul>
+                <div class="divbutton">
+                    <a href="#form">Quiero todo eso</a>
+                </div>
+            </div><!--container-->
+        </section><!-- section05 -->
+
+        <section id="section06">
+            <div class="container">
+                <h2>
+                    La elección de las más inteligentes
+                </h2>
+                <ul>
+                    <li>
+                        <h3>Hubei</h3>
+                        <p>Optimización de servicios, reducción de costos y fortalecimiento de la red</p>
+                    </li>
+                    <li>
+                        <h3>Konecta</h3>
+                        <p>Adaptación al cambio y transformación digital en tiempo récord</p>
+                    </li>
+                    <li>
+                        <h3>Servimed</h3>
+                        <p>Procesos más ágiles y sistemas unificados para crecer más rápido</p>
+                    </li>
+                    <li>
+                        <h3>STGT</h3>
+                        <p>Análisis de datos más rápido y mayor disponibilidad de los servicios</p>
+                    </li>
+                </ul>
+                <div class="divbutton">
+                    <a href="#form">Quiero TruScale</a>
+                </div>
+            </div><!--container-->
+        </section><!-- section06 -->
+
+        <section id="section07">
+            <div class="container">
+                <h2>
+                    El 77% de los CIO recurrirá a sus proveedores de TI en los próximos cinco años para abordar los desafíos de tecnología
+                </h2>
+                <p>
+                    ¿Y usted? ¿Va a remar contra corriente o va a hacer como los más inteligentes?
+                </p>
+                <h5>Lenovo's Global Study of CIOs 2022</h5>
+            </div><!--container-->
+        </section><!-- section07 -->
+
+        <section id="section08">
+            <div class="container">
+                <div class="item">
+                    <h2>
+                        Innove más rápido para soñar en grande con Lenovo TruScale
+                    </h2>
+                    <p>
+                        <b>Hable con el equipo de Lenovo y comience a escalar su organización</b> con TruScale, todo como un servicio, en cualquier parte del mundo, pagando solo por lo que use.
+                        <br><br>
+                        Acelera la <b>digitalización</b> de su negocio, aumente su <b>movilidad corporativa</b> y el rendimiento de sus profesionales, extrayendo todo el potencial de la tecnología.
+                        <br><br>
+                        <b>Llegue allí con Lenovo TruScale.</b>
+                    </p>
+                    <div class="divbutton">
+                        <a href="#form">Quiero conversar</a>
+                    </div>
+                </div>
+            </div><!--container-->
+        </section><!-- section08 -->
+
+
+        
+
+        <a href="#" class="cta-formulario-mobile" id="cta-formulario-mobile">Habla con un especialista</a>
+
+        <div class="mktoContent"></div>
+
+        <section id="disclaimer-final">
+            <div class="container">
+                <p>
+                    Lenovo hace todo lo posible para garantizar la precisión de la información, pero no es responsable de ningún contenido editorial, fotográfico o tipográfico. Todas las imágenes son sólo para fines ilustrativos. Para obtener especificaciones completas del producto, información de servicio y garantías de Lenovo, www.lenovo.com. Lenovo, ThinkSystem, ThinkAgile y el logotipo de Lenovo son marcas comerciales de Lenovo. Lenovo no hace ninguna representación de escaneos ni garantías con respecto a productos o servicios de terceros. Otros nombres de empresas, productos y servicios pueden ser marcas comerciales o marcas de servicio de terceros. Lenovo 2022.
+                </p>
+            </div>
+        </section>
+
+</html>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1085.09" viewBox="0 0 1920 1085.09">
+  <g id="Group_1554" data-name="Group 1554" transform="translate(0 -945.204)">
+    <g id="Group_1548" data-name="Group 1548" transform="translate(268.847 945.204) rotate(90)">
+      <rect id="Rectangle_178" data-name="Rectangle 178" width="268.847" height="268.283" fill="#fff"/>
+      <g id="Group_1515" data-name="Group 1515" transform="translate(0 0)">
+        <path id="Intersection_1" data-name="Intersection 1" d="M0,268.283V.064C1.953.022,3.919,0,5.882,0,151.425,0,269.41,118.007,269.41,263.577q0,2.359-.041,4.706Z" transform="translate(268.847 -0.564) rotate(90)" fill="#66c14f"/>
+      </g>
+    </g>
+    <g id="Group_1546" data-name="Group 1546" transform="translate(269.051 1483.102) rotate(180)">
+      <rect id="Rectangle_178-2" data-name="Rectangle 178" width="269.051" height="269.051" transform="translate(0)" fill="#fff"/>
+      <g id="Group_1515-2" data-name="Group 1515" transform="translate(0)">
+        <rect id="Rectangle_177" data-name="Rectangle 177" width="269.051" height="269.051" fill="#ececed"/>
+        <path id="Path_384" data-name="Path 384" d="M0,0H268.905L134.48,268.8Z" transform="translate(0.146 0.01)" fill="#f5f6f6"/>
+      </g>
+    </g>
+    <g id="Group_1544" data-name="Group 1544" transform="translate(269.595 1214.051)">
+      <rect id="Rectangle_178-3" data-name="Rectangle 178" width="268.749" height="269.051" transform="translate(0)" fill="#fff"/>
+      <ellipse id="Ellipse_37" data-name="Ellipse 37" cx="134.243" cy="134.525" rx="134.243" ry="134.525" transform="translate(0.264)" fill="#ececed"/>
+      <ellipse id="Ellipse_38" data-name="Ellipse 38" cx="57.371" cy="57.089" rx="57.371" ry="57.089" transform="translate(77.135 77.437)" fill="#fff"/>
+    </g>
+    <g id="Group_1553" data-name="Group 1553" transform="translate(1381.037 1761)">
+      <rect id="Rectangle_199" data-name="Rectangle 199" width="267.915" height="269.051" transform="translate(1.286 0.243)" fill="#fff"/>
+      <path id="Union_9" data-name="Union 9" d="M0,0V74.865H0V268.891s80.666,6.019,134.406-53.965,48.952-140.1,48.952-140.1h-.026V0Z" transform="translate(183.467 269.06) rotate(180)" fill="#dbdbdb" opacity="0.35"/>
+      <path id="Union_10" data-name="Union 10" d="M0,0V74.865H0V268.891s80.666,6.019,134.406-53.965,48.952-140.1,48.952-140.1h-.026V0Z" transform="translate(269.201 269.06) rotate(180)" fill="#f5f6f6" style="mix-blend-mode: multiply;isolation: isolate"/>
+    </g>
+    <g id="Group_1551" data-name="Group 1551" transform="translate(2091.987 5765) rotate(-90)">
+      <g id="Group_1549" data-name="Group 1549" transform="translate(3735 -986)">
+        <g id="Group_1544-2" data-name="Group 1544" transform="translate(0 544.252)">
+          <rect id="Rectangle_178-4" data-name="Rectangle 178" width="268.749" height="269.051" transform="translate(0)" fill="#fff"/>
+          <ellipse id="Ellipse_37-2" data-name="Ellipse 37" cx="134.243" cy="134.525" rx="134.243" ry="134.525" transform="translate(0.264)" fill="#f5f6f6"/>
+          <ellipse id="Ellipse_38-2" data-name="Ellipse 38" cx="57.371" cy="57.089" rx="57.371" ry="57.089" transform="translate(77.135 77.437)" fill="#66c14f"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_1552" data-name="Group 1552" transform="translate(3571.717 3250.642) rotate(180)">
+      <rect id="Rectangle_202" data-name="Rectangle 202" width="270.538" height="269.762" transform="translate(1651.717 1760.59) rotate(-90)" fill="#f5f6f6"/>
+      <path id="Path_400" data-name="Path 400" d="M0,0H270.391L135.223,269.512Z" transform="translate(1651.727 1760.443) rotate(-90)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+.impulse {
+    padding-block: var(--spacing);
+    background-image: url("https://pages.lenovo.com/rs/183-WCT-620/images/m70q__impulse-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &__container {
+        display: grid;
+        gap: clamp(3rem, 3.5vw, 10rem);
+
+        @media (min-width: 45em) {
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+        }
+
+        > img {
+            margin-inline: auto;
+        }
+
+        ul {
+            display: grid;
+            gap: 1rem;
+            margin-top: 2rem;
+
+            li {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+
+                img {
+                    flex-shrink: 0;
+                }
+            }
+        }
+
+        a {
+            margin-top: 2.5rem;
+        }
+    }
+}

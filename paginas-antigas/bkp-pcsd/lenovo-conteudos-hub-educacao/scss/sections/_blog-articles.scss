@@ -1,0 +1,18 @@
+.blog-articles {
+    padding-block: var(--spacing);
+    background-color: var(--white);
+
+    .cta-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 2.25rem;
+
+        p {
+            font-size: 1.125rem;
+            text-align: center;
+        }
+    }
+}

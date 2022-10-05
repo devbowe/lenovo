@@ -1,0 +1,56 @@
+.innovation {
+    padding-block: var(--spacing);
+    background: linear-gradient(135deg, #264355, #1a2e3a);
+    color: var(--white);
+    text-align: center;
+
+    &__container {
+        h2 {
+            margin-inline: auto;
+            max-width: 27ch;
+        }
+
+        p {
+            max-width: 60ch;
+            margin-inline: auto;
+        }
+
+        p + p {
+            margin-top: 1rem;
+        }
+
+        ul {
+            margin-block: 3.25rem;
+
+            display: flex;
+            align-items: flex-start;
+            gap: 2rem;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            @media (min-width: 40em) {
+                flex-direction: row;
+            }
+
+            li {
+                border: 3px solid #707070;
+                border-radius: 0.5rem;
+                padding: 2rem;
+                font-size: 1.125rem;
+                width: min(100%, 18rem);
+            }
+        }
+
+        span {
+            display: block;
+            font-size: 0.75rem;
+            line-height: 1.2;
+        }
+
+        a {
+            margin-top: 2rem;
+        }
+    }
+}

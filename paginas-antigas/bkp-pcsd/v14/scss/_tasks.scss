@@ -1,0 +1,76 @@
+.tasks {
+    padding-block: var(--spacing);
+
+    background-color: var(--black);
+    color: var(--white);
+    overflow: hidden;
+
+    img {
+        display: none;
+    }
+
+    &__container {
+        @media (min-width: 45em) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            position: relative;
+
+            img {
+                display: unset;
+                position: absolute;
+                grid-column: 2/3;
+                left: 50px;
+
+                filter: brightness(0.8);
+
+                @media (min-width: 1000px) {
+                    left: 0;
+                }
+            }
+        }
+    }
+
+    .content {
+        h2 {
+            font-size: 2rem;
+            line-height: 1.2;
+            margin-bottom: 2rem;
+        }
+
+        p {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+
+            max-width: 33ch;
+        }
+
+        ul {
+            margin-bottom: 2rem;
+            display: grid;
+            gap: 1rem;
+
+            li {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+
+                &:before {
+                    content: "";
+                    width: 5px;
+                    aspect-ratio: 1;
+                    border-radius: 50%;
+                    background-color: var(--blue);
+                }
+            }
+        }
+
+        a {
+            margin-bottom: 2rem;
+        }
+
+        span {
+            display: block;
+            font-size: 0.68rem;
+        }
+    }
+}

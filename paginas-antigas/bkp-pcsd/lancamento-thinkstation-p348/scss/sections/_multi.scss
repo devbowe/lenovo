@@ -1,0 +1,112 @@
+.multi {
+    padding-block: var(--spacing);
+    background-color: var(--black);
+    color: var(--white);
+
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+
+    @media (min-width: 720px) {
+        background-image: url("../images/p348__multi-bg.png");
+        background-size: cover;
+        background-position: center bottom;
+
+        &__container {
+            grid-template-areas:
+                "span content"
+                ". content";
+
+            .content {
+                max-width: max-content;
+                margin-left: auto;
+            }
+        }
+    }
+
+    @media (min-width: 1600px) {
+        background-size: cover;
+        background-position: top;
+    }
+
+    &__container {
+        display: grid;
+        gap: 2rem;
+    }
+
+    .image-holder {
+        span {
+            font-size: 1rem;
+            text-transform: uppercase;
+            max-width: 28ch;
+            display: block;
+
+            margin-inline: auto;
+            text-align: center;
+
+            @media (min-width: 720px) {
+                margin-inline: unset;
+                text-align: left;
+                position: relative;
+                top: 8px;
+                font-size: 1.125em;
+            }
+        }
+
+        div {
+            min-height: 20rem;
+            background-image: url("../images/p348__multi-imgmobile.png");
+            background-size: cover;
+            background-position: left top;
+            background-size: 150%;
+
+            @media (min-width: 500px) {
+                background-size: 120%;
+                background-position: left -50px;
+            }
+
+            @media (min-width: 720px) {
+                display: none;
+            }
+        }
+    }
+
+    .content {
+        h2 {
+            margin-bottom: 3rem;
+            max-width: 18ch;
+        }
+
+        p {
+            margin-bottom: 1.75rem;
+            max-width: 38ch;
+        }
+
+        ul {
+            display: grid;
+            gap: 0.5rem;
+
+            li {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+
+                img {
+                    flex-shrink: 0;
+                    width: 0.45rem;
+                    aspect-ratio: 1;
+                }
+            }
+        }
+
+        span {
+            font-size: 0.75rem;
+            display: block;
+            margin-top: 1.75rem;
+        }
+
+        a {
+            margin-top: 2.25rem;
+        }
+    }
+}

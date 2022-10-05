@@ -1,0 +1,21 @@
+<svg id="Grupo_2320" data-name="Grupo 2320" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="59.982" viewBox="0 0 60 59.982">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_730" data-name="Retângulo 730" width="60" height="59.982" fill="#de241b"/>
+    </clipPath>
+  </defs>
+  <rect id="Retângulo_724" data-name="Retângulo 724" width="2.385" height="7.137" transform="translate(26.959 36.136)" fill="#de241b"/>
+  <rect id="Retângulo_725" data-name="Retângulo 725" width="2.385" height="7.137" transform="translate(30.677 36.136)" fill="#de241b"/>
+  <g id="Grupo_2319" data-name="Grupo 2319">
+    <g id="Grupo_2318" data-name="Grupo 2318" clip-path="url(#clip-path)">
+      <path id="Caminho_2531" data-name="Caminho 2531" d="M29.992,0a29.991,29.991,0,0,0,0,59.982h0A29.991,29.991,0,1,0,29.992,0M49.877,49.876A28.119,28.119,0,0,1,10.109,10.111,28.119,28.119,0,1,1,49.877,49.876" transform="translate(0 0)" fill="#de241b"/>
+      <path id="Caminho_2532" data-name="Caminho 2532" d="M41.537,29.511H53.418V27.635h0l-1.333-2.654V18.254H41.092V24.98l-1.335,2.654h0v.837l-5.3,3.735H33.283V23.361h5.882V21.485h0l-1.334-2.654V12.1H26.839v6.726L25.5,21.485h0v1.876h5.9v8.847H30.234l-5.6-3.949v-.623h0L23.3,24.981V18.254H12.305V24.98l-1.334,2.654h0v1.877H23.152l3.825,2.7H25.8V53.394l13.1,0V32.207h-1.18Zm.321-1.877.751-1.493h7.957l.75,1.493Zm1.11-7.5h7.237v4.135H42.968ZM28.715,13.982h7.237v4.135H28.715Zm-.359,6.011h7.957l.75,1.492H27.605Zm-14.173.138h7.237v4.135H14.182Zm-.359,6.011h7.956l.751,1.493H13.072ZM37.016,51.518H27.673V34.084h9.344Z" transform="translate(-2.345 -2.588)" fill="#de241b"/>
+      <path id="Caminho_2533" data-name="Caminho 2533" d="M10.037,49.874H22.615v-9.51H10.037Zm1.876-7.633h8.825V48H11.913Z" transform="translate(-2.146 -8.629)" fill="#de241b"/>
+      <path id="Caminho_2534" data-name="Caminho 2534" d="M50.28,49.874H62.859v-9.51H50.28ZM60.982,48H52.156V42.242h8.826Z" transform="translate(-10.749 -8.629)" fill="#de241b"/>
+      <rect id="Retângulo_726" data-name="Retângulo 726" width="1.875" height="1.874" transform="translate(27.197 33.43)" fill="#de241b"/>
+      <rect id="Retângulo_727" data-name="Retângulo 727" width="1.875" height="1.874" transform="translate(27.197 44.649)" fill="#de241b"/>
+      <rect id="Retângulo_728" data-name="Retângulo 728" width="1.875" height="1.874" transform="translate(30.949 44.649)" fill="#de241b"/>
+      <rect id="Retângulo_729" data-name="Retângulo 729" width="1.875" height="1.874" transform="translate(30.949 33.43)" fill="#de241b"/>
+    </g>
+  </g>
+</svg>

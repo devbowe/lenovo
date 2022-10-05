@@ -1,0 +1,1140 @@
+html,
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+@media screen and (min-width:1024px) and (max-width:1600px) {
+    body {
+        zoom: 0.9;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+    margin: 0;
+}
+
+.clearfix {
+    overflow: auto;
+    display: contents;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#edgelenovo a:hover {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    transition-duration: .3s;
+}
+
+img {
+    max-width: 100%;
+}
+
+section {
+    scroll-behavior: smooth;
+}
+
+#edgelenovo a {
+    transition-duration: .3s;
+}
+
+b {
+    font-family: 'Gotham Bold';
+}
+
+@font-face {
+    font-family: "Gotham Bold";
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot");
+    /* IE9*/
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.ttf") format("truetype"),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.svg#Gotham Book") format("svg");
+    /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: "Gotham Book";
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot");
+    /* IE9*/
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.ttf") format("truetype"),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.svg#Gotham Book") format("svg");
+    /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: 'Gotham Light';
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.eot");
+    /* IE9*/
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.ttf") format("truetype"),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.svg#Gotham Light") format("svg");
+    /* iOS 4.1- */
+}
+
+/* Reset */
+
+/**formulário**/
+#edgelenovo #introducao-e-formulario .formulario {
+    background: #ffffff;
+    height: auto;
+    width: 394px;
+    float: right;
+    padding: 45px;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .16);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .16);
+    zoom: 0.9;
+    z-index: 3;
+    position: relative;
+}
+
+#edgelenovo #introducao-e-formulario .formulario #close-form {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    padding: 10px;
+    display: none
+}
+
+#edgelenovo #introducao-e-formulario .formulario .chamada {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#edgelenovo #introducao-e-formulario .formulario .chamada h2 {
+    color: #000;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 1.25;
+    margin: 0 0 20px 0
+}
+
+#edgelenovo #introducao-e-formulario .formulario .chamada p {
+    color: #000;
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: 20px !important;
+}
+
+#edgelenovo #introducao-e-formulario .formulario .chamada p strong {
+    font-weight: 500
+}
+
+#edgelenovo #introducao-e-formulario .formulario .chamada p a {
+    background: #de241b;
+    color: #fff;
+    display: inline-block;
+    padding: 1px 5px 0 5px;
+    font-weight: 500
+}
+
+#edgelenovo #introducao-e-formulario .formulario .mktoForm {
+    width: 100% !important
+}
+
+#edgelenovo #introducao-e-formulario .formulario .mktoButtonRow,
+#edgelenovo #introducao-e-formulario .formulario .mktoFieldWrap,
+#edgelenovo #introducao-e-formulario .formulario .mktoFormCol,
+#edgelenovo #introducao-e-formulario .formulario .mktoFormRow {
+    width: 100% !important
+}
+
+#edgelenovo #introducao-e-formulario .formulario .mktoFormCol {
+    width: 100% !important
+}
+
+#edgelenovo #introducao-e-formulario .formulario .mktoFormCol {
+    margin: 0 0 12px 0 !important
+}
+
+#edgelenovo #introducao-e-formulario .formulario .mktoFormCol:nth-child(even) {
+    float: right !important
+}
+
+#edgelenovo #introducao-e-formulario .formulario .mktoFormRow:nth-child(8) .mktoFormCol:nth-child(1) {
+    width: 100% !important
+}
+
+#edgelenovo #introducao-e-formulario .formulario .mktoFormRow:nth-child(8) .mktoFormCol:nth-child(2) {
+    display: none
+}
+
+#edgelenovo #introducao-e-formulario .formulario .mktoAsterix,
+#edgelenovo #introducao-e-formulario .formulario .mktoGutter,
+#edgelenovo #introducao-e-formulario .formulario .mktoOffset {
+    display: none !important
+}
+
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=date],
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=email],
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=number],
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=tel],
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=text],
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=url],
+#edgelenovo #introducao-e-formulario .formulario .mktoForm select.mktoField,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm textarea.mktoField {
+    width: 100% !important;
+    height: 40px;
+    border: solid 1px #c7c7c7;
+    font-family: 'Gotham Book', Helvetica, Arial, sans-serif;
+    color: #000000;
+    font-size: 14px;
+    padding-left: 16px;
+    font-weight: 500;
+    line-height: 100%
+}
+
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=date]::-webkit-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=email]::-webkit-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=number]::-webkit-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=tel]::-webkit-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=text]::-webkit-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=url]::-webkit-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm select.mktoField::-webkit-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm textarea.mktoField::-webkit-input-placeholder {
+    color: #de241b
+}
+
+.mktoForm div,
+.mktoForm span,
+.mktoForm label,
+.mktoForm p {
+    font-family: 'Gotham Book';
+}
+
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=date]:-ms-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=email]:-ms-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=number]:-ms-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=tel]:-ms-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=text]:-ms-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=url]:-ms-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm select.mktoField:-ms-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm textarea.mktoField:-ms-input-placeholder {
+    color: #000000
+}
+
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=date]::-ms-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=email]::-ms-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=number]::-ms-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=tel]::-ms-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=text]::-ms-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=url]::-ms-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm select.mktoField::-ms-input-placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm textarea.mktoField::-ms-input-placeholder {
+    color: #000000
+}
+
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=date]::placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=email]::placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=number]::placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=tel]::placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=text]::placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm input[type=url]::placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm select.mktoField::placeholder,
+#edgelenovo #introducao-e-formulario .formulario .mktoForm textarea.mktoField::placeholder {
+    color: #000000
+}
+
+#edgelenovo #introducao-e-formulario .formulario .mktoForm select.mktoField {
+    background: #ffffff url(https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_seta-select.svg) top 50% right 16px no-repeat !important;
+    -webkit-appearance: none !important
+}
+
+#edgelenovo #introducao-e-formulario .formulario .mktoForm textarea.mktoField {
+    padding-top: 15px !important
+}
+
+#edgelenovo #introducao-e-formulario .formulario .mktoLabel {
+    font-family: 'Gotham Book', Helvetica, Arial, sans-serif;
+    color: #000;
+    line-height: 1.5;
+    letter-spacing: .29px;
+    font-size: 12px
+}
+
+#edgelenovo #introducao-e-formulario .formulario .mktoButtonWrap {
+    width: 100% !important;
+    margin: 0 !important
+}
+
+#edgelenovo #introducao-e-formulario .formulario .mktoButtonWrap .mktoButton {
+    background: #DE241B;
+    font-family: 'Gotham Bold', Helvetica, Arial, sans-serif;
+    border: none;
+    width: 100% !important;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+    height: 64px;
+    text-transform: uppercase;
+    line-height: 2;
+    margin: 2px !important
+}
+
+@media screen and (min-width:1024px) and (max-width:1570px) {
+    #edgelenovo #introducao-e-formulario .formulario {
+        zoom: .9;
+    }
+
+    #edgelenovo #introducao-e-formulario .formulario br {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1370px) {
+    #edgelenovo #introducao-e-formulario .formulario {
+        zoom: .83
+    }
+}
+
+@media screen and (max-width:1024px) {
+    #edgelenovo #introducao-e-formulario .formulario .chamada p {
+        padding: 0;
+    }
+
+    #edgelenovo #introducao-e-formulario .formulario .mktoLabel {
+        word-wrap: break-word !important;
+        white-space: pre-line;
+        width: 100% !important
+    }
+
+    #edgelenovo #introducao-e-formulario .formulario {
+        width: 89%;
+        max-height: 1342px;
+        padding: 30px 20px 30px 20px;
+        zoom: 1;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+        margin: 0 !important
+    }
+
+    #edgelenovo #introducao-e-formulario .formulario #close-form {
+        display: block
+    }
+
+    #edgelenovo #introducao-e-formulario .formulario .chamada {
+        margin-bottom: 30px
+    }
+
+    #edgelenovo #introducao-e-formulario .formulario .chamada h1 {
+        font-size: 26px;
+        margin: 0 0 20px 0
+    }
+
+    #edgelenovo #introducao-e-formulario .formulario .chamada p {
+        font-size: 18px
+    }
+
+    #edgelenovo #introducao-e-formulario .formulario .mktoFormCol {
+        width: 100% !important
+    }
+
+    #edgelenovo #introducao-e-formulario .formulario .mktoFormCol {
+        margin: 0 0 22px 0 !important
+    }
+
+    #edgelenovo #introducao-e-formulario .formulario .mktoFormCol:nth-child(even) {
+        float: left !important
+    }
+}
+
+.container {
+    width: 90%;
+    max-width: 1224px;
+    margin: 0 auto;
+}
+
+.bg_video {
+    width: 100%;
+    height: 100vh;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+}
+
+#edgelenovo .logofix {
+    position: fixed;
+    right: 0;
+    top: 19%;
+    width: 60px;
+    z-index: 9;
+}
+
+#edgelenovo #introducao-e-formulario {
+    background: #000000 url(lenovo-e-processadores-new-bg01.webp) center right no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 80px 0;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+#edgelenovo #introducao-e-formulario .introducao {
+    width: 39%;
+    float: left;
+}
+
+#edgelenovo #introducao-e-formulario h1 {
+    font-family: 'Gotham Bold';
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: -1.9px;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:1024px) {
+    #edgelenovo #introducao-e-formulario h1 {
+        margin-top: 40px;
+    }
+}
+
+#edgelenovo #introducao-e-formulario h1 b {
+    color: #DE241B;
+}
+
+#edgelenovo #introducao-e-formulario .two {
+    font-size: 30px;
+    letter-spacing: -1.5px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+#edgelenovo #introducao-e-formulario strong {
+    font-family: 'Gotham Book';
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #de241b;
+    padding-bottom: 56px;
+    display: block;
+}
+
+#edgelenovo #introducao-e-formulario b {
+    font-family: 'Gotham Bold';
+}
+
+#edgelenovo #introducao-e-formulario h2 {
+    font-family: 'Gotham Book';
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+#edgelenovo #introducao-e-formulario h3 {
+    font-family: 'Gotham Book';
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+#edgelenovo #introducao-e-formulario p {
+    font-family: 'Gotham Book';
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-bottom: 40px;
+    width: 449px;
+}
+
+#edgelenovo #introducao-e-formulario .line {
+    font-family: 'Gotham Bold';
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 60px;
+    border-left: solid 3px #DE241B;
+    padding-left: 30px;
+    margin-left: -30px;
+}
+
+#edgelenovo #introducao-e-formulario .chamada p {
+    text-align: center;
+}
+
+#edgelenovo a {
+    text-decoration: none !important;
+}
+
+#edgelenovo #introducao-e-formulario h4 {
+    font-family: 'Gotham Bold', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 16px;
+}
+#edgelenovo #introducao-e-formulario h4 b{
+    color: #DE241B;
+}
+#edgelenovo #introducao-e-formulario h5 {
+    font-family: 'Gotham Bold', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2a3c46;
+}
+
+#edgelenovo #introducao-e-formulario .win {
+    padding-left: 40px;
+}
+
+@media screen and (max-width:1600px) {
+
+    /*#edgelenovo #introducao-e-formulario .introducao {
+zoom: 0.9   ;
+}*/
+    #edgelenovo #introducao-e-formulario .formulario .chamada p {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #edgelenovo #introducao-e-formulario .introducao {
+        width: 83%;
+        padding-bottom: 40px;
+        padding: 30px;
+    }
+
+    #edgelenovo #introducao-e-formulario {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #edgelenovo img {
+        max-width: 100%;
+    }
+
+    #edgelenovo #introducao-e-formulario .introducao {
+        margin-top: 0;
+    }
+
+    #edgelenovo #introducao-e-formulario .formulario {
+        display: none;
+    }
+}
+
+#cta-formulario-mobile {
+    background: #de241b;
+    font-family: 'Gotham Bold';
+    width: 100%;
+    height: 46px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0 0 0;
+    display: none;
+    font-weight: 900;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
+
+@media (max-width: 1024px) {
+    #edgelenovo #introducao-e-formulario .formulario .mktoForm {
+        margin: 0 auto;
+        width: 90% !important;
+    }
+
+    .btn-form {
+        display: none;
+    }
+
+    #cta-formulario-mobile {
+        display: block;
+    }
+
+    #edgelenovo #introducao-e-formulario .formulario {
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        float: none;
+        padding: 0;
+        zoom: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow-y: auto;
+        z-index: 99999;
+        display: none;
+        padding-top: 40px;
+        box-sizing: border-box;
+    }
+
+    #edgelenovo #introducao-e-formulario h5 {
+        padding-top: 50px;
+        font-size: 18px;
+    }
+
+    #edgelenovo #introducao-e-formulario h2 {
+        font-size: 34px;
+    }
+
+    #edgelenovo #introducao-e-formulario p {
+        font-family: 'Gotham Book';
+    }
+
+    #edgelenovo #introducao-e-formulario h3 {
+        font-family: 'Gotham Book';
+        font-size: 22px;
+    }
+
+    #edgelenovo #introducao-e-formulario {
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+}
+
+#edgelenovo #textojur {
+    background-color: #c4c4c4;
+    text-align: center;
+    padding: 38px 0;
+}
+
+#edgelenovo #textojur p {
+    width: 916px;
+    font-family: 'Gotham Book';
+    font-size: 11px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:1024px) {
+    #edgelenovo #textojur p {
+        width: 90%;
+        font-size: 10px;
+        padding-bottom: 80px;
+    }
+}
+
+#edgelenovo #introducao-e-formulario button {
+    width: auto;
+    height: 28px;
+    margin: 0;
+    padding: 2px 12px 2px 12px;
+    background: transparent;
+    border-radius: 4px;
+    border: solid 1px #ffffff;
+    font-family: 'Gotham Book';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.mktoCheckboxList {
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+#LblemailPermissionStatus {
+    font-family: 'GothamPro', sans-serif;
+    color: #000;
+    line-height: 1.5;
+    letter-spacing: .29px;
+    font-size: 12px;
+    text-align: justify;
+    width: 100% !important;
+    text-indent: 23px;
+}
+
+#edgelenovo #cta-formulario {
+    width: 416px;
+    height: 64px;
+    font-family: 'Gotham Book';
+    background-color: #de241b;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.8;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    display: block;
+    margin-top: 45px;
+}
+
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none !important;
+}
+
+@media screen and (max-width:1024px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block !important;
+    }
+}
+
+.divbutton {
+    display: block;
+    width: 100%;
+    margin: 34px 0;
+}
+
+.divbutton a {
+    font-family: 'Gotham Book';
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    width: 392px;
+    padding: 20px 0;
+    text-decoration: none;
+    background-color: #DE241B;
+    text-transform: uppercase;
+    display: block;
+}
+
+.logolenovo {
+    position: absolute;
+    width: 40px;
+    right: 0;
+    top: 100px;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#section02,#section04{
+    padding: 64px 0;
+}
+#section02 h2,#section04 h2{
+    font-family: "Gotham Bold";
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2a3c46;
+    padding-bottom: 47px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+#section04 h2 {
+    max-width: 580px;
+}
+#section04 a{
+    color: inherit;
+}
+#section02 p,#section04 p{
+    font-family: "Gotham Book";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2a3c46;
+}
+#section02 h2 b,#section04 h2 b{
+    color: #de241b;
+}
+#section03 {
+    background-image: linear-gradient(326deg, #ae2b34 0%, #4e2a73 100%);
+    padding: 80px 0;
+}
+#section03 h2{
+    font-family: "Gotham Bold";
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+#section03 h3{
+    font-family: "Gotham Bold";
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: -1.5px;
+    text-align: left;
+    color: #de241b;
+    padding-top: 20px;
+    max-width: 10ch;
+}
+#section03 p{
+    font-family: "Gotham Book";
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    padding-top: 30px;
+    max-width: 20ch;
+}
+#section03 ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+#section03 a{
+    margin: 0 auto;
+    margin-top: 60px;
+}
+#section05{
+    background: #fbfbfb url(lenovo-e-processadores-new-bg02.webp) right center no-repeat;
+    background-size: contain;
+}
+.content h2{
+    font-family: "Gotham Bold";
+    font-size: 31px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2a3c46;
+    padding-bottom: 32px;
+}
+.content p{
+    font-family: "Gotham Book";
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2a3c46;
+}
+.content{
+    width: 50%;
+}
+#section05 .content{
+    background-color: #fbfbfb;
+    padding: 80px 80px 80px 0;
+}
+#section06{
+    background: url(lenovo-e-processadores-new-bg03.svg) top center no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+#section06 h2{
+    font-family: "Gotham Bold";
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+#section07{
+    background: #fbfbfb url(lenovo-e-processadores-new-bg04.webp) left center no-repeat;
+    background-size: contain;
+}
+#section07 .content{
+    margin-left: auto;
+    background-color: #fbfbfb;
+    padding: 80px 0 80px 80px;
+}
+#section08{
+    background: #fff url(lenovo-e-processadores-new-bg05.webp) right center no-repeat;
+    background-size: contain;
+}
+#section08 .content{
+    background-color: #fff;
+    padding: 80px 80px 80px 0;
+}
+#section09{
+    background-image: linear-gradient(72deg, #ae2b34 0%, #4e2a73 100%);
+    background-size: cover;
+    padding: 80px 0;
+    text-align: center;
+}
+#section09 h2{
+    font-family: "Gotham Bold";
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    max-width: 30ch;
+}
+#section09 p{
+    font-family: "Gotham Book";
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    padding: 44px 0 20px 0;
+    margin: 0 auto;
+    max-width: 60ch;
+}
+#section09 .divbutton a{
+    background: transparent;
+    border: solid 2px #fff;
+    margin: 0 auto;
+}
+
+
+
+
+/** ipad, surface e tablets **/
+@media screen and (min-width:766px) and (max-width:1024px) {
+    #edgelenovo #introducao-e-formulario .introducao {
+        width: 79%;
+        float: left;
+    }
+    #edgelenovo #introducao-e-formulario p {
+        width: 321px;
+    }
+
+    h2,
+    h3 {
+        font-size: 30px !important;
+    }
+
+    .divbutton a {
+        width: 351px;
+        display: none;
+    }
+
+    #edgelenovo #introducao-e-formulario p {
+        width: 461px;
+    }
+    #section03 ul {
+        grid-template-columns: repeat(2,1fr);
+        gap: 0;
+        text-align: center!important;
+    }
+    #section03 li {
+        padding-bottom: 20px;
+    }
+    #section03 h3,#section03 p{
+        max-width: 70%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #section05,#section07,#section08 {
+        background-size: cover;
+        padding: 40px 0;
+    }
+    .content{
+        padding: 40px!important;
+    }
+}
+
+/**iphone, android, celulares e demais**/
+@media screen and (max-width:766px) {
+
+    #edgelenovo #introducao-e-formulario {
+        background: #000000 url(lenovo-e-processadores-new-bg01.webp) center center no-repeat;
+    }
+
+    #edgelenovo #introducao-e-formulario .logointel {
+        padding-top: 44px;
+    }
+
+    #edgelenovo #introducao-e-formulario p {
+        width: 100%;
+    }
+
+    .logolenovo {
+        width: 35px;
+        top: 60px;
+    }
+
+    #edgelenovo #introducao-e-formulario .introducao {
+        zoom: 1;
+    }
+
+    h2 {
+        font-size: 22px !important;
+    }
+
+    h3 {
+        font-size: 18px !important;
+    }
+
+    p {
+        font-size: 16px !important;
+    }
+
+    .divbutton a {
+        font-size: 16px;
+        width: 100%;
+        display: block;
+        height: auto;
+        padding: 12px 0px;
+        display: none;
+    }
+
+    .divbutton {
+        display: none;
+    }
+
+    #edgelenovo #textojur p {
+        width: 90%;
+        font-size: 10px !important;
+    }
+
+    #edgelenovo #introducao-e-formulario h2 {
+        font-size: 13px !important;
+    }
+
+    #edgelenovo #introducao-e-formulario h1 {
+        font-size: 29px !important;
+        margin: 20px 0;
+    }
+
+    #edgelenovo #introducao-e-formulario h1 br {
+        display: none;
+    }
+
+    #edgelenovo #introducao-e-formulario .two {
+        font-size: 21px !important;
+    }
+
+    #edgelenovo #introducao-e-formulario .formulario .chamada br {
+        display: none
+    }
+    #section03 ul {
+        grid-template-columns: repeat(1,1fr);
+        gap: 0;
+        text-align: center!important;
+    }
+    #section03 li {
+        padding-bottom: 20px;
+    }
+    #section03 h3,#section03 p{
+        max-width: 80%;
+        text-align: center;
+        padding: 10px!important;
+        margin: 0 auto;
+    }
+    #section05,#section07,#section08 {
+        background-size: contain;
+        background-position: top;
+        padding: 60% 0 40px 0;
+    }
+    .content{
+        width: 100%;
+        background: #fff!important;
+        margin-left: -20px!important;
+        padding: 20px!important;
+    }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Grupo_1351" data-name="Grupo 1351" transform="translate(-180 -7509)">
+    <path id="Caminho_934" data-name="Caminho 934" d="M758.256,560.354a20,20,0,1,1,20-20A20.024,20.024,0,0,1,758.256,560.354Zm0-38.788a18.788,18.788,0,1,0,18.788,18.788A18.809,18.809,0,0,0,758.256,521.566Z" transform="translate(-558.256 6988.646)" fill="#fff"/>
+    <g id="clock" transform="translate(189 7518)">
+      <path id="Caminho_2217" data-name="Caminho 2217" d="M11,0A11,11,0,1,0,22,11,11.024,11.024,0,0,0,11,0Zm0,20.711A9.711,9.711,0,1,1,20.711,11,9.722,9.722,0,0,1,11,20.711Z" fill="#fff"/>
+      <path id="Caminho_2218" data-name="Caminho 2218" d="M131.958,127.445a.645.645,0,0,0,0-1.289h-3.334a1.933,1.933,0,0,0-2.656-1.1l-3.867-3.867a.645.645,0,0,0-.911.911l3.867,3.867a1.931,1.931,0,0,0,0,1.666l-2.578,2.578a.645.645,0,0,0,.911.911l2.578-2.578a1.933,1.933,0,0,0,2.656-1.1Zm-5.156,0a.645.645,0,1,1,.645-.645A.645.645,0,0,1,126.8,127.445Z" transform="translate(-115.801 -115.8)" fill="#fff"/>
+      <circle id="Elipse_114" data-name="Elipse 114" cx="0.645" cy="0.645" r="0.645" transform="translate(15.824 15.824)" fill="#fff"/>
+      <circle id="Elipse_115" data-name="Elipse 115" cx="0.645" cy="0.645" r="0.645" transform="translate(4.886 15.824)" fill="#fff"/>
+      <circle id="Elipse_116" data-name="Elipse 116" cx="0.645" cy="0.645" r="0.645" transform="translate(15.824 4.886)" fill="#fff"/>
+      <circle id="Elipse_117" data-name="Elipse 117" cx="1" cy="1" r="1" transform="translate(10 2)" fill="#fff"/>
+      <circle id="Elipse_118" data-name="Elipse 118" cx="1" cy="1" r="1" transform="translate(10 18)" fill="#fff"/>
+      <circle id="Elipse_119" data-name="Elipse 119" cx="1" cy="1" r="1" transform="translate(2 10)" fill="#fff"/>
+      <circle id="Elipse_120" data-name="Elipse 120" cx="1" cy="1" r="1" transform="translate(18 10)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

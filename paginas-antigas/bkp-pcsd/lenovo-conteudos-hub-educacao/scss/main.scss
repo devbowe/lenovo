@@ -1,0 +1,16 @@
+@use "reset";
+@use "global";
+
+@use "components/fixed-logo";
+@use "components/form";
+@use "components/articles";
+@use "components/forms";
+
+@use "sections/hero";
+@use "sections/blog-articles";
+@use "sections/materials";
+@use "sections/institucionals";
+@use "sections/pre-footer";
+@use "sections/footer";
+
+@use "sections/pagination";

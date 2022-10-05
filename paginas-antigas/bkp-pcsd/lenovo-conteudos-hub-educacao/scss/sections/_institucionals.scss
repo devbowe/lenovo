@@ -1,0 +1,42 @@
+.institucionals {
+    padding-block: var(--spacing);
+
+    @media (min-width: 1000px) {
+        .articles {
+            grid-template-areas:
+                "article01 article01 article01"
+                "article02 article03 article04";
+
+            @for $value from 1 to 5 {
+                .article0#{$value} {
+                    grid-area: article0#{$value};
+                }
+            }
+        }
+
+        .article01 {
+            grid-template-areas:
+                "header header main"
+                "header header main"
+                "header header footer";
+            gap: 1rem;
+
+            header {
+                grid-area: header;
+                padding-top: 0;
+                padding-right: 0;
+            }
+
+            main {
+                grid-area: main;
+                padding-right: 0;
+            }
+
+            footer {
+                grid-area: footer;
+                padding-bottom: 0;
+                padding-right: 0;
+            }
+        }
+    }
+}

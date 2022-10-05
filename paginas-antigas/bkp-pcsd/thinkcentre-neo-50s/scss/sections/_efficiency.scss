@@ -1,0 +1,54 @@
+.efficiency {
+    padding-block: var(--spacing);
+
+    &__container {
+        display: grid;
+        gap: 3rem;
+
+        h2 {
+            font-weight: 600;
+        }
+
+        ul {
+            margin-block: 2rem;
+        }
+
+        span {
+            font-size: 0.75rem;
+            line-height: 1.2;
+            display: block;
+        }
+
+        a {
+            margin-top: 2rem;
+        }
+    }
+
+    @media (max-width: 55em) {
+        .image {
+            width: min(100%, 25rem);
+            margin-inline: auto;
+        }
+    }
+
+    @media (min-width: 55em) {
+        padding-block: 0;
+        overflow: hidden;
+
+        &__container {
+            grid-template-columns: 1fr 1fr;
+            position: relative;
+            padding-block: var(--spacing);
+
+            .content {
+                grid-column: 2/3;
+            }
+
+            .image {
+                position: absolute;
+                grid-column: 1/2;
+                bottom: -5rem;
+            }
+        }
+    }
+}

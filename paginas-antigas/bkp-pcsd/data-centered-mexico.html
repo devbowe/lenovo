@@ -1,0 +1,1431 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    "gtm.start": new Date().getTime(),
+                    event: "gtm.js",
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != "dataLayer" ? "&l=" + l : "";
+                j.async = true;
+                j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, "script", "dataLayer", "GTM-5J26ZVM");
+        </script>
+        <!-- End Google Tag Manager -->
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-HTKLV5MZTM"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "G-HTKLV5MZTM");
+        </script>
+
+        <!-- Global site tag (gtag.js) - Google Ads: 580984896 -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=AW-580984896"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "AW-580984896");
+        </script>
+
+        <!-- META TAGS -->
+        <meta charset="utf-8" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+
+        <!-- <link rel="stylesheet" href="css/main.css" /> -->
+
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+        />
+        <meta http-equiv="cleartype" content="on" />
+        <meta
+            name="keywords"
+            content="lenovo, think, etechnology, thinkpad, thinksmart, Lenovo"
+        />
+        <meta
+            name="title"
+            content="Soluciones más inteligentes para las personas Centradas en Datos"
+        />
+        <meta
+            name="description"
+            content="Los datos no transforman al mundo. Las personas lo transforman, con las soluciones de infraestructura más inteligentes de Lenovo."
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="bowe - bowe.com.br" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="black-translucent"
+        />
+
+        <!-- FB -->
+        <meta property="og:locale" content="pt_BR" />
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:title"
+            content="Soluciones más inteligentes para las personas Centradas en Datos"
+        />
+        <meta
+            property="og:description"
+            content="Los datos no transforman al mundo. Las personas lo transforman, con las soluciones de infraestructura más inteligentes de Lenovo."
+        />
+        <meta property="og:url" content />
+        <meta
+            property="og:site_name"
+            content="Los datos no transforman al mundo. Las personas lo transforman, con las soluciones de infraestructura más inteligentes de Lenovo."
+        />
+        <meta property="og:image" content />
+        <meta property="og:image:secure_url" content />
+
+        <!-- Favicon -->
+        <link
+            rel="shortcut icon"
+            type="image/png"
+            href="https://www.lenovo.com/favicon.ico"
+        />
+
+        <!-- TITLE -->
+        <title>
+            Soluciones más inteligentes para las personas Centradas en Datos
+        </title>
+
+        <script src="https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_assets.min.js"></script>
+        <script src="https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_scripts.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="//app-ab27.marketo.com/js/forms2/js/forms2.min.js"></script>
+
+        <script>
+            MktoForms2.loadForm(
+                "//app-ab27.marketo.com",
+                "183-WCT-620",
+                3099,
+                function (form) {
+                    $("input").change(function () {
+                        comentarios =
+                            "Cargo: " +
+                            $("select[name='Title']").val() +
+                            " - " +
+                            "Segmento: " +
+                            $("select[name='segment']").val() +
+                            " - " +
+                            "Número de Funcionários: " +
+                            $("input[name='employeeSizeRange']").val() +
+                            " - " +
+                            "utm_campaign: " +
+                            $("input[name='mktoutmcampaign']").val() +
+                            " - " +
+                            "utm_content: " +
+                            $("input[name='mktoutmcontentdownload']").val() +
+                            " - " +
+                            "utm_medium: " +
+                            $("input[name='mktoutmmedium']").val() +
+                            " - " +
+                            "utm_source: " +
+                            $("input[name='mktoutmsource']").val() +
+                            " - " +
+                            "Lead Source: " +
+                            $("input[name='sourceCampaign']").val() +
+                            " - " +
+                            "Página: " +
+                            window.location.href;
+
+                        $("input[name='dCGPersonNotes']").val(comentarios);
+                        $("input[name='iDGPersonNotes']").val(comentarios);
+                    });
+
+                    $("#FirstName").keypress(function (e) {
+                        var keyCode = e.keyCode ? e.keyCode : e.which; // Variar a chamada do keyCode de acordo com o ambiente.
+                        if (keyCode > 47 && keyCode < 58) {
+                            e.preventDefault();
+                        }
+                    });
+
+                    $("#FirstName").on("input", function () {
+                        $(this).val(
+                            $(this)
+                                .val()
+                                .replace(/[^a-z0-9]/gi, "")
+                        );
+                    });
+
+                    $("#LastName").keypress(function (e) {
+                        var keyCode = e.keyCode ? e.keyCode : e.which; // Variar a chamada do keyCode de acordo com o ambiente.
+                        if (keyCode > 47 && keyCode < 58) {
+                            e.preventDefault();
+                        }
+                    });
+                    $("#LastName").on("input", function () {
+                        $(this).val(
+                            $(this)
+                                .val()
+                                .replace(/[^a-z0-9]/gi, "")
+                        );
+                    });
+
+                    $("input[name='leadSourceLastDCG']").val(
+                        "DCG_22FY_LA_LAHQ_STRG_STOR_DMDE_MED_39671_Bowe-Storage-ContactMe"
+                    );
+                    $("input[name='leadSourceLast']").val(
+                        "DCG_22FY_LA_LAHQ_STRG_STOR_DMDE_MED_39671_Bowe-Storage-ContactMe"
+                    );
+                    $("input[name='sourceCampaign']").val(
+                        "DCG_22FY_LA_LAHQ_STRG_STOR_DMDE_MED_39671_Bowe-Storage-ContactMe"
+                    );
+                }
+            );
+        </script>
+
+        <style>
+            @font-face {
+                font-family: "Gotham Bold";
+                src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot");
+                /* IE9*/
+                src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot?#iefix")
+                        format("embedded-opentype"),
+                    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.woff2")
+                        format("woff2"),
+                    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.woff")
+                        format("woff"),
+                    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.ttf")
+                        format("truetype"),
+                    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.svg#Gotham Book")
+                        format("svg");
+                /* iOS 4.1- */
+            }
+            @font-face {
+                font-family: "Gotham Book";
+                src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot");
+                /* IE9*/
+                src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot?#iefix")
+                        format("embedded-opentype"),
+                    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.woff2")
+                        format("woff2"),
+                    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.woff")
+                        format("woff"),
+                    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.ttf")
+                        format("truetype"),
+                    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.svg#Gotham Book")
+                        format("svg");
+                /* iOS 4.1- */
+            }
+            @font-face {
+                font-family: "Gotham Light";
+                src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.eot");
+                /* IE9*/
+                src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.eot?#iefix")
+                        format("embedded-opentype"),
+                    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.woff2")
+                        format("woff2"),
+                    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.woff")
+                        format("woff"),
+                    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.ttf")
+                        format("truetype"),
+                    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.svg#Gotham Light")
+                        format("svg");
+                /* iOS 4.1- */
+            }
+            :root {
+                --green: #6abf4b;
+                --neutral-light: #fff;
+                --neutral-dark: #2f3e47;
+                --green: #6abf4b;
+                --purple: #8347ad;
+                --blue: #3a8dde;
+                --ff-normal: "Gotham Book", sans-serif;
+                --ff-light: "Gotham Light", sans-serif;
+                --ff-bold: "Gotham Bold", sans-serif;
+            }
+
+            *,
+            *::after,
+            *::before {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+
+            html {
+                scroll-behavior: smooth;
+                font-size: 93.75%;
+            }
+            @media (min-width: 40em) {
+                html {
+                    font-size: 100%;
+                }
+            }
+
+            body {
+                min-height: 100vh;
+                line-height: 1.4;
+                font-family: var(--ff-normal);
+            }
+
+            img {
+                max-width: 100%;
+                display: block;
+            }
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+
+            /* ---------------------------- UTILITY CLASSES ------------------------------- */
+            .container {
+                width: 90%;
+                max-width: 65em;
+                margin-inline: auto;
+            }
+
+            .main-title {
+                font-size: 2.25rem;
+                line-height: 2.5rem;
+                font-family: var(--ff-bold);
+                font-weight: 900;
+                max-width: 15ch;
+                background: linear-gradient(
+                    to right,
+                    #c7dd9b,
+                    #cedb7a,
+                    #97d1a5 70%
+                );
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            @media (min-width: 90em) {
+                .main-title {
+                    font-size: 3.625rem;
+                    line-height: 3.75rem;
+                }
+            }
+
+            /* ---------------------------CUSTOM CARD SECTION --------------------------- */
+            .custom--section {
+                --color: var(--green);
+            }
+            .custom--section-container {
+                padding-block: 1.875rem;
+            }
+            .custom--section-container p {
+                font-size: 1.125rem;
+                font-weight: 400;
+                line-height: 1.25rem;
+            }
+            .custom--section-container h2 {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                font-family: var(--ff-bold);
+                font-weight: 700;
+                font-size: 1.625rem;
+                line-height: 1;
+                margin-block: 1.875rem;
+            }
+            .custom--section-container h2::before {
+                content: "";
+                width: 4px;
+                height: 30px;
+                position: relative;
+                display: block;
+                background-color: var(--color);
+            }
+            @media (min-width: 64em) {
+                .custom--section-container {
+                    padding-block: 2.5rem;
+                }
+                .custom--section-container h2 {
+                    margin-block: 2.8125rem;
+                }
+            }
+            @media (min-width: 90em) {
+                .custom--section-container {
+                    padding-block: 2.9375rem;
+                }
+            }
+            .custom--section .cards {
+                display: grid;
+                gap: 1.875rem;
+            }
+            @media (min-width: 64em) {
+                .custom--section .cards {
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 3.875rem;
+                }
+            }
+            @media (min-width: 90em) {
+                .custom--section .cards {
+                    gap: 0;
+                }
+            }
+            .custom--section .card {
+                display: grid;
+                grid-template-rows: max-content 1fr;
+                gap: 1.25rem;
+            }
+            .custom--section .card img {
+                max-width: 140px;
+                margin-inline: auto;
+            }
+            .custom--section .card p {
+                font-size: 1.125rem;
+                line-height: 1.25rem;
+                text-align: center;
+                max-width: 266px;
+                margin-inline: auto;
+            }
+            .custom--section .card p strong {
+                font-weight: 700;
+                color: var(--color);
+            }
+            .custom--section .card p span {
+                color: var(--color);
+            }
+            .custom--section .custom--section-footer {
+                background-color: var(--color);
+                color: var(--neutral-light);
+                padding-block: 1.875rem;
+            }
+            .custom--section .custom--section-footer-container {
+                display: flex;
+                flex-direction: column;
+                gap: 1.25rem;
+                align-items: center;
+            }
+            .custom--section .custom--section-footer-container p {
+                text-align: center;
+                font-size: 1.25rem;
+                font-weight: 400;
+                line-height: 1.375rem;
+            }
+            .custom--section .custom--section-footer-container a {
+                display: block;
+                border: 2px solid var(--neutral-light);
+                border-radius: 5px;
+                padding: 10px 20px;
+                font-weight: 700;
+                font-size: 1.125rem;
+                line-height: 1;
+                min-width: fit-content;
+            }
+            .custom--section .custom--section-footer-container a:hover,
+            .custom--section .custom--section-footer-container a:focus {
+                transition: all 300ms ease;
+                background-color: #fff;
+                color: var(--color);
+            }
+            @media (min-width: 64em) {
+                .custom--section .custom--section-footer {
+                    padding-block: 2.5rem;
+                }
+                .custom--section .custom--section-footer-container {
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+                .custom--section .custom--section-footer-container p {
+                    text-align: left;
+                    max-width: 60ch;
+                }
+            }
+
+            /* ---------------------------- BANNER SECTION ------------------------------- */
+            .banner--section {
+                background-image: url("https://pages.lenovo.com/rs/183-WCT-620/images/data-centered_banner__01.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                color: var(--neutral-light);
+                padding-block: 9.375rem;
+            }
+            .banner--section-container .content h2 {
+                font-family: var(--ff-bold);
+                font-size: 1.5rem;
+                line-height: 1.625rem;
+                font-weight: 700;
+                max-width: 18.5ch;
+            }
+            .banner--section-container .content p {
+                font-weight: 400;
+                line-height: 1.125rem;
+            }
+            .banner--section-container .content p:nth-child(2) {
+                margin-top: 0.625rem;
+                margin-bottom: 3.5rem;
+                max-width: 34ch;
+            }
+            .banner--section-container .content .hightlight {
+                font-weight: 700;
+                line-height: 1.125;
+                max-width: 30ch;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+            }
+            .banner--section-container .content .hightlight::before {
+                content: "";
+                background-color: #ffda00;
+                width: 6px;
+                height: 50px;
+            }
+            @media (min-width: 64em) {
+                .banner--section-container .content p:nth-child(2) {
+                    margin-top: 1.875rem;
+                    margin-bottom: 2.5625rem;
+                }
+            }
+            @media (min-width: 90em) {
+                .banner--section-container .content h2 {
+                    font-size: 2.375rem;
+                    line-height: 2.5rem;
+                }
+                .banner--section-container .content p {
+                    font-size: 1.5rem;
+                    line-height: 1.625rem;
+                }
+                .banner--section-container .content p:nth-child(2) {
+                    margin-top: 2.375rem;
+                    margin-bottom: 5.625rem;
+                }
+                .banner--section-container .content .hightlight {
+                    max-width: 28ch;
+                }
+            }
+            @media (min-width: 64em) {
+                .banner--section {
+                    padding-block: 6.25rem;
+                }
+            }
+            @media (min-width: 90em) {
+                .banner--section {
+                    padding-block: 8.125rem;
+                }
+            }
+            .banner--section.second {
+                background-image: url("https://pages.lenovo.com/rs/183-WCT-620/images/data-centered_banner__02.png");
+            }
+
+            /* ---------------------------HEADER --------------------------- */
+            .header {
+                background-image: url("https://pages.lenovo.com/rs/183-WCT-620/images/data-centered_header__bg.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: left;
+                background-color: var(--neutral-dark);
+                color: var(--neutral-light);
+            }
+            .header__container {
+                padding-top: 4.625rem;
+                padding-bottom: 2.5rem;
+            }
+            .header__container .content h1 {
+                margin-bottom: 3.125rem;
+            }
+            .header__container .content h2 {
+                margin-bottom: 0.625rem;
+            }
+            .header__container .content p {
+                margin-bottom: 2.5rem;
+                max-width: 38ch;
+            }
+            .header__container .content span {
+                margin-bottom: 4.25rem;
+                font-weight: 700;
+                line-height: 1.125rem;
+                max-width: 30ch;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+            }
+            .header__container .content span::before {
+                content: "";
+                background-color: #ffda00;
+                width: 6px;
+                height: 50px;
+            }
+            @media (min-width: 90em) {
+                .header__container .content span {
+                    max-width: 28ch;
+                }
+            }
+            .header__container .content img {
+                max-width: 5rem;
+            }
+            @media (min-width: 64em) {
+                .header__container .content h2 {
+                    margin-bottom: 1.875rem;
+                }
+                .header__container .content p,
+                .header__container .content span {
+                    margin-bottom: 2.5rem;
+                }
+                .header__container .content img {
+                    max-width: 7.5rem;
+                }
+            }
+            @media (min-width: 90em) {
+                .header__container .content h1 {
+                    margin-bottom: 3.1875rem;
+                }
+                .header__container .content h2 {
+                    margin-bottom: 1.25rem;
+                }
+                .header__container .content p {
+                    margin-bottom: 2.6875rem;
+                }
+                .header__container .content span {
+                    margin-bottom: 5.5rem;
+                }
+                .header__container .content img {
+                    max-width: 10.8125rem;
+                }
+            }
+            @media (min-width: 64em) {
+                .header__container {
+                    display: grid;
+                    grid-template-columns: 1.25fr 1fr;
+                    align-items: center;
+                }
+            }
+
+            .fixed-logo {
+                position: absolute;
+                top: 8%;
+                right: 0;
+            }
+            .fixed-logo img {
+                max-width: 2.375rem;
+            }
+            @media (min-width: 64em) {
+                .fixed-logo {
+                    top: 5%;
+                }
+            }
+            @media (min-width: 90em) {
+                .fixed-logo {
+                    top: 6%;
+                }
+                .fixed-logo img {
+                    max-width: 3.375rem;
+                }
+            }
+
+            /* ---------------------------- FOOTER ------------------------------- */
+            .footer {
+                background-color: var(--neutral-dark);
+                color: var(--neutral-light);
+            }
+            .footer-container {
+                padding-block: 2.375rem;
+                display: flex;
+                flex-direction: column;
+                gap: 1.25rem;
+                text-align: center;
+            }
+            .footer-container p {
+                font-size: 0.75rem;
+                font-family: var(--ff-book);
+            }
+
+            /* ---------------------------- FORM STYLES ------------------------------- */
+            .cta-formulario-mobile {
+                background-color: var(--green);
+                font-family: var(--ff-bold);
+                width: 100vw;
+                font-size: 16px;
+                color: #fff;
+                text-transform: uppercase;
+                text-align: center;
+                padding: 1.25rem;
+                display: none;
+                font-weight: 900;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                z-index: 999;
+            }
+            @media (max-width: 1100px) {
+                .cta-formulario-mobile {
+                    display: block;
+                }
+            }
+
+            .header-form {
+                color: #000;
+                text-align: center;
+                font-size: 1.125rem;
+                font-family: var(--ff-normal);
+                padding-bottom: 1rem;
+            }
+            .header-form h2 {
+                margin-bottom: 0.75rem;
+                font-family: var(--ff-bold);
+            }
+
+            /* ---------------------------- FORM MARKETO RESET ------------------------------- */
+            #LblemailPermissionStatus {
+                font-family: "Gotham Book", sans-serif;
+                color: #000;
+                line-height: 1.5;
+                letter-spacing: 0.29px;
+                font-size: 12px;
+                text-align: justify;
+                width: 100% !important;
+                text-indent: 23px;
+            }
+
+            #introducao-e-formulario .formulario {
+                background: #ffffff;
+                padding: 30px 20px;
+                -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.16);
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.16);
+            }
+
+            #introducao-e-formulario .formulario #close-form {
+                background: #fff;
+                z-index: 999999;
+                padding: 0 10px 30px 0;
+                display: block;
+            }
+            #introducao-e-formulario .formulario #close-form img {
+                margin-left: auto;
+            }
+            @media (min-width: 1024px) {
+                #introducao-e-formulario .formulario #close-form {
+                    display: none;
+                }
+            }
+
+            #introducao-e-formulario .formulario .chamada h2 {
+                color: #000;
+                font-size: 32px;
+                font-weight: 900;
+                line-height: 1.25;
+                margin: 0 0 20px 0;
+            }
+
+            #introducao-e-formulario .formulario .mktoForm {
+                width: 100% !important;
+            }
+
+            #introducao-e-formulario .formulario .mktoButtonRow,
+            #introducao-e-formulario .formulario .mktoFieldWrap,
+            #introducao-e-formulario .formulario .mktoFormCol,
+            #introducao-e-formulario .formulario .mktoFormRow {
+                width: 100% !important;
+            }
+
+            #introducao-e-formulario .formulario .mktoFormCol {
+                width: 100% !important;
+            }
+
+            #introducao-e-formulario .formulario .mktoFormCol {
+                margin: 0 0 12px 0 !important;
+            }
+
+            #introducao-e-formulario
+                .formulario
+                .mktoFormRow:nth-child(8)
+                .mktoFormCol:nth-child(1) {
+                width: 100% !important;
+            }
+
+            #introducao-e-formulario
+                .formulario
+                .mktoFormRow:nth-child(8)
+                .mktoFormCol:nth-child(2) {
+                display: none;
+            }
+
+            #introducao-e-formulario .formulario .mktoAsterix,
+            #introducao-e-formulario .formulario .mktoGutter,
+            #introducao-e-formulario .formulario .mktoOffset {
+                display: none !important;
+            }
+
+            #introducao-e-formulario .formulario .mktoForm input[type="date"],
+            #introducao-e-formulario .formulario .mktoForm input[type="email"],
+            #introducao-e-formulario .formulario .mktoForm input[type="number"],
+            #introducao-e-formulario .formulario .mktoForm input[type="tel"],
+            #introducao-e-formulario .formulario .mktoForm input[type="text"],
+            #introducao-e-formulario .formulario .mktoForm input[type="url"],
+            #introducao-e-formulario .formulario .mktoForm select.mktoField,
+            #introducao-e-formulario .formulario .mktoForm textarea.mktoField {
+                width: 100% !important;
+                height: 40px;
+                border: solid 1px #c7c7c7;
+                font-family: "Gotham Book", Helvetica, Arial, sans-serif;
+                color: #000000;
+                font-size: 14px;
+                padding-left: 16px;
+                font-weight: 500;
+                line-height: 100%;
+            }
+
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="date"]::-webkit-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="email"]::-webkit-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="number"]::-webkit-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="tel"]::-webkit-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="text"]::-webkit-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="url"]::-webkit-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                select.mktoField::-webkit-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                textarea.mktoField::-webkit-input-placeholder {
+                color: #f06a22;
+            }
+
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="date"]:-ms-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="email"]:-ms-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="number"]:-ms-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="tel"]:-ms-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="text"]:-ms-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="url"]:-ms-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                select.mktoField:-ms-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                textarea.mktoField:-ms-input-placeholder {
+                color: #000000;
+            }
+
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="date"]::-ms-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="email"]::-ms-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="number"]::-ms-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="tel"]::-ms-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="text"]::-ms-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="url"]::-ms-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                select.mktoField::-ms-input-placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                textarea.mktoField::-ms-input-placeholder {
+                color: #000000;
+            }
+
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="date"]::placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="email"]::placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="number"]::placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="tel"]::placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="text"]::placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                input[type="url"]::placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                select.mktoField::placeholder,
+            #introducao-e-formulario
+                .formulario
+                .mktoForm
+                textarea.mktoField::placeholder {
+                color: #000000;
+            }
+
+            #introducao-e-formulario .formulario .mktoForm select.mktoField {
+                background: #ffffff
+                    url(https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_seta-select.svg)
+                    top 50% right 16px no-repeat !important;
+                -webkit-appearance: none !important;
+            }
+
+            #introducao-e-formulario .formulario .mktoForm textarea.mktoField {
+                padding-top: 15px !important;
+            }
+
+            #introducao-e-formulario .formulario .mktoLabel {
+                font-family: "Gotham Book", Helvetica, Arial, sans-serif;
+                color: #000;
+                line-height: 1.5;
+                letter-spacing: 0.29px;
+                font-size: 12px;
+            }
+
+            #introducao-e-formulario .formulario .mktoButtonWrap {
+                width: 100% !important;
+                margin: 0 !important;
+            }
+
+            #introducao-e-formulario .formulario .mktoButtonWrap .mktoButton {
+                background: var(--green);
+                border-radius: 10px;
+                font-family: var(--ff-bold);
+                border: none;
+                width: 100% !important;
+                font-size: 20px;
+                color: #fff;
+                font-weight: 700;
+                text-align: center;
+                text-transform: uppercase;
+                line-height: 2;
+                margin: 2px !important;
+            }
+
+            @media screen and (max-width: 1570px) {
+                #introducao-e-formulario .introducao {
+                    margin: 0 30px 0 0 !important;
+                }
+            }
+            @media screen and (max-width: 1370px) {
+                #introducao-e-formulario {
+                    padding: 50px 0 !important;
+                }
+            }
+            @media screen and (max-width: 64em) {
+                #introducao-e-formulario .formulario .mktoLabel {
+                    word-wrap: break-word !important;
+                    white-space: pre-line;
+                    width: 100% !important;
+                }
+
+                #introducao-e-formulario .formulario {
+                    display: none;
+                    position: fixed;
+                    width: 100%;
+                    height: 100%;
+                    padding: 30px 20px 30px 20px;
+                    zoom: 1;
+                    top: 0;
+                    left: 0;
+                    z-index: 99999;
+                    margin: 0 !important;
+                    float: none;
+                    overflow-y: auto;
+                }
+
+                #introducao-e-formulario .formulario #close-form {
+                    display: block;
+                }
+
+                #introducao-e-formulario .formulario .mktoFormCol {
+                    width: 100% !important;
+                }
+
+                #introducao-e-formulario .formulario .mktoFormCol {
+                    margin: 0 0 22px 0 !important;
+                }
+            }
+            .mktoCheckboxList {
+                position: absolute;
+                left: 0;
+                top: 2px;
+            }
+
+            #Lbllvo_isoptinemailsent {
+                font-family: "Gotham Book", sans-serif;
+                color: #000;
+                line-height: 1.5;
+                letter-spacing: 0.29px;
+                font-size: 12px;
+                text-align: justify;
+                width: 567px !important;
+                text-indent: 23px;
+            }
+
+            @media screen and (max-width: 1100px) {
+                #Lbllvo_isoptinemailsent {
+                    width: 100% !important;
+                }
+            }
+            .mktoErrorMsg {
+                border: 1px solid var(--green) !important;
+                background-image: linear-gradient(
+                    var(--green) 43%,
+                    var(--green) 100%
+                ) !important;
+                text-shadow: var(--green) 0 -1px 0 !important;
+                box-shadow: rgba(0, 0, 0, 0.65) 0 2px 7px,
+                    inset var(--green) 0 1px 0px !important;
+                font-weight: 700 !important;
+            }
+
+            .mktoForm .mktoError .mktoErrorArrow {
+                background-color: var(--green) !important;
+                border: 1px solid var(--green) !important;
+            }
+
+            @media (max-width: 1024px) {
+                body {
+                    padding-bottom: 62px;
+                }
+            }
+
+            /*# sourceMappingURL=main.css.map */
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <div
+                class="header__container container"
+                id="introducao-e-formulario"
+            >
+                <div class="content">
+                    <h1 class="main-title">
+                        Soluciones de Infraestructura Lenovo
+                    </h1>
+
+                    <h2>
+                        Lenovo TruScale Una solución <br />
+                        "As-a-Service" tan personalizada <br />
+                        como tu negocio necesita.
+                    </h2>
+
+                    <p>
+                        Lenovo TruScale puede ayudarte de manera eficiente, con
+                        los desafíos de IT eliminando los plazos y las grandes
+                        inversiones. Cambia o agrega un nuevo hardware a medida
+                        de tus necesidades, pagando solo por lo que usas. Así
+                        funciona nuestra solución de centro de datos de pago por
+                        uso.
+                    </p>
+
+                    <span>
+                        Soluciones de Infraestructura Lenovo para Personas
+                        Centradas en Datos.
+                    </span>
+
+                    <img
+                        src="https://pages.lenovo.com/rs/183-WCT-620/images/data-centered_logo-intel.svg"
+                        alt="Logo Intel"
+                    />
+                </div>
+
+                <div class="formulario" id="form">
+                    <a href="#" id="close-form" title="Fechar formulário">
+                        <img
+                            src="https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_close-form.svg"
+                            alt="Fechar formulário"
+                        />
+                    </a>
+
+                    <div class="header-form">
+                        <h2>Hablemos ahora</h2>
+                        <p>
+                            No te preocupes, tus datos siempre están seguros con
+                            nosotros.
+                        </p>
+                    </div>
+
+                    <form id="mktoForm_3099"></form>
+                </div>
+            </div>
+
+            <div class="fixed-logo">
+                <img
+                    src="https://pages.lenovo.com/rs/183-WCT-620/images/data-centered_logo-lenovo.svg"
+                    aria-hidden="true"
+                    alt=""
+                />
+            </div>
+        </header>
+        <main>
+            <section class="custom--section">
+                <div class="container custom--section-container">
+                    <p>
+                        Lenovo se encarga de la implementación e instalación de
+                        tus activos. Puedes tomar tus propias decisiones sobre
+                        el equilibrio entre costo y flexibilidad.
+                    </p>
+                    <h2>Beneficios</h2>
+                    <div class="cards">
+                        <article class="card">
+                            <img
+                                src="https://pages.lenovo.com/rs/183-WCT-620/images/data-centered_icon-escala.svg"
+                                aria-hidden="true"
+                                alt=""
+                            />
+                            <p>
+                                <strong>Escala</strong> el desempeño de tu
+                                empresa a medida que cambien los requisitos
+                            </p>
+                        </article>
+
+                        <article class="card">
+                            <img
+                                src="https://pages.lenovo.com/rs/183-WCT-620/images/data-centered_icon-soporte.svg"
+                                aria-hidden="true"
+                                alt=""
+                            />
+                            <p>
+                                <strong>Soporte</strong> 24 horas al día, 7 días
+                                a la semana. Tu infraestructura
+                                <span
+                                    >siempre encendida, actualizada y
+                                    lista.</span
+                                >
+                            </p>
+                        </article>
+
+                        <article class="card">
+                            <img
+                                src="https://pages.lenovo.com/rs/183-WCT-620/images/data-centered_icon-costos.svg"
+                                aria-hidden="true"
+                                alt=""
+                            />
+                            <p>
+                                <strong>Costos predecibles</strong> Reduce las
+                                inversiones iniciales y alinea los costos con
+                                los resultados.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+
+                <footer class="custom--section-footer">
+                    <div class="container custom--section-footer-container">
+                        <p>
+                            Lenovo posee la experiencia, el equipamiento y las
+                            estrategias comerciales comprobadas, y está lista
+                            para ayudarte a aprovechar esta increíble opción.
+                        </p>
+                        <a href="#" class="btn-open-form">CONOCE MÁS</a>
+                    </div>
+                </footer>
+            </section>
+
+            <section class="banner--section">
+                <div class="banner--section-container container">
+                    <div class="content">
+                        <h2>
+                            Superando tus límites con las soluciones Edge
+                            Computing de Lenovo
+                        </h2>
+                        <p>
+                            Lenovo e Intel® ofrecen estrategias de Edge
+                            Computing que se ajustan a las necesidades de tu
+                            negocio y garantizan el procesamiento y la gestión
+                            de datos en tiempo real. Cuenta con Smart Solutions
+                            de punta a punta, sea cual sea tu segmento de
+                            actuación.
+                        </p>
+                        <p class="hightlight">
+                            Soluciones de Infraestructura Lenovo para Personas
+                            Centradas en Datos.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="custom--section" style="--color: var(--purple)">
+                <div class="container custom--section-container">
+                    <p>
+                        Conecta dispositivos y servidores Edge para garantizar
+                        el procesamiento y la gestión de datos generados desde
+                        el Edge hasta la nube y realiza análisis en tiempo real,
+                        con seguridad.
+                    </p>
+                    <h2>Beneficios</h2>
+                    <div class="cards">
+                        <article class="card">
+                            <img
+                                src="https://pages.lenovo.com/rs/183-WCT-620/images/data-centered_icon-nube.svg"
+                                aria-hidden="true"
+                                alt=""
+                            />
+                            <p>
+                                <strong
+                                    >Dispositivos inteligentes y
+                                    sensores</strong
+                                >, que llevan una gran cantidad de datos a la
+                                nube o al Data Center de forma segura
+                            </p>
+                        </article>
+
+                        <article class="card">
+                            <img
+                                src="https://pages.lenovo.com/rs/183-WCT-620/images/data-centered_icon-analisis.svg"
+                                aria-hidden="true"
+                                alt=""
+                            />
+                            <p>
+                                Poder de computación periférica, proporcionando
+                                <strong>análisis en tiempo real</strong>
+                            </p>
+                        </article>
+
+                        <article class="card">
+                            <img
+                                src="https://pages.lenovo.com/rs/183-WCT-620/images/data-centered_icon-resuelve.svg"
+                                aria-hidden="true"
+                                alt=""
+                            />
+                            <p>
+                                <strong>Resuelve</strong> problemas de latencia
+                            </p>
+                        </article>
+                    </div>
+                </div>
+
+                <footer class="custom--section-footer">
+                    <div class="container custom--section-footer-container">
+                        <p>
+                            Los dispositivos Lenovo permiten que tu negocio
+                            disfrute de todos los beneficios de la IoT y, si se
+                            conectan a servidores Edge, pueden garantizar el
+                            procesamiento, la gestión de datos y el análisis en
+                            tiempo real.
+                        </p>
+                        <a href="#" class="btn-open-form">CONOCE MÁS</a>
+                    </div>
+                </footer>
+            </section>
+
+            <section class="banner--section second">
+                <div class="banner--section-container container">
+                    <div class="content">
+                        <h2>
+                            Lenovo Storage, Soluciones de almacenamiento y
+                            gestión de datos líderes de la industria, escalables
+                            y de extremo a extremo
+                        </h2>
+                        <p>
+                            Ya sea que los datos sean gestionados en el Edge, en
+                            el centro de datos o en entornos híbridos y en
+                            varias nubes, su infraestructura de almacenamiento
+                            debe tener la capacidad de escalar de forma elástica
+                            entre nubes, desplegar rápidamente nuevos servicios
+                            y procesar eficientemente una cantidad creciente de
+                            datos.
+                        </p>
+                        <p class="hightlight">
+                            Soluciones de Infraestructura Lenovo para Personas
+                            Centradas en Datos.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="custom--section" style="--color: var(--blue)">
+                <div class="container custom--section-container">
+                    <p>
+                        Modernizar tu infraestructura de gestión de datos
+                        requiere de soluciones que puedan escalar, acelerar y
+                        proteger los datos con nuevos diseños simplificados y
+                        modelos de consumo asequibles para reducir el riesgo y
+                        el costo.
+                    </p>
+                    <h2>Beneficios</h2>
+                    <div class="cards">
+                        <article class="card">
+                            <img
+                                src="https://pages.lenovo.com/rs/183-WCT-620/images/data-centered_icon-acelerar.svg"
+                                aria-hidden="true"
+                                alt=""
+                            />
+                            <p>
+                                <strong>Acelerar el desempeño</strong> de
+                                aplicaciones para brindar resultados más
+                                rápidos.
+                            </p>
+                        </article>
+
+                        <article class="card">
+                            <img
+                                src="https://pages.lenovo.com/rs/183-WCT-620/images/data-centered_icon-simplificar.svg"
+                                aria-hidden="true"
+                                alt=""
+                            />
+                            <p>
+                                <strong>Simplificar la gestión</strong> de datos
+                                en entornos y flujos de trabajo híbridos y en
+                                varias nubes.
+                            </p>
+                        </article>
+
+                        <article class="card">
+                            <img
+                                src="https://pages.lenovo.com/rs/183-WCT-620/images/data-centered_icon-optimizar.svg"
+                                aria-hidden="true"
+                                alt=""
+                            />
+                            <p>
+                                <strong>Optimizar</strong> la protección y
+                                gestión de datos para reducir costos y aumentar
+                                el retorno de inversión.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+
+                <footer class="custom--section-footer">
+                    <div class="container custom--section-footer-container">
+                        <p>
+                            Los dispositivos Lenovo permiten que tu negocio
+                            disfrute de todos los beneficios de la IoT y, si se
+                            conectan a servidores Edge, pueden garantizar el
+                            procesamiento, la gestión de datos y el análisis en
+                            tiempo real.
+                        </p>
+                        <a href="#" class="btn-open-form"> CONOCE MÁS </a>
+                    </div>
+                </footer>
+            </section>
+
+            <a href="#" class="cta-formulario-mobile" id="cta-formulario-mobile"
+                >HABLA CON EL EXPERTO</a
+            >
+        </main>
+
+        <footer class="footer">
+            <div class="container footer-container">
+                <p>
+                    Ultrabook, Celeron, Celeron Inside, Core Inside, Intel, o
+                    logotipo Intel, Intel Atom, Intel Atom Inside, Intel Core,
+                    Intel Inside, o logotipo Intel Inside, Intel vPro, Intel
+                    Evo, Itanium, Itanium Inside, Pentium, Pentium Inside, vPro
+                    Inside, Xeon, Xeon Phi, Xeon Inside, Intel Agilex, Arria,
+                    Cyclone, Movidius, eASIC, Iris, MAX, Intel RealSense,
+                    Stratix e Intel Optane son marcas comerciales registradas de
+                    Intel Corporation o su subsidiaria.
+                </p>
+
+                <p>
+                    Todas las imágenes son sólo para fines ilustrativos. Para
+                    obtener especificaciones completas de productos de Lenovo,
+                    información de servicio y garantías, visite
+                    www.lenovo.com.br. Lenovo, Thinkpad y el logotipo de Lenovo
+                    son marcas comerciales de Lenovo. Lenovo no ofrece
+                    declaraciones ni garantías con respecto a productos o
+                    servicios de terceros. Otros nombres de empresas, productos
+                    y servicios pueden ser marcas comerciales de terceros.
+                    Lenovo hace todo lo posible para garantizar la precisión de
+                    la información, pero no es responsable de ningún error
+                    editorial, fotográfico o tipográfico.
+                </p>
+
+                <p>&copy; Lenovo 2022 - Todos los derechos reservados.</p>
+            </div>
+        </footer>
+
+        <script>
+            $(document).ready(function () {
+                const buttonsOpenForm =
+                    document.querySelectorAll(".btn-open-form");
+                const form = document.querySelector(".formulario");
+
+                buttonsOpenForm.forEach((button) => {
+                    button.addEventListener("click", (e) => {
+                        $("html, body").animate(
+                            {
+                                scrollTop: $("body").offset().top,
+                            },
+                            500
+                        );
+
+                        form.style.display = "block";
+
+                        setTimeout(function () {
+                            $("#FirstName").focus();
+                        }, 500);
+
+                        return false;
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

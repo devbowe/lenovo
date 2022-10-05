@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="575" viewBox="0 0 1920 575">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="1.261" r="0.706" gradientTransform="translate(0 -0.825) scale(1 1.654)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3f8ddd" stop-opacity="0.78"/>
+      <stop offset="0.36" stop-color="#5d3bd0" stop-opacity="0.278"/>
+      <stop offset="1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="background-banner-4" transform="translate(-1668 808)">
+    <g id="Retângulo_368" data-name="Retângulo 368" transform="translate(1668 -808)" stroke="#707070" stroke-width="1">
+      <rect width="1920" height="575" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1919" height="574" fill="none"/>
+    </g>
+    <path id="background-section-4" d="M0,2,1920,0V575H0Z" transform="translate(1668 -808)" opacity="0.85" fill="url(#radial-gradient)"/>
+  </g>
+</svg>

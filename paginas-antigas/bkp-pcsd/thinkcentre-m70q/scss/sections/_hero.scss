@@ -1,0 +1,87 @@
+.hero {
+    padding-block: var(--spacing);
+    padding-bottom: calc(var(--spacing) * 1.25);
+
+    background-color: var(--black);
+    color: var(--white);
+
+    background-image: url("https://pages.lenovo.com/rs/183-WCT-620/images/m70q__hero-bg.png");
+    background-size: cover;
+    background-position: left;
+
+    @media (min-width: 45em) {
+        background-position: left;
+    }
+
+    @media (min-width: 70em) {
+        background-position: right;
+    }
+
+    &__container {
+        display: grid;
+        position: relative;
+        gap: 2rem;
+
+        @media (min-width: 1100px) {
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            gap: 6rem;
+        }
+
+        .content {
+            .thinkcentre {
+                display: flex;
+                gap: 0.5rem;
+
+                span {
+                    position: relative;
+                    top: 0;
+                    font-size: 2.25rem;
+                    font-weight: 500;
+                }
+            }
+
+            h1 {
+                line-height: 1.2;
+                font-size: 2rem;
+                margin-block: 4rem 2rem;
+                color: var(--white);
+                font-weight: 500;
+                max-width: 16ch;
+
+                span {
+                    color: var(--red);
+                }
+            }
+
+            p + p {
+                margin-top: 1rem;
+            }
+
+            p {
+                font-size: 1.125rem;
+            }
+
+            .logos {
+                margin-top: 4rem;
+            }
+
+            @media (min-width: 45em) {
+                h1 {
+                    margin-top: 4rem;
+                    font-size: 2.25rem;
+                }
+
+                p {
+                    max-width: 50ch;
+                }
+            }
+
+            @media (min-width: 70em) {
+                h1 {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+}

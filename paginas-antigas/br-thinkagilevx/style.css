@@ -1,0 +1,1464 @@
+html, body{
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+#LblemailPermissionStatus {
+    font-family: 'Gotham Book',sans-serif;
+    color: #000;
+    line-height: 1.5;
+    letter-spacing: .29px;
+    font-size: 12px;
+    text-align: justify;
+    width: 100%!important;
+    text-indent: 23px;
+}
+h1,h2,h3,h4,h5,h6,p,span,a{
+    margin: 0;
+}
+.clearfix {
+    overflow: auto;
+    display: contents;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#thinkagile-vx a:hover{
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    transition-duration: .3s;
+}
+section{
+    scroll-behavior: smooth;
+}
+#thinkagile-vx a{
+    transition-duration: .3s;
+}
+@font-face {font-family: "Gotham Bold";
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot"); /* IE9*/
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.woff2") format("woff2"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.woff") format("woff"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.svg#Gotham Book") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Gotham Book";
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot"); /* IE9*/
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.woff2") format("woff2"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.woff") format("woff"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.svg#Gotham Book") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: 'Gotham Light';
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.eot"); /* IE9*/
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.woff2") format("woff2"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.woff") format("woff"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.svg#Gotham Light") format("svg"); /* iOS 4.1- */
+}
+
+    /* Reset */
+    
+/**formulário**/
+#thinkagile-vx #introducao-e-formulario .formulario{
+    margin-top: 75px;
+    background:#ffffff;
+    height: auto;
+    /* width:520px; */
+    width: 35%;
+    float:right;
+    padding: 45px 40px;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,.16);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.16);
+    zoom: 0.9;
+}
+#thinkagile-vx #introducao-e-formulario .formulario #close-form{
+    background:#fff;
+    position:fixed;
+    top:0;
+    right:0;
+    z-index:999;
+    padding:10px;
+    display:none
+}
+#thinkagile-vx #introducao-e-formulario .formulario .chamada{
+    text-align:center;
+    margin-bottom:40px
+}
+#thinkagile-vx #introducao-e-formulario .formulario .chamada h2{
+    color:#000;
+    font-size:32px;
+    font-weight:900;
+    line-height:1.25;
+    margin:0 0 20px 0
+}
+#thinkagile-vx #introducao-e-formulario .formulario .chamada p{
+    color:#000;
+    font-size:20px;
+    line-height:1.6;
+    font-weight:300;
+    margin:0
+}
+#thinkagile-vx #introducao-e-formulario .formulario .chamada p strong{
+    font-weight:500
+}
+#thinkagile-vx #introducao-e-formulario .formulario .chamada p a{
+    background:#F06A22;
+    color:#fff;
+    display:inline-block;
+    padding:1px 5px 0 5px;
+    font-weight:500
+}
+#thinkagile-vx #introducao-e-formulario .formulario .mktoForm{
+    width:100%!important
+}
+#thinkagile-vx #introducao-e-formulario .formulario .mktoButtonRow,#thinkagile-vx #introducao-e-formulario .formulario .mktoFieldWrap,#thinkagile-vx #introducao-e-formulario .formulario .mktoFormCol,#thinkagile-vx #introducao-e-formulario .formulario .mktoFormRow{
+    width:100%!important
+}
+#thinkagile-vx #introducao-e-formulario .formulario .mktoFormCol{
+    /* width:47%!important */
+    width: 100%important;
+}
+#thinkagile-vx #introducao-e-formulario .formulario .mktoFormCol{
+    margin:0 0 12px 0!important
+}
+#thinkagile-vx #introducao-e-formulario .formulario .mktoFormCol:nth-child(even){
+    float:right!important
+}
+#thinkagile-vx #introducao-e-formulario .formulario .mktoFormRow:nth-child(8) .mktoFormCol:nth-child(1){
+    width:100%!important
+}
+#thinkagile-vx #introducao-e-formulario .formulario .mktoFormRow:nth-child(8) .mktoFormCol:nth-child(2){
+    display:none
+}
+#thinkagile-vx #introducao-e-formulario .formulario .mktoAsterix,#thinkagile-vx #introducao-e-formulario .formulario .mktoGutter,#thinkagile-vx #introducao-e-formulario .formulario .mktoOffset{
+    display:none!important
+}
+#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=date],#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=email],#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=number],#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=tel],#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=text],#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=url],#thinkagile-vx #introducao-e-formulario .formulario .mktoForm select.mktoField,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm textarea.mktoField{
+    width:100%!important;
+    height:40px;
+    border:solid 1px #c7c7c7;
+    font-family:'Gotham Book', Lato,Helvetica,Arial,sans-serif;
+    color:#000000;
+    font-size:14px;
+    padding-left:16px;
+    font-weight:500;
+    line-height:100%
+}
+#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=date]::-webkit-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=email]::-webkit-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=number]::-webkit-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=tel]::-webkit-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=text]::-webkit-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=url]::-webkit-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm select.mktoField::-webkit-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm textarea.mktoField::-webkit-input-placeholder{
+    color:#F06A22
+}
+#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=date]:-ms-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=email]:-ms-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=number]:-ms-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=tel]:-ms-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=text]:-ms-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=url]:-ms-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm select.mktoField:-ms-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm textarea.mktoField:-ms-input-placeholder{
+    color:#000000
+}
+#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=date]::-ms-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=email]::-ms-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=number]::-ms-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=tel]::-ms-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=text]::-ms-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=url]::-ms-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm select.mktoField::-ms-input-placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm textarea.mktoField::-ms-input-placeholder{
+    color:#000000
+}
+#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=date]::placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=email]::placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=number]::placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=tel]::placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=text]::placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm input[type=url]::placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm select.mktoField::placeholder,#thinkagile-vx #introducao-e-formulario .formulario .mktoForm textarea.mktoField::placeholder{
+    color:#000000
+}
+#thinkagile-vx #introducao-e-formulario .formulario .mktoForm select.mktoField{
+    background:#ffffff url(https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_seta-select.svg) top 50% right 16px no-repeat!important;
+    -webkit-appearance:none!important
+}
+#thinkagile-vx #introducao-e-formulario .formulario .mktoForm textarea.mktoField{
+    padding-top:15px!important
+}
+#thinkagile-vx #introducao-e-formulario .formulario .mktoLabel{
+    font-family:'Gotham Book', Lato,Helvetica,Arial,sans-serif;
+    color:#000;
+    line-height:1.5;
+    letter-spacing:.29px;
+    font-size:12px
+}
+#thinkagile-vx #introducao-e-formulario .formulario .mktoButtonWrap{
+    width:100%!important;
+    margin:0!important
+}
+#thinkagile-vx #introducao-e-formulario .formulario .mktoButtonWrap .mktoButton{
+    background:#e1140a;
+    font-family:'Gotham Book', Lato,Helvetica,Arial,sans-serif;
+    border:none;
+    width:100%!important;
+    font-size:20px;
+    color:#fff;
+    font-weight:900;
+    text-align:center;
+    height:64px;
+    text-transform:uppercase;
+    line-height:2;
+    margin:2px!important
+}
+@media screen and (max-width:1570px){
+    #thinkagile-vx #introducao-e-formulario .formulario{
+        zoom:.9;
+        margin-top: 50px;
+    }
+    #thinkagile-vx #introducao-e-formulario .introducao {
+        margin: 50px 30px 0 0 !important;
+    }
+
+    img.logovpro {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1370px){
+    #thinkagile-vx #introducao-e-formulario {
+        padding: 50px 0 !important;
+    }
+}
+@media screen and (max-width:1400px){
+    #thinkagile-vx #introducao-e-formulario .formulario{
+        zoom:.83;
+        margin-top: 35px;
+    }
+}
+@media screen and (max-width:1100px){
+    #thinkagile-vx #introducao-e-formulario .formulario .mktoLabel{
+        word-wrap:break-word!important;
+        white-space:pre-line;
+        width:100%!important
+    }
+    #thinkagile-vx #introducao-e-formulario .formulario{
+        width:89%;
+        max-height:1342px;
+        padding:30px 20px 30px 20px;
+        zoom:1;
+        top:0;
+        left:0;
+        z-index:99999;
+        margin:0!important
+    }
+    #thinkagile-vx #introducao-e-formulario .formulario #close-form{
+        display:block
+    }
+    #thinkagile-vx #introducao-e-formulario .formulario .chamada{
+        margin-bottom:30px
+    }
+    #thinkagile-vx #introducao-e-formulario .formulario .chamada h2{
+        font-size:26px;
+        margin:0 0 20px 0
+    }
+    #thinkagile-vx #introducao-e-formulario .formulario .chamada p{
+        font-size:18px
+    }
+    #thinkagile-vx #introducao-e-formulario .formulario .mktoFormCol{
+        width:100%!important
+    }
+    #thinkagile-vx #introducao-e-formulario .formulario .mktoFormCol{
+        margin:0 0 22px 0!important
+    }
+    #thinkagile-vx #introducao-e-formulario .formulario .mktoFormCol:nth-child(even){
+        float:left!important
+    }
+}
+
+.mktoCheckboxList {
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+#Lbllvo_isoptinemailsent {
+    font-family: 'GothamPro',sans-serif;
+    color: #000;
+    line-height: 1.5;
+    letter-spacing: .29px;
+    font-size: 12px;
+    text-align: justify;
+    width: 567px!important;
+    text-indent: 23px;
+}
+@media screen and (max-width:1100px){
+    #Lbllvo_isoptinemailsent {
+        width: 100%!important;
+    }
+}
+
+#thinkagile-vx .lenovo-logo {
+    position: absolute;
+    top: 100px; 
+    right: -1px;
+    z-index: 9999;
+    max-width: 50px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+    position: relative;
+}
+
+.container2{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+img.logo {
+    position: absolute;
+    left: 65px;
+    top: 65px;
+}
+
+#thinkagile-vx .logofix{
+    position: fixed;
+    right:0;
+    top: 19%;
+    width: 60px;
+    z-index: 9;
+}
+#thinkagile-vx #introducao-e-formulario {
+    background: url(lenovo-thinkagile-vx-new-v2-bg01.png) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 20px 0 70px 0;
+    height: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#thinkagile-vx #introducao-e-formulario .pc {
+    position: absolute;
+    bottom: -150px;
+    z-index: 0;
+}
+#thinkagile-vx #introducao-e-formulario .introducao {
+    width: 480px;
+    float: left;
+    margin: 100px 90px 0 0;
+}
+#thinkagile-vx #introducao-e-formulario h2{
+    font-family: 'Gotham Bold';
+    font-size: 35px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: -0.42px;
+    text-align: left;
+    color: #fff;
+    margin: 30px 0;
+}
+
+#thinkagile-vx #introducao-e-formulario img.thinkagile {
+    margin-bottom: 90px;
+    width: 332px;
+}
+#thinkagile-vx #introducao-e-formulario h2 span{
+    color: #e1140a;
+}
+#thinkagile-vx #introducao-e-formulario b{
+    font-family: 'Gotham Bold';
+}
+#thinkagile-vx #introducao-e-formulario h3{
+    font-family: 'Gotham Book';
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e1140a;
+    padding: 0 0 45px 0;
+}
+#thinkagile-vx #introducao-e-formulario h3 b{
+    font-family: 'Gotham Bold';
+}
+#thinkagile-vx #introducao-e-formulario p{
+    font-family: 'Gotham Book';
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 48px;
+}
+
+#thinkagile-vx #introducao-e-formulario p.disclaimer{
+    font-family: 'Gotham Book';
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+img.logovpro {
+    width: 323px;
+}
+#thinkagile-vx #introducao-e-formulario .chamada p {
+    text-align: center;
+}
+#thinkagile-vx a {
+    text-decoration: none;
+}
+
+#thinkagile-vx label#Lbllvo_isoptinemailsent {
+    /* width: 525px;
+    max-width: 525px; */
+    width: 100%!important;
+}
+
+#thinkagile-vx #introducao-e-formulario h5{
+    font-family: 'Gotham Book', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+@media screen and (max-width:1366px){
+    #thinkagile-vx #introducao-e-formulario .introducao {
+        zoom: 0.8;
+    }
+    #thinkagile-vx #introducao-e-formulario .formulario .chamada p {
+        padding: 0;
+    }
+}
+@media screen and (max-width:1100px){
+    #thinkagile-vx #introducao-e-formulario .introducao {
+        width: 85%;
+        margin: 0px !important;
+        padding: 30px;
+    }
+    #thinkagile-vx #introducao-e-formulario {
+        padding: 0;
+    }
+    #thinkagile-vx #introducao-e-formulario img.logopublicsector {
+        width: 82px;
+        height: 82px;
+        position: absolute;
+        top: -50px;
+    }
+}
+@media screen and (max-width: 1100px){
+    #thinkagile-vx #introducao-e-formulario .introducao {
+        margin-top: 0;
+        position: relative;
+    }
+    #thinkagile-vx img{
+        max-width: 100%;
+    }
+    #thinkagile-vx #introducao-e-formulario .formulario {
+        display: none;
+    }
+}
+.cta-formulario-mobile {
+    background: #e1140a;
+    font-family: 'Gotham Bold';
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+    display: none;
+    font-weight: 900;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    z-index: 999;
+}
+@media (max-width: 1100px){
+    .btn-form{
+        display:none;
+    }
+    .cta-formulario-mobile {
+        display: block;
+    }
+    #thinkagile-vx #introducao-e-formulario h3 {
+        font-size: 18px;
+    }
+    #thinkagile-vx #introducao-e-formulario .formulario {
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        float: none;
+        padding: 30px 15px;
+        zoom: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow-y: auto;
+        z-index: 99999;
+        box-sizing: border-box;
+        display: none;
+    }
+    #thinkagile-vx #introducao-e-formulario h2 {
+        font-size: 29px;
+    }
+
+    #thinkagile-vx #introducao-e-formulario h2 img {
+        width: 315px;
+        margin-top: 5px;
+    }
+    #thinkagile-vx #introducao-e-formulario p {
+        font-size: 16px;
+        margin-bottom: 45px;
+    }  
+    #thinkagile-vx #introducao-e-formulario p.disclaimer{
+        width: 326px;
+    }
+    #thinkagile-vx #servers {
+        padding: 52px 0 !important;
+    }
+    #thinkagile-vx #servers .titulo2{
+        margin: 0 auto;
+    }
+    #thinkagile-vx #introducao-e-formulario {
+        background: url(lenovo-thinkagile-vx-new-v2-bg01.png) center left no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding: 70px 0 60px 0 !important;
+    }
+    .container {
+        margin: 0 auto;
+        max-width: 90% !important;
+    }
+}
+
+a.button{
+    width: 380px;
+    height: 64px;
+    font-family: 'Gotham Bold';
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition-duration: .3s;
+    cursor: pointer;
+    padding: 24px 90px;
+    outline: none;
+}
+
+a.button:hover{
+    background-color: #e1140a !important;
+    color: #fff !important;
+    transition-duration: .3s;
+}
+
+#thinkagile-vx #servers {
+    padding: 120px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+#thinkagile-vx #about {
+    padding: 0 0 120px 0;
+}
+
+#thinkagile-vx #servers .titulo2{
+    max-width: 100%;
+}
+
+#thinkagile-vx #companies-v2 .item{
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+img{
+    max-width: 100%;
+}
+#thinkagile-vx #companies-v2 .item .line{
+    position: absolute;
+    left: 42%;
+    top: 25px;
+}
+
+.middle{
+    justify-content: center!important;
+    flex-direction: column!important;
+    display: flex!important;
+}
+
+#thinkagile-vx #about .item02{
+    margin-left: 90px;
+}
+
+#thinkagile-vx #about h2{
+    font-family: 'Gotham Book';
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #b22e71;
+    margin-bottom: 42px;
+}
+
+#thinkagile-vx #about h2 span{
+    color: #b22e71;
+}
+#thinkagile-vx #about li,#thinkagile-vx #about ul{
+    list-style: none;
+    padding: 0;
+}
+#thinkagile-vx #about .item {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#thinkagile-vx #about ul{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 20px;
+    padding: 20px 0;
+}
+#thinkagile-vx #about h3{
+    font-family: "Gotham Bold";
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+#thinkagile-vx #about p{
+    font-family: 'Gotham Book';
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2a3c46;
+}
+
+#thinkagile-vx #about b{
+    font-family: 'Gotham Bold';
+    font-weight: bold;
+}
+
+#thinkagile-vx #process{
+    padding: 50px 0;
+}
+
+#thinkagile-vx #process .internal{
+    position: relative;
+    text-align: center;
+}
+
+#thinkagile-vx #process .features{
+    display: inline-flex;
+}
+
+#thinkagile-vx #process .features .feature{
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    margin: 79px auto 0 auto;
+}
+
+#thinkagile-vx #process .features .feature img{
+    margin: 0 auto 36px auto;
+    width: 104px;
+    height: 104px;
+}
+
+#thinkagile-vx #process .features .feature h3{
+    font-family: 'Gotham Bold';
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 29px;
+}
+
+#thinkagile-vx #process .features .feature p{
+    font-family: 'Gotham Book';
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2a3c46;
+    margin: 0;
+}
+
+#thinkagile-vx #process .internal h2{
+    font-family: 'Gotham Bold';
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #e1140a;
+    margin: 0 auto 79px auto;
+    width: 480px;
+}
+
+#thinkagile-vx #process .divbutton {
+    text-align: center;
+    margin: 75px auto 70px auto;
+}
+
+
+#thinkagile-vx #solutions {
+    padding: 190px 0;
+    background: url(lenovo-thinkagile-vx-new-v2-bg02.png) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#thinkagile-vx #solutions h2{
+    font-family: 'Gotham Book';
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 37px;
+}
+
+#thinkagile-vx #solutions p{
+    font-family: 'Gotham Book';
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+#thinkagile-vx #solutions .divbutton {
+    margin: 75px 0 24.5px 0;
+}
+
+#thinkagile-vx #solutions a.button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 22px 100px;
+}
+
+#thinkagile-vx #solutions a.button:hover{
+    border: 2px solid transparent;
+}
+
+#thinkagile-vx #solutions .item01 {
+    width: 70%;
+}
+#thinkagile-vx #solutions hr{
+    margin: 40px 0;
+    opacity: 0.17;
+}
+#thinkagile-vx #portfolio span{
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+#thinkagile-vx #solutions .item02 {
+    border-left: solid 2px #ffffff59;
+    padding-left: 54px;
+}
+
+#thinkagile-vx #solutions .icons{
+    display: inline-flex;
+}
+
+#thinkagile-vx #solutions .icons .icon{
+    margin: 0 20px;
+    width: 90px;
+}
+
+#thinkagile-vx #solutions .icons .icon img{
+    margin-bottom: 20px;
+}
+
+#thinkagile-vx #solutions .icons .icon h4{
+    font-family: 'Gotham Book';
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+#thinkagile-vx #portfolio .item{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#thinkagile-vx #portfolio span{
+    font-family: 'Gotham Book';
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 40px;
+    display: block;
+}
+#thinkagile-vx #portfolio .item .item02{
+    background: url(lenovo-thinkagile-vx-new-v2-bg03.png) center center no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    padding-left: 80px;
+    height: 100%;
+    align-items: center;
+    display: grid;
+}
+#thinkagile-vx #portfolio img{
+    width: 100%;
+}
+#thinkagile-vx #portfolio .item .item02 .text h2{
+    font-family: 'Gotham Book';
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+#thinkagile-vx #portfolio .item .item02 .text p{
+    font-family: 'Gotham Book';
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    max-width: 500px;
+}
+
+#thinkagile-vx #portfolio .item .item02 .divbutton{
+    margin-top: 54px;
+}
+
+#thinkagile-vx #portfolio .item .item02 .text a.button{
+    background-color: #FFFFFF;
+    color: #e1140a;
+    border: 2px solid transparent;
+}
+
+#thinkagile-vx #portfolio .item .item02 .text a.button:hover{
+    background-color: transparent !important;
+    border: 2px solid #fff;
+}
+
+
+#thinkagile-vx #companies-v2{
+    padding: 120px 0 120px 0;
+    background: url(lenovo-thinkagile-vx-new-v2-img01.png) right center no-repeat;
+    background-size: 50%;
+}
+
+#thinkagile-vx #companies-v2 .item02{
+    margin-left: 100px;
+}
+
+#thinkagile-vx #companies-v2 .item02 img {
+    position: relative;
+    top: 145px;
+    right: 26px;
+    /* width: 1200px; */
+}
+
+#thinkagile-vx #companies-v2 .features{
+    display: inline-flex;
+    margin-bottom: 35px;
+    width: 105%;
+}
+
+#thinkagile-vx #companies .features {
+    display: inline-flex;
+    margin-bottom: 35px;
+    width: 110%;
+}
+
+#thinkagile-vx #companies .features p,
+#thinkagile-vx #companies-v2 .features p{
+    margin: 0px;
+}
+
+#thinkagile-vx #companies .feature,
+#thinkagile-vx #companies-v2 .feature {
+    border-left: solid 2px #e1140a;
+    padding: 5px 12px 5px 15px;
+    width: 33%;
+}
+
+#thinkagile-vx #companies h2,
+#thinkagile-vx #companies-v2 h2{
+    font-family: 'Gotham Book', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e1140a;
+    margin-bottom: 33px;
+}
+
+#thinkagile-vx #companies h2{
+    width: 390px;
+}
+
+#thinkagile-vx #companies p.box{
+    width: 445px;
+}
+
+#thinkagile-vx #companies-v2 h2{
+    width: 525px;
+}
+
+#thinkagile-vx #companies p,
+#thinkagile-vx #companies-v2 p{
+    font-family: 'Gotham Book', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2a3c46;
+    margin-bottom: 40px;
+}
+
+#thinkagile-vx b{
+    font-family: 'Gotham Bold', sans-serif !important;
+    font-weight: bold;
+}
+
+#thinkagile-vx #companies h3{
+    font-family: 'Gotham Bold', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 45px;
+}
+
+#thinkagile-vx #companies a.button,
+#thinkagile-vx #companies-v2 a.button, 
+#thinkagile-vx #process a.button{
+    background-color: #fff;
+    border: 2px solid #e1140a;
+    color: #e1140a;
+    font-size: 16px;
+}
+#thinkagile-vx #about a.button{
+    background-color: #fff;
+    border: 2px solid #b22e71;
+    color: #b22e71;
+    font-size: 16px;
+}
+
+#thinkagile-vx #companies div.divbutton,
+#thinkagile-vx #companies-v2 div.divbutton{
+    margin: 20px 0 0 0;
+}
+
+#thinkagile-vx #companies-v2 ul{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0;
+    padding-bottom: 20px;
+}
+#thinkagile-vx #companies-v2 li{
+    font-family: "Gotham Book";
+    list-style: none;
+    height: 50px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2a3c46;
+}
+#industria #portfolio .item {
+    position: relative;
+    display: flex;
+}
+
+#industria #portfolio .item .item01 {
+    background: #004a86;
+    width: 50%;
+    position: relative;
+    min-height: 680px;
+}
+
+#thinkagile-vx #disclaimer-final{
+    padding: 58px 0;
+    background-color: #c4c4c4;
+    margin-top: -5px;
+    z-index: 9;
+    position: relative; 
+}
+
+#thinkagile-vx #disclaimer-final p{
+    font-family: 'Gotham Book';
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.desktop, img.desktop{
+    display: block !important;
+}
+
+.mobile, img.mobile{
+    display: none !important;
+}
+
+#thinkagile-vx #introducao-e-formulario .arrow {
+    padding-top: 127px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1100px){
+
+    .desktop, img.desktop,
+    #thinkagile-vx #introducao-e-formulario .pc{
+        display: none !important;
+    }
+
+    .mobile, img.mobile{
+        display: block !important;
+    }
+
+    #thinkagile-vx .lenovo-logo {
+        top: 100px;
+        position: absolute;
+        right: 0;
+        z-index: 9999;
+    }
+
+    #thinkagile-vx #introducao-e-formulario img.thinkagile {
+        margin-bottom: 39px;
+    }
+
+    #thinkagile-vx #introducao-e-formulario h5 {
+        font-size: 16px;
+        padding: 0 40px;
+    }
+
+    a.button {
+        width: 100%;
+        height: 50px;
+        font-size: 11px;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: center;
+        padding: 15px 90px;
+        margin: 0 auto;
+    }
+
+    button > img{
+        width: 17px;
+        height: 32px;
+    }
+
+    #thinkagile-vx #about h2 {
+        font-size: 20px;
+    }
+
+    #thinkagile-vx #about h2 br{
+        display: none;
+    }
+
+    #thinkagile-vx #solutions .item02{
+        padding-left: 0px;
+    }
+
+    #thinkagile-vx #solutions .icons .icon {
+        margin: 0 12px;
+    }
+
+    #thinkagile-vx #about .item02{
+        margin: 0px;
+    }
+
+    #thinkagile-vx #process .internal h2 {
+        font-size: 32px;
+        width: 240px;
+    }
+
+    #thinkagile-vx #process .features,
+    #thinkagile-vx #companies .item,
+    #thinkagile-vx #companies-v2 .item {
+        display: block;
+    }
+
+    #thinkagile-vx #companies .features, #thinkagile-vx #companies-v2 .features{
+        width: 100%;
+    }
+
+    #thinkagile-vx #process .features .feature {
+        width: 85%;
+        padding: 11px;
+        text-align: center;
+        margin: 40px auto 0 auto;
+        display: inline-flex;
+    }
+
+    #thinkagile-vx #process .features .feature img{
+        width: 73px;
+        height: 73px;
+    }
+
+    #thinkagile-vx #process .divbutton{
+        margin:0px;
+    }
+
+    #thinkagile-vx #process .features .feature .text{
+        margin-left: 11px;
+    }
+
+    #thinkagile-vx #companies img, #thinkagile-vx #companies-v2 img{
+        width: 100%;
+    }
+
+    #thinkagile-vx #companies h3 {
+        font-size: 16px;
+    }
+
+    #thinkagile-vx #companies p.box,
+    #thinkagile-vx #companies-v2 p.box{
+        font-size: 14px;
+        width: 100%;
+    }
+    #thinkagile-vx #companies-v2 ul {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    #thinkagile-vx #companies-v2 li{
+        height: 52px;
+    }
+    #thinkagile-vx #companies-v2 li img {
+        width: auto;
+        top: 0!important;
+        right: 0!important;
+        position: relative!important;
+    }
+    #thinkagile-vx #companies-v2 li p {
+        font-size: 14px;
+    }
+
+    #thinkagile-vx #companies-v2 h2 br{
+        display: none;
+    }
+
+    #thinkagile-vx #companies .text{
+        position: absolute;
+        top: 485px;
+    }
+
+    #thinkagile-vx #companies h2, #thinkagile-vx #companies-v2 h2{
+        font-size: 32px;
+        width: 100%;
+    }
+
+    #thinkagile-vx #companies .features, #thinkagile-vx #companies-v2 .features {
+        display: block;
+        margin-bottom: 35px;
+    }
+
+    #thinkagile-vx #companies .feature, #thinkagile-vx #companies-v2 .feature {
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    #thinkagile-vx #companies .features br, #thinkagile-vx #companies-v2 .features br{
+        display: none !important;
+    }
+
+    #thinkagile-vx #companies .feature p, #thinkagile-vx #companies-v2 .feature p{
+        font-size: 15px;
+    }
+
+
+    #thinkagile-vx #about a.button {
+        text-align: center;
+        padding: 15px 60px;
+        margin: 0 auto;
+    }
+
+    #thinkagile-vx #final {
+        padding: 50px 0;
+    }
+
+    #thinkagile-vx #final h1 {
+        font-size: 20px;
+    }
+
+    #thinkagile-vx #final p {
+        width: 91%;
+        margin: 0 auto;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    #thinkagile-vx #porque .text p,
+    #thinkagile-vx #porque .text h3 {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    #thinkagile-vx #process .features .feature h3, 
+    #thinkagile-vx #process .features .text p {
+        font-size: 16px;
+        text-align: left;
+        margin: 0;
+    }
+
+    #thinkagile-vx #porque .item .colors {
+        top: 357px;
+        left: 82px;
+        width: 95px;
+    }
+
+    a.button{
+        display: none;
+    }
+
+    #thinkagile-vx #porque .item01 .intelvpro {
+        width: 114px;
+    }
+
+    #thinkagile-vx #disclaimer-final p {
+        font-size: 10px;
+    }
+
+    #thinkagile-vx #disclaimer-final{
+        padding: 32px 30px 75px 30px;
+    }
+
+    #thinkagile-vx{
+        overflow: hidden;
+    }
+
+    .ac-container label {
+        font-size: 14px !important;
+        padding: 15px 0px;
+    }
+
+    #thinkagile-vx #solutions {
+        padding: 45px 0 100px 0;
+    }
+
+    #thinkagile-vx #solutions img{
+        max-width: 85%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #thinkagile-vx #solutions p.disclaimer{
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        bottom: -45px;
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #thinkagile-vx #solutions .divbutton{
+        margin: 0px;
+    }
+
+    #thinkagile-vx #solutions .item01{
+        min-width: 88%;
+        max-width: 88%;
+        margin-right: 0px;
+        padding: 20px;
+    }
+
+    #thinkagile-vx #solutions h2 {
+        font-size: 25px;
+    }
+
+    #thinkagile-vx #solutions p {
+        font-size: 14px;
+        width: 100% !important;
+        margin-bottom: 50px;
+    }
+
+    #thinkagile-vx #portfolio .item .item02 .text {
+        top: 50px;
+        left: 24px;
+    }
+
+    #thinkagile-vx #portfolio .item .item02 .text h2 {
+        font-size: 20px;
+    }
+
+    #thinkagile-vx #portfolio .item .item02 .text p{
+        width: 95%;
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    #thinkagile-vx #introducao-e-formulario .pc {
+        position: absolute;
+        bottom: -165px;
+        left: -205px;
+    }
+
+    #thinkagile-vx #about .item02 {
+        margin-left: 40px;
+    }
+}
+
+@media (min-width: 1401px) and (max-width: 1500px) {
+    #thinkagile-vx #introducao-e-formulario .pc img{
+        width: 100%;
+    }
+
+    #thinkagile-vx #introducao-e-formulario .pc {
+        left: -165px;
+    }
+}
+
+@media (min-width: 1501px) and (max-width: 1600px) {
+    #thinkagile-vx #introducao-e-formulario .pc img{
+        width: 70%;
+    }
+
+    #thinkagile-vx #introducao-e-formulario .pc {
+        left: -50px;
+    }
+}
+
+
+
+/**novo css**/
+@media screen and (max-width:1024px){
+    #thinkagile-vx #companies-v2 {
+        padding: 480px 0 60px 0;
+        background: url(lenovo-thinkagile-vx-new-v2-img01.png) top 40px right no-repeat;
+        background-size: 80%;
+    }
+    #thinkagile-vx #companies-v2 .item .line {
+        top: -185px;
+    }
+    #thinkagile-vx #about .item {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    #thinkagile-vx #about .item01 img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        padding-bottom: 78px;
+    }
+    #thinkagile-vx #portfolio img {
+        height: 670px;
+        object-fit: cover;
+    }
+    #thinkagile-vx #portfolio .item .item02 {
+        padding-left: 40px;
+        padding-right: 10px;
+    }
+}
+@media screen and (max-width: 767px){
+    #thinkagile-vx #companies-v2 {
+        padding: 272px 0 0px 0;
+        background-size: 90%;
+    }
+    #thinkagile-vx #about ul {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    #thinkagile-vx #about{
+        padding-bottom: 60px;
+    }
+    #thinkagile-vx #solutions {
+        padding: 45px 0 45px 0;
+    }
+    #thinkagile-vx #portfolio .item {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    #thinkagile-vx #portfolio img {
+        height: 210px;
+        object-fit: cover;
+        padding-bottom: 0;
+    }
+    #thinkagile-vx #portfolio .item .item02 {
+        padding: 40px;
+    }
+    #thinkagile-vx #disclaimer-final {
+        margin: 0;
+    }
+    #thinkagile-vx #companies-v2 li {
+        height: 32px;
+    }
+    #thinkagile-vx #about h3 {
+        font-size: 35px;
+        line-height: 1.2;
+    }
+}

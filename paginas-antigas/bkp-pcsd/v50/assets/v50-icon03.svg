@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="71" viewBox="0 0 72 71">
+  <g id="Grupo_1240" data-name="Grupo 1240" transform="translate(0.409)">
+    <g id="Elipse_5" data-name="Elipse 5" transform="translate(-0.409 0)" fill="none" stroke="#66c14f" stroke-width="1.5">
+      <ellipse cx="36" cy="35.5" rx="36" ry="35.5" stroke="none"/>
+      <ellipse cx="36" cy="35.5" rx="35.25" ry="34.75" fill="none"/>
+    </g>
+    <g id="Grupo_1329" data-name="Grupo 1329" transform="translate(19.204 -77.169)">
+      <path id="Caminho_358" data-name="Caminho 358" d="M210.687,193.055h5.8v6.085h-5.8Z" transform="translate(-197.201 -84.29)" fill="#66c14f"/>
+      <path id="Caminho_359" data-name="Caminho 359" d="M90.055,193.055h5.8v6.085h-5.8Z" transform="translate(-84.29 -84.29)" fill="#66c14f"/>
+      <path id="Caminho_360" data-name="Caminho 360" d="M331.32,193.055h5.8v6.085h-5.8Z" transform="translate(-310.112 -84.29)" fill="#66c14f"/>
+      <path id="Caminho_361" data-name="Caminho 361" d="M32.774,103H0v17.614H1.973v1.923H3.893v-1.923H5.817v1.923H7.737v-1.923H9.661v1.923h1.921v-1.923H13.5v1.923h1.921v-1.923h1.923v1.923h1.921v-1.923h1.923v1.923h1.921v-1.923h1.923v1.923h1.921v-1.923h1.923v1.923H30.8v-1.923h1.973ZM3.844,116.77v-9.926H28.93v9.926Z" transform="translate(0 0)" fill="#66c14f"/>
+    </g>
+  </g>
+</svg>

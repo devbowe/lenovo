@@ -1,0 +1,1149 @@
+html,
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+#LblemailPermissionStatus {
+  font-family: "Gotham Book", sans-serif;
+  color: #000;
+  line-height: 1.5;
+  letter-spacing: 0.2896px;
+  font-size: 12px;
+  text-align: justify;
+  width: 100% !important;
+  text-indent: 23px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+  margin: 0;
+}
+b,strong{
+  font-family: "Gotham Bold";
+}
+.clearfix {
+  overflow: auto;
+  display: contents;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#conheca-lenovo-truscale a:hover {
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+  transition-duration: 0.3s;
+}
+section {
+  scroll-behavior: smooth;
+}
+#conheca-lenovo-truscale a {
+  transition-duration: 0.3s;
+}
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot"); /* IE9*/
+  src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot?#iefix")
+      format("embedded-opentype"),
+    /* chrome、firefox */
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.woff")
+      format("woff"),
+    /* chrome、firefox */
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.ttf")
+      format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.svg#Gotham Book")
+      format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "Gotham Book";
+  src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot"); /* IE9*/
+  src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot?#iefix")
+      format("embedded-opentype"),
+    /* chrome、firefox */
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.woff")
+      format("woff"),
+    /* chrome、firefox */
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.ttf")
+      format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.svg#Gotham Book")
+      format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "Gotham Light";
+  src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.eot"); /* IE9*/
+  src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.woff2")
+      format("woff2"),
+    /* chrome、firefox */
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.woff")
+      format("woff"),
+    /* chrome、firefox */
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.ttf")
+      format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.svg#Gotham Light")
+      format("svg"); /* iOS 4.1- */
+}
+
+/* Reset */
+
+/**formulário**/
+#conheca-lenovo-truscale #introducao-e-formulario .formulario {
+  margin-top: 75px;
+  background: #ffffff;
+  height: auto;
+  /* width:520px; */
+  width: 35%;
+  float: right;
+  padding: 45px 40px;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.16);
+  zoom: 0.9;
+}
+#conheca-lenovo-truscale #introducao-e-formulario .formulario #close-form {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  padding: 10px;
+  display: none;
+}
+#conheca-lenovo-truscale #introducao-e-formulario .formulario .chamada {
+  text-align: center;
+  margin-bottom: 40px;
+}
+#conheca-lenovo-truscale #introducao-e-formulario .formulario .chamada h2 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.25;
+  margin: 0 0 20px 0;
+}
+#conheca-lenovo-truscale #introducao-e-formulario .formulario .chamada p {
+  color: #000;
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 300;
+  margin: 0;
+}
+#conheca-lenovo-truscale #introducao-e-formulario .formulario .chamada p strong {
+  font-weight: 500;
+}
+#conheca-lenovo-truscale #introducao-e-formulario .formulario .chamada p a {
+  background: #f06a22;
+  color: #fff;
+  display: inline-block;
+  padding: 1px 5px 0 5px;
+  font-weight: 500;
+}
+#conheca-lenovo-truscale #introducao-e-formulario .formulario .mktoForm {
+  width: 100% !important;
+}
+#conheca-lenovo-truscale #introducao-e-formulario .formulario .mktoButtonRow,
+#conheca-lenovo-truscale #introducao-e-formulario .formulario .mktoFieldWrap,
+#conheca-lenovo-truscale #introducao-e-formulario .formulario .mktoFormCol,
+#conheca-lenovo-truscale #introducao-e-formulario .formulario .mktoFormRow {
+  width: 100% !important;
+}
+#conheca-lenovo-truscale #introducao-e-formulario .formulario .mktoFormCol {
+  /* width:47%!important */
+  width: 100%!important;
+}
+#conheca-lenovo-truscale #introducao-e-formulario .formulario .mktoFormCol {
+  margin: 0 0 12px 0 !important;
+}
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoFormCol:nth-child(even) {
+  float: right !important;
+}
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoFormRow:nth-child(8)
+  .mktoFormCol:nth-child(1) {
+  width: 100% !important;
+}
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoFormRow:nth-child(8)
+  .mktoFormCol:nth-child(2) {
+  display: none;
+}
+#conheca-lenovo-truscale #introducao-e-formulario .formulario .mktoAsterix,
+#conheca-lenovo-truscale #introducao-e-formulario .formulario .mktoGutter,
+#conheca-lenovo-truscale #introducao-e-formulario .formulario .mktoOffset {
+  display: none !important;
+}
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="date"],
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="email"],
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="number"],
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="tel"],
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="text"],
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="url"],
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  select.mktoField,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  textarea.mktoField {
+  width: 100% !important;
+  height: 40px;
+  border: solid 1px #c7c7c7;
+  font-family: "Gotham Book", Lato, Helvetica, Arial, sans-serif;
+  color: #000000;
+  font-size: 14px;
+  padding-left: 16px;
+  font-weight: 500;
+  line-height: 100%;
+}
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="date"]::-webkit-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="email"]::-webkit-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="number"]::-webkit-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="tel"]::-webkit-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="text"]::-webkit-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="url"]::-webkit-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  select.mktoField::-webkit-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  textarea.mktoField::-webkit-input-placeholder {
+  color: #f06a22;
+}
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="date"]:-ms-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="email"]:-ms-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="number"]:-ms-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="tel"]:-ms-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="text"]:-ms-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="url"]:-ms-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  select.mktoField:-ms-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  textarea.mktoField:-ms-input-placeholder {
+  color: #000000;
+}
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="date"]::-ms-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="email"]::-ms-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="number"]::-ms-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="tel"]::-ms-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="text"]::-ms-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="url"]::-ms-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  select.mktoField::-ms-input-placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  textarea.mktoField::-ms-input-placeholder {
+  color: #000000;
+}
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="date"]::placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="email"]::placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="number"]::placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="tel"]::placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="text"]::placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  input[type="url"]::placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  select.mktoField::placeholder,
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  textarea.mktoField::placeholder {
+  color: #000000;
+}
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  select.mktoField {
+  background: #ffffff
+    url(https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_seta-select.svg)
+    top 50% right 16px no-repeat !important;
+  -webkit-appearance: none !important;
+}
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoForm
+  textarea.mktoField {
+  padding-top: 15px !important;
+}
+#conheca-lenovo-truscale #introducao-e-formulario .formulario .mktoLabel {
+  font-family: "Gotham Book", Lato, Helvetica, Arial, sans-serif;
+  color: #000;
+  line-height: 1.5;
+  letter-spacing: 0.2896px;
+  font-size: 12px;
+}
+#conheca-lenovo-truscale #introducao-e-formulario .formulario .mktoButtonWrap {
+  width: 100% !important;
+  margin: 0 !important;
+}
+#conheca-lenovo-truscale
+  #introducao-e-formulario
+  .formulario
+  .mktoButtonWrap
+  .mktoButton {
+  background: #000;
+  font-family: "Gotham Book", Lato, Helvetica, Arial, sans-serif;
+  border: none;
+  width: 100% !important;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 900;
+  text-align: center;
+  height: 64px;
+  text-transform: uppercase;
+  line-height: 2;
+  margin: 2px !important;
+}
+@media screen and (max-width: 1570px) {
+  #conheca-lenovo-truscale #introducao-e-formulario .formulario {
+    zoom: 0.9;
+    margin-top: 50px;
+  }
+  #conheca-lenovo-truscale #introducao-e-formulario .introducao {
+    margin: 50px 30px 0 0 !important;
+  }
+
+  img.logovpro {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  #conheca-lenovo-truscale #introducao-e-formulario {
+    padding: 50px 0 !important;
+  }
+}
+@media screen and (max-width: 1400px) {
+  #conheca-lenovo-truscale #introducao-e-formulario .formulario {
+    zoom: 0.83;
+    margin-top: 35px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  #conheca-lenovo-truscale #introducao-e-formulario .formulario .mktoLabel {
+    word-wrap: break-word !important;
+    white-space: pre-line;
+    width: 100% !important;
+  }
+  #conheca-lenovo-truscale #introducao-e-formulario .formulario {
+    width: 89%;
+    max-height: 1342px;
+    padding: 30px 20px 30px 20px;
+    zoom: 1;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    margin: 0 !important;
+  }
+  #conheca-lenovo-truscale #introducao-e-formulario .formulario #close-form {
+    display: block;
+  }
+  #conheca-lenovo-truscale #introducao-e-formulario .formulario .chamada {
+    margin-bottom: 30px;
+  }
+  #conheca-lenovo-truscale #introducao-e-formulario .formulario .chamada br {
+    display: none;
+  }
+  #conheca-lenovo-truscale #introducao-e-formulario .formulario .chamada h2 {
+    font-size: 26px;
+    margin: 0 0 20px 0;
+  }
+  #conheca-lenovo-truscale #introducao-e-formulario .formulario .chamada p {
+    font-size: 18px;
+  }
+  #conheca-lenovo-truscale #introducao-e-formulario .formulario .mktoFormCol {
+    width: 100% !important;
+  }
+  #conheca-lenovo-truscale #introducao-e-formulario .formulario .mktoFormCol {
+    margin: 0 0 22px 0 !important;
+  }
+  #conheca-lenovo-truscale
+    #introducao-e-formulario
+    .formulario
+    .mktoFormCol:nth-child(even) {
+    float: left !important;
+  }
+}
+
+.mktoCheckboxList {
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+#Lbllvo_isoptinemailsent {
+  font-family: "GothamPro", sans-serif;
+  color: #000;
+  line-height: 1.5;
+  letter-spacing: 0.2896px;
+  font-size: 12px;
+  text-align: justify;
+  width: 567px !important;
+  text-indent: 23px;
+}
+@media screen and (max-width: 1100px) {
+  #Lbllvo_isoptinemailsent {
+    width: 100% !important;
+  }
+}
+
+#conheca-lenovo-truscale .lenovo-logo {
+  position: absolute;
+  top: 100px;
+  right: -1px;
+  z-index: 9999;
+  max-width: 60px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+  max-width: 90%;
+  position: relative;
+}
+
+img.logo {
+  position: absolute;
+  left: 65px;
+  top: 65px;
+}
+
+#conheca-lenovo-truscale .logofix {
+  position: fixed;
+  right: 0;
+  top: 19%;
+  width: 60px;
+  z-index: 9;
+}
+#conheca-lenovo-truscale #introducao-e-formulario {
+  background: url(assets/conheca-lenovo-truscale-background01.png) center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 20px 0 70px 0;
+  height: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+#conheca-lenovo-truscale #introducao-e-formulario .pc {
+  position: absolute;
+  bottom: -150px;
+  z-index: 0;
+}
+#conheca-lenovo-truscale #introducao-e-formulario .introducao {
+  width: 480px;
+  float: left;
+  margin: 100px 90px 0 0;
+}
+#conheca-lenovo-truscale #introducao-e-formulario h2 {
+  font-family: "Gotham Book";
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: -0.4896px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+#conheca-lenovo-truscale #introducao-e-formulario img.thinkagile {
+  margin-bottom: 90px;
+  width: 332px;
+}
+#conheca-lenovo-truscale #introducao-e-formulario h2 span {
+  color: #3e8ddd;
+}
+#conheca-lenovo-truscale #introducao-e-formulario b {
+  font-family: "Gotham Bold";
+}
+#conheca-lenovo-truscale #introducao-e-formulario h3 {
+  font-family: "Gotham Bold";
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -1.5008px;
+  text-align: left;
+  color: #fff;
+  padding: 0 0 45px 0;
+}
+#conheca-lenovo-truscale #introducao-e-formulario h3 b {
+  font-family: "Gotham Bold";
+}
+#conheca-lenovo-truscale #introducao-e-formulario p {
+  font-family: "Gotham Book";
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 48px;
+}
+
+#conheca-lenovo-truscale #introducao-e-formulario p.disclaimer {
+  font-family: "Gotham Book";
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+img.logovpro {
+  width: 323px;
+}
+#conheca-lenovo-truscale #introducao-e-formulario .chamada p {
+  text-align: center;
+}
+#conheca-lenovo-truscale a {
+  text-decoration: none;
+}
+
+#conheca-lenovo-truscale label#Lbllvo_isoptinemailsent {
+  /* width: 525px;
+        max-width: 525px; */
+  width: 100% !important;
+}
+
+#conheca-lenovo-truscale #introducao-e-formulario h5 {
+  font-family: "Gotham Book", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+@media screen and (max-width: 1366px) {
+  #conheca-lenovo-truscale #introducao-e-formulario .introducao {
+    zoom: 0.8;
+  }
+  #conheca-lenovo-truscale #introducao-e-formulario .formulario .chamada p {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 1100px) {
+  #conheca-lenovo-truscale #introducao-e-formulario .introducao {
+    width: 85%;
+    margin: 0px !important;
+    padding: 30px;
+  }
+  #conheca-lenovo-truscale #introducao-e-formulario {
+    padding: 0;
+  }
+  #conheca-lenovo-truscale #introducao-e-formulario img.logopublicsector {
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    top: -50px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  #conheca-lenovo-truscale #introducao-e-formulario .introducao {
+    margin-top: 0;
+    position: relative;
+  }
+  #conheca-lenovo-truscale img {
+    max-width: 100%;
+  }
+  #conheca-lenovo-truscale #introducao-e-formulario .formulario {
+    display: none;
+  }
+}
+.cta-formulario-mobile {
+  background: #3c91cf;
+  font-family: "Gotham Bold";
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 0 0 0;
+  display: none;
+  font-weight: 900;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}
+@media (max-width: 1100px) {
+  .btn-form {
+    display: none;
+  }
+  .cta-formulario-mobile {
+    display: block;
+  }
+  #conheca-lenovo-truscale #introducao-e-formulario .formulario {
+    width: 94%;
+    height: 91%;
+    background: #fff;
+    float: none;
+    padding: 30px 15px;
+    zoom: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    z-index: 99999;
+    display: none;
+  }
+  #conheca-lenovo-truscale #introducao-e-formulario p.disclaimer {
+    width: 326px;
+  }
+  #conheca-lenovo-truscale #introducao-e-formulario {
+    background-size: cover;
+    width: 100%;
+    padding: 70px 0 60px 0 !important;
+  }
+  .container {
+    margin: 0 auto;
+  }
+}
+
+a.button {
+  width: 380px;
+  height: 64px;
+  font-family: "Gotham Bold";
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  padding: 24px 90px;
+  outline: none;
+}
+
+a.button:hover {
+  background-color: #3f8ddd !important;
+  color: #fff !important;
+  transition-duration: 0.3s;
+}
+#conheca-lenovo-truscale b {
+  font-family: "Gotham Bold", sans-serif !important;
+  font-weight: bold;
+}
+#conheca-lenovo-truscale #disclaimer-final {
+  padding: 58px 0;
+  background-color: #c4c4c4;
+}
+
+#conheca-lenovo-truscale #disclaimer-final p {
+  font-family: "Gotham Book";
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.desktop,
+img.desktop {
+  display: block !important;
+}
+
+.mobile,
+img.mobile {
+  display: none !important;
+}
+
+@media (max-width: 1100px) {
+  .desktop,
+  img.desktop,
+  #conheca-lenovo-truscale #introducao-e-formulario .pc {
+    display: none !important;
+  }
+
+  .mobile,
+  img.mobile {
+    display: block !important;
+  }
+
+  #conheca-lenovo-truscale .lenovo-logo {
+    top: 100px;
+    position: fixed;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 9999;
+  }
+
+  #conheca-lenovo-truscale #introducao-e-formulario img.thinkagile {
+    margin-bottom: 39px;
+  }
+
+  #conheca-lenovo-truscale #introducao-e-formulario h5 {
+    font-size: 16px;
+    padding: 0 40px;
+  }
+
+  a.button {
+    width: 100%;
+    height: 50px;
+    font-size: 11px;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 15px 90px;
+    margin: 0 auto;
+  }
+  button > img {
+    width: 17px;
+    height: 32px;
+  }
+  a.button {
+    display: none;
+  }
+  #conheca-lenovo-truscale #disclaimer-final p {
+    font-size: 10px;
+  }
+  #conheca-lenovo-truscale #disclaimer-final {
+    padding: 32px 30px 75px 30px;
+  }
+}
+li,ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+#section02{
+  background: #000;
+  color: #fff;
+  font-family: 'Gotham Book';
+  padding: 120px 0;
+}
+#section02 h2{
+  font-size: 36px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 36px;
+  max-width: 16ch;
+}
+#section02 p{
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 46px;
+  max-width: 46ch;
+}
+#section02 ul{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+#section02 ul img{
+  padding-bottom: 20px;
+}
+.divbutton {
+  margin-top: 45px;
+}
+.divbutton a{
+  text-transform: uppercase;
+  background-color: #3e8ddd;
+  color: #fff;
+  font-family: 'Gotham Book';
+  padding: 26px 60px;
+  text-align: center;
+  max-width: 100%;
+  display: inline-block;
+  text-decoration: none;
+}
+#section03{
+  background-color: #3e8ddd;
+  padding: 120px 0;
+  text-align: center;
+  color: #fff;
+  font-family: 'Gotham Book';
+}
+#section03 h2{
+  font-size: 36px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 32px;
+}
+#section03 p{
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  max-width: 42ch;
+  margin: auto;
+}
+#section04{
+  background: #f5f5f5;
+  padding: 120px 0;
+  font-family: "Gotham Book";
+}
+#section04 h4{
+  font-size: 36px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+#section04 ul{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px
+}
+#section04 li{
+  padding: 60px;
+  border-radius: 27px;
+  box-shadow: 0 3px 29px 0 rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+}
+@media screen and (min-width: 1024px){
+  #section04 > ul > li:nth-child(1){
+    border-radius: 0 27px 27px 0
+  }
+  #section04 > ul > li:nth-child(3){
+    border-radius: 27px 0 0 27px
+  }
+}
+#section04 a{
+  padding: 16px 50px;
+}
+#section05{
+  background: #000 url(assets/conheca-lenovo-truscale-background02.png) center center no-repeat;
+  color: #fff;
+  font-family: 'Gotham Book';
+  padding: 120px 0;
+}
+#section05 h2{
+  font-family: 'Gotham Bold';
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  padding-bottom: 40px;
+  max-width: 22ch;
+}
+#section05 p{
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  width: 50ch;
+}
+#section06{
+  background: #f5f5f5;
+  padding: 120px 0;
+  font-family: "Gotham Book";
+}
+#section06 .items{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap: 90px;
+}
+#section06 h2{
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  padding-bottom: 50px;
+}
+#section06 p{
+  padding: 20px 0;
+}
+hr{
+  border-color: #dbdbdb;
+  border-width: 0.5008px;
+}
+#section07{
+  background-color: #3e8ddd;
+  padding: 120px 0;
+  text-align: center;
+  color: #fff;
+  font-family: 'Gotham Book';
+}
+#section07 h2{
+  font-size: 36px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 32px;
+}
+#section07 p{
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  max-width: 62ch;
+  margin: auto;
+}
+#section07 a {
+  background: #fff;
+  color: #3e8ddd;
+  font-family: "Gotham Bold";
+}
+@media screen and (max-width:1024px){
+  #section04 h4 {
+    font-size: 24px;
+  }
+  #section04 ul {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 30px;
+    margin: 50px;
+  }
+  .divbutton{
+    display: none;
+  }
+  #section04 .divbutton{
+    display: block;
+  }
+}
+@media screen and (max-width:767px){
+  h2{
+    font-size: 26px!important;
+  }
+  #section02 ul {
+    grid-template-columns: 100%;
+  }
+  #section04 ul {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 30px;
+    margin: 10px;
+  }
+  #section04 li {
+    padding: 35px;
+  }
+  #section04 a {
+    padding: 16px 50px;
+  }
+  #section05 {
+    background: #000 url(assets/conheca-lenovo-truscale-background02.png) left center no-repeat;
+  }
+  #section05 p {
+    width: 100%;
+  }
+  #section06 .items {
+    grid-template-columns: 100%;
+  }
+}

@@ -1,0 +1,16 @@
+<svg id="Grupo_2268" data-name="Grupo 2268" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_683" data-name="Retângulo 683" width="60" height="60" fill="#de241b"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_2267" data-name="Grupo 2267" clip-path="url(#clip-path)">
+    <path id="Caminho_2500" data-name="Caminho 2500" d="M30,0A30,30,0,1,0,60,30,30.034,30.034,0,0,0,30,0m0,57.966A27.966,27.966,0,1,1,57.966,30,28,28,0,0,1,30,57.966" fill="#de241b"/>
+    <path id="Caminho_2501" data-name="Caminho 2501" d="M37.46,39.092a2.631,2.631,0,0,0-1.92,4.431l-.4,3.063h4.646l-.4-3.063a2.631,2.631,0,0,0-1.92-4.431m.228,3.755L37.971,45H36.95l.281-2.15-.383-.278a1.033,1.033,0,0,1-.433-.845,1.045,1.045,0,0,1,2.089,0,1.034,1.034,0,0,1-.435.845Z" transform="translate(-7.46 -8.374)" fill="#de241b"/>
+    <path id="Caminho_2502" data-name="Caminho 2502" d="M42.411,28.843c0-4.372-2.718-7.427-6.611-7.427s-6.61,3.054-6.61,7.427v3.27H27.079V45.993H44.522V32.112H42.411Zm-9.235,0c0-.807.189-3.441,2.625-3.441s2.625,2.634,2.625,3.441v3.27H33.176ZM35.8,23.812c-2.559,0-4.213,1.974-4.213,5.031v3.27H30.78v-3.27C30.78,25.937,32.332,23,35.8,23s5.021,2.933,5.021,5.838v3.27h-.808v-3.27c0-3.057-1.654-5.031-4.213-5.031M28.669,33.7H42.932V44.4H28.669Z" transform="translate(-5.801 -4.587)" fill="#de241b"/>
+    <path id="Caminho_2503" data-name="Caminho 2503" d="M49.676,20.844h4.249v4.249H55.5v-5.82h-5.82Z" transform="translate(-10.641 -4.128)" fill="#de241b"/>
+    <path id="Caminho_2504" data-name="Caminho 2504" d="M19.273,25.093h1.572V20.844h4.249V19.273h-5.82Z" transform="translate(-4.128 -4.128)" fill="#de241b"/>
+    <path id="Caminho_2505" data-name="Caminho 2505" d="M20.844,49.676H19.273V55.5h5.82V53.924H20.844Z" transform="translate(-4.128 -10.641)" fill="#de241b"/>
+    <path id="Caminho_2506" data-name="Caminho 2506" d="M53.925,53.925H49.676V55.5H55.5v-5.82H53.925Z" transform="translate(-10.641 -10.641)" fill="#de241b"/>
+  </g>
+</svg>

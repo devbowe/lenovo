@@ -1,0 +1,102 @@
+.exclusive {
+    padding-block: var(--spacing);
+
+    background-color: var(--lightGray);
+
+    &__container {
+        display: grid;
+        gap: 2rem;
+
+        img {
+            width: 100%;
+            max-width: 25rem;
+        }
+
+        @media (min-width: 45em) {
+            gap: 0;
+
+            grid-template-columns: 1fr 1fr;
+            position: relative;
+            align-items: center;
+
+            .content {
+                grid-column: 2/3;
+            }
+
+            img {
+                max-width: 100%;
+                position: absolute;
+                grid-column: 1/2;
+                right: 40%;
+                transform: scale(1.6);
+
+                filter: brightness(0.8);
+
+                @media (min-width: 1200px) {
+                    left: -20%;
+                    transform: scale(1.2);
+                }
+
+                @media (min-width: 1400px) {
+                    left: -30%;
+                    transform: scale(1.4);
+                }
+            }
+        }
+    }
+
+    .content {
+        h2 {
+            font-size: 1.75rem;
+            line-height: 1.2;
+            margin-bottom: 2rem;
+        }
+
+        p {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+
+            max-width: 33ch;
+        }
+
+        ul {
+            margin-bottom: 2rem;
+            display: grid;
+            gap: 1.5rem;
+
+            li {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                font-weight: 700;
+
+                &:before {
+                    content: "";
+                    width: 2px;
+                    height: 100%;
+                    aspect-ratio: 1;
+                    background-color: var(--blue);
+                }
+            }
+        }
+
+        a {
+            margin-top: 2rem;
+        }
+
+        span {
+            display: block;
+            font-size: 0.8rem;
+        }
+
+        @media (min-width: 45em) {
+            // h2 {
+            //     font-size: 2rem;
+            // }
+
+            p {
+                font-size: 1.125rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.security {
+    padding-block: var(--spacing);
+    color: var(--white);
+
+    background-image: url("../images/oti_e14-gen2__banner-security.png");
+    background-color: var(--black);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40%;
+
+    @media (min-width: 42em) {
+        background-position: center;
+    }
+
+    &__container {
+        ul {
+            --fs: 1rem;
+        }
+
+        a {
+            margin-top: 2rem;
+        }
+    }
+}

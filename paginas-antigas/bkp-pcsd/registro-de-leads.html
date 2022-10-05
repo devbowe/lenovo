@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PXGF7WV');</script>
+<!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="keywords" content="lenovo, think, technology, thinkpad, thinksmart, Lenovo">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Gabriel Oliveira - bowe.com.br">
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="https://www.lenovo.com/favicon.ico">
+
+  	<title>Registro de leads de evento</title>
+ 
+    <!-- FB -->
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Registro de leads de evento">
+    <meta property="og:url" content>
+    <meta property="og:site_name" content="Registro de leads de evento">
+    <meta property="og:image" content>
+    <meta property="og:image:secure_url" content>
+    <script src="https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_assets.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="//183-WCT-620.mktoweb.com/js/forms2/js/forms2.min.js"></script>
+
+    <script>
+        // jQuery Mask Plugin v1.7.7
+(function (f) { "function" === typeof define && define.amd ? define(["jquery"], f) : f(window.jQuery || window.Zepto) })(function (f) {
+    var A = function (a, d, b) {
+        var h = this, m, p; a = f(a); d = "function" === typeof d ? d(a.val(), void 0, a, b) : d; var c = {
+            getCaret: function () { try { var e, l = 0, c = a.get(0), g = document.selection, d = c.selectionStart; if (g && !~navigator.appVersion.indexOf("MSIE 10")) e = g.createRange(), e.moveStart("character", a.is("input") ? -a.val().length : -a.text().length), l = e.text.length; else if (d || "0" === d) l = d; return l } catch (b) { } }, setCaret: function (e) {
+                try {
+                    if (a.is(":focus")) {
+                        var l,
+                            c = a.get(0); c.setSelectionRange ? c.setSelectionRange(e, e) : c.createTextRange && (l = c.createTextRange(), l.collapse(!0), l.moveEnd("character", e), l.moveStart("character", e), l.select())
+                    }
+                } catch (g) { }
+            }, events: function () {
+                a.on("keydown.mask", function () { m = c.val() }).on("keyup.mask", c.behaviour).on("paste.mask drop.mask", function () { setTimeout(function () { a.keydown().keyup() }, 100) }).on("change.mask", function () { a.data("changed", !0) }).on("blur.mask", function () {
+                    m === a.val() || a.data("changed") || a.trigger("change"); a.data("changed",
+                        !1)
+                }).on("focusout.mask", function () { b.clearIfNotMatch && !p.test(c.val()) && c.val("") })
+            }, getRegexMask: function () { for (var e = [], a, c, g, b, k = 0; k < d.length; k++)(a = h.translation[d[k]]) ? (c = a.pattern.toString().replace(/.{1}$|^.{1}/g, ""), g = a.optional, (a = a.recursive) ? (e.push(d[k]), b = { digit: d[k], pattern: c }) : e.push(g || a ? c + "?" : c)) : e.push(d[k].replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&")); e = e.join(""); b && (e = e.replace(new RegExp("(" + b.digit + "(.*" + b.digit + ")?)"), "($1)?").replace(new RegExp(b.digit, "g"), b.pattern)); return new RegExp(e) },
+            destroyEvents: function () { a.off("keydown keyup paste drop change blur focusout DOMNodeInserted ".split(" ").join(".mask ")).removeData("changeCalled") }, val: function (e) { var c = a.is("input"); return 0 < arguments.length ? c ? a.val(e) : a.text(e) : c ? a.val() : a.text() }, getMCharsBeforeCount: function (e, a) { for (var c = 0, b = 0, f = d.length; b < f && b < e; b++)h.translation[d.charAt(b)] || (e = a ? e + 1 : e, c++); return c }, caretPos: function (e, a, b, g) {
+                return h.translation[d.charAt(Math.min(e - 1, d.length - 1))] ? Math.min(e + b - a - g, b) : c.caretPos(e + 1,
+                    a, b, g)
+            }, behaviour: function (a) { a = a || window.event; var b = a.keyCode || a.which; if (-1 === f.inArray(b, h.byPassKeys)) { var d = c.getCaret(), g = c.val(), t = g.length, k = d < t, m = c.getMasked(), n = m.length, p = c.getMCharsBeforeCount(n - 1) - c.getMCharsBeforeCount(t - 1); m !== g && c.val(m); !k || 65 === b && a.ctrlKey || (8 !== b && 46 !== b && (d = c.caretPos(d, t, n, p)), c.setCaret(d)); return c.callbacks(a) } }, getMasked: function (a) {
+                var l = [], f = c.val(), g = 0, m = d.length, k = 0, p = f.length, n = 1, u = "push", r = -1, q, v; b.reverse ? (u = "unshift", n = -1, q = 0, g = m - 1, k = p - 1, v = function () {
+                    return -1 <
+                        g && -1 < k
+                }) : (q = m - 1, v = function () { return g < m && k < p }); for (; v();) { var w = d.charAt(g), x = f.charAt(k), s = h.translation[w]; if (s) x.match(s.pattern) ? (l[u](x), s.recursive && (-1 === r ? r = g : g === q && (g = r - n), q === r && (g -= n)), g += n) : s.optional && (g += n, k -= n), k += n; else { if (!a) l[u](w); x === w && (k += n); g += n } } a = d.charAt(q); m !== p + 1 || h.translation[a] || l.push(a); return l.join("")
+            }, callbacks: function (e) {
+                var f = c.val(), h = f !== m; if (!0 === h && "function" === typeof b.onChange) b.onChange(f, e, a, b); if (!0 === h && "function" === typeof b.onKeyPress) b.onKeyPress(f,
+                    e, a, b); if ("function" === typeof b.onComplete && f.length === d.length) b.onComplete(f, e, a, b)
+            }
+        }; h.mask = d; h.options = b; h.remove = function () { var b; c.destroyEvents(); c.val(h.getCleanVal()).removeAttr("maxlength"); b = c.getCaret(); c.setCaret(b - c.getMCharsBeforeCount(b)); return a }; h.getCleanVal = function () { return c.getMasked(!0) }; h.init = function () {
+            b = b || {}; h.byPassKeys = [9, 16, 17, 18, 36, 37, 38, 39, 40, 91]; h.translation = {
+                0: { pattern: /\d/ }, 9: { pattern: /\d/, optional: !0 }, "#": { pattern: /\d/, recursive: !0 }, A: { pattern: /[a-zA-Z0-9]/ },
+                S: { pattern: /[a-zA-Z]/ }
+            }; h.translation = f.extend({}, h.translation, b.translation); h = f.extend(!0, {}, h, b); p = c.getRegexMask(); !1 !== b.maxlength && a.attr("maxlength", d.length); b.placeholder && a.attr("placeholder", b.placeholder); a.attr("autocomplete", "off"); c.destroyEvents(); c.events(); var e = c.getCaret(); c.val(c.getMasked()); c.setCaret(e + c.getMCharsBeforeCount(e, !0))
+        }()
+    }, y = {}, z = function () {
+        var a = f(this), d = {}; a.attr("data-mask-reverse") && (d.reverse = !0); "false" === a.attr("data-mask-maxlength") && (d.maxlength = !1);
+        a.attr("data-mask-clearifnotmatch") && (d.clearIfNotMatch = !0); a.mask(a.attr("data-mask"), d)
+    }; f.fn.mask = function (a, d) { var b = this.selector, h = function () { var b = f(this).data("mask"), h = JSON.stringify; if ("object" !== typeof b || h(b.options) !== h(d) || b.mask !== a) return f(this).data("mask", new A(this, a, d)) }; this.each(h); b && !y[b] && (y[b] = !0, setTimeout(function () { f(document).on("DOMNodeInserted.mask", b, h) }, 500)) }; f.fn.unmask = function () { try { return this.each(function () { f(this).data("mask").remove().removeData("mask") }) } catch (a) { } };
+    f.fn.cleanVal = function () { return this.data("mask").getCleanVal() }; f("*[data-mask]").each(z); f(document).on("DOMNodeInserted.mask", "*[data-mask]", z)
+});
+
+
+
+MktoForms2.loadForm("//app-ab27.marketo.com", "183-WCT-620", 19458, function (form) {
+
+
+    //$('#lvo_taxidnumber').mask('00000000000000');
+
+    $('#Phone').mask('00000000009');
+
+    $('#Phone').blur(function (event) {
+        if ($(this).val().length == 15) { // Celular com 9 digitos + 2 digitos DDD e 4 da mascara
+            $('#Phone').mask('00000000009');
+        } else {
+            $('#Phone').mask('00000000009');
+        }
+    });
+
+    $('#FirstName').keypress(function (e) {
+        var keyCode = (e.keyCode ? e.keyCode : e.which);
+        if (keyCode > 47 && keyCode < 58) {
+            e.preventDefault();
+        }
+    });
+
+    $('#FirstName').on('input', function () {
+        $(this).val($(this).val().replace(/[^ a-z0-9]/gi, ''));
+    });
+
+    $('#LastName').keypress(function (e) {
+        var keyCode = (e.keyCode ? e.keyCode : e.which);
+        if (keyCode > 47 && keyCode < 58) {
+            e.preventDefault();
+        }
+    });
+    $('#LastName').on('input', function () {
+        $(this).val($(this).val().replace(/[^ a-z0-9]/gi, ''));
+    });
+
+    $("input[name='webformReferralPageURLLast']").val(window.location.href);
+
+    var e = document.getElementById("NumberOfEmployees");
+
+    setTimeout(function(){ 
+        LSCfirst = $("input[name='leadSourceLast']" ).val();
+        console.log(LSCfirst);
+     }, 6000);
+
+    $("input,select").change(function () {
+
+		var code = $("select[name='leadSourceLast']" ).val();
+        $("input[name='leadSourceLastIDG']" ).val(code);
+        $("input[name='sourceCampaign']" ).val(code);
+
+
+        comentarios =
+
+        'Cargo: ' + $("select[name='Title']" ).val() + ' - ' +
+        'Nºmero de Funcionários: ' + $("select[name='NumberOfEmployees']" ).val() + ' - ' +
+        'utm_campaign: ' + $("input[name='mktoutmcampaign']" ).val() + ' - ' +
+        'utm_content: ' + $("input[name='mktoutmcontentdownload']" ).val() + ' - ' +
+        'utm_medium: ' + $("input[name='mktoutmmedium']" ).val() + ' - ' +
+        'utm_source: ' + $("input[name='mktoutmsource']" ).val() + ' - ' +
+        'Lead Source: ' + $("input[name='sourceCampaign']" ).val() + ' - ' +
+        'Página: ' + window.location.href;
+
+        $("input[name='iDGPersonNotes']").val(comentarios);
+        $("input[name='dCGPersonNotes']").val(comentarios);
+        $("input[name='MktoPersonNotes']").val(comentarios);
+        $("input[name='salesNotesIDG']").val(comentarios);
+        $("input[name='salesNotesDCG']").val(comentarios);
+
+    });
+
+    $("input,select").change(function () {
+
+        var segmento = $("input[name='segment']").val();
+
+        if (segmento == 'CPT' || segmento == 'SMB' || segmento == 'REL') {
+
+            var funcionarios = $("#NumberOfEmployees").val();
+
+            if (funcionarios >= 500 && funcionarios <= 999) {
+
+                var estado = $("#State option:selected").val();
+
+                if (estado == 'SP' || estado == 'RJ' || estado == 'MG' || estado == 'ES' || estado == 'PR' || estado == 'SC' || estado == 'RS') {
+
+                    $("input[name='segment']").val('CPT');
+
+                } else {
+
+                    $("input[name='segment']").val('SMB');
+
+                }
+
+            } else if (funcionarios >= 1000) {
+
+                $("input[name='segment']").val('REL');
+
+            } else if (funcionarios >= 10 && funcionarios <= 499) {
+
+                $("input[name='segment']").val('SMB');
+
+            } else if (funcionarios >= 1 && funcionarios <= 9) {
+
+                $("input[name='segment']").val('VSB');
+
+            }
+        }
+
+    });
+
+});
+
+MktoForms2.whenRendered(function(form){
+
+    var formEl = form.getFormElem()[0],
+  
+      autocompleteDisabledEl;
+  
+    while(autocompleteDisabledEl = formEl.querySelector("[autocomplete='off']") )
+  
+      autocompleteDisabledEl.setAttribute("autocomplete", "new-password" );
+  
+  });
+    </script>
+
+
+  <style>
+  html, body{
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p,span,a{
+    margin: 0;
+}
+.clearfix {
+    overflow: auto;
+    display: contents;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#lenovopcsd a:hover{
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    transition-duration: .3s;
+}
+section{
+    scroll-behavior: smooth;
+}
+#lenovopcsd a{
+    transition-duration: .3s;
+}
+@font-face {font-family: "Gotham Bold";
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot"); /* IE9*/
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.woff2") format("woff2"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.woff") format("woff"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.svg#Gotham Book") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Gotham Book";
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot"); /* IE9*/
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.woff2") format("woff2"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.woff") format("woff"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.svg#Gotham Book") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: 'Gotham Light';
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.eot"); /* IE9*/
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.woff2") format("woff2"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.woff") format("woff"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.svg#Gotham Light") format("svg"); /* iOS 4.1- */
+}
+
+    /* Reset */
+    
+/**formulário**/
+#lenovopcsd #introducao-e-formulario .formulario{
+    background:#ffffff;
+    height:auto;
+    width: 30%;
+    padding:45px;
+    -webkit-box-shadow:0 8px 16px 0 rgba(0,0,0,.16);
+    box-shadow:0 8px 16px 0 rgba(0,0,0,.16);
+    zoom: 0.9;
+}
+#lenovopcsd #introducao-e-formulario .formulario #close-form{
+    background:#fff;
+    position:fixed;
+    top:20px;
+    right:0;
+    z-index:999;
+    padding:10px;
+    display:none
+}
+#lenovopcsd #introducao-e-formulario .formulario .chamada{
+    text-align:center;
+    margin-bottom:40px
+}
+#lenovopcsd #introducao-e-formulario .formulario .chamada h2{
+    color:#000;
+    font-size:32px;
+    font-weight:900;
+    line-height:1.25;
+    margin:0 0 20px 0
+}
+#lenovopcsd #introducao-e-formulario .formulario .chamada p{
+    color:#000;
+    font-size:20px;
+    line-height:1.6;
+    font-weight:300;
+    margin:0
+}
+#lenovopcsd #introducao-e-formulario .formulario .chamada p strong{
+    font-weight:500
+}
+#lenovopcsd #introducao-e-formulario .formulario .chamada p a{
+    background:#df140a;
+    color:#fff;
+    display:inline-block;
+    padding:1px 5px 0 5px;
+    font-weight:500
+}
+#lenovopcsd #introducao-e-formulario .formulario .mktoForm{
+    width:100%!important
+}
+#lenovopcsd #introducao-e-formulario .formulario .mktoButtonRow,#lenovopcsd #introducao-e-formulario .formulario .mktoFieldWrap,#lenovopcsd #introducao-e-formulario .formulario .mktoFormCol,#lenovopcsd #introducao-e-formulario .formulario .mktoFormRow{
+    width:100%!important
+}
+#lenovopcsd #introducao-e-formulario .formulario .mktoFormCol{
+    width:100%!important
+}
+#lenovopcsd #introducao-e-formulario .formulario .mktoFormCol{
+    margin:0 0 12px 0!important
+}
+#lenovopcsd #introducao-e-formulario .formulario .mktoFormCol:nth-child(even){
+    float:right!important
+}
+#lenovopcsd #introducao-e-formulario .formulario .mktoFormRow:nth-child(6) .mktoFormCol:nth-child(1),#lenovopcsd #introducao-e-formulario .formulario .mktoFormRow:nth-child(8) .mktoFormCol:nth-child(1){
+    width:100%!important
+}
+#lenovopcsd #introducao-e-formulario .formulario .mktoAsterix,#lenovopcsd #introducao-e-formulario .formulario .mktoGutter,#lenovopcsd #introducao-e-formulario .formulario .mktoOffset{
+    display:none!important
+}
+#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=date],#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=email],#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=number],#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=tel],#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=text],#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=url],#lenovopcsd #introducao-e-formulario .formulario .mktoForm select.mktoField,#lenovopcsd #introducao-e-formulario .formulario .mktoForm textarea.mktoField{
+    width:100%!important;
+    height:40px;
+    border:solid 1px #c7c7c7;
+    font-family:Lato,Helvetica,Arial,sans-serif;
+    color:#000000;
+    font-size:14px;
+    padding-left:16px;
+    font-weight:500;
+    line-height:100%
+}
+#lenovopcsd #Lbllvo_isoptinemailsent{
+    width: 438px!important;
+}
+#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=date]::-webkit-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=email]::-webkit-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=number]::-webkit-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=tel]::-webkit-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=text]::-webkit-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=url]::-webkit-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm select.mktoField::-webkit-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm textarea.mktoField::-webkit-input-placeholder{
+    color:#df140a
+}
+#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=date]:-ms-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=email]:-ms-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=number]:-ms-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=tel]:-ms-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=text]:-ms-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=url]:-ms-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm select.mktoField:-ms-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm textarea.mktoField:-ms-input-placeholder{
+    color:#000000
+}
+#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=date]::-ms-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=email]::-ms-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=number]::-ms-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=tel]::-ms-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=text]::-ms-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=url]::-ms-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm select.mktoField::-ms-input-placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm textarea.mktoField::-ms-input-placeholder{
+    color:#000000
+}
+#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=date]::placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=email]::placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=number]::placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=tel]::placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=text]::placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm input[type=url]::placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm select.mktoField::placeholder,#lenovopcsd #introducao-e-formulario .formulario .mktoForm textarea.mktoField::placeholder{
+    color:#000000
+}
+#lenovopcsd #introducao-e-formulario .formulario .mktoForm select.mktoField{
+    background:#ffffff url(https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_seta-select.svg) top 50% right 16px no-repeat!important;
+    -webkit-appearance:none!important
+}
+#lenovopcsd #introducao-e-formulario .formulario .mktoForm textarea.mktoField{
+    padding-top:15px!important
+}
+#lenovopcsd #introducao-e-formulario .formulario .mktoLabel{
+    font-family:Lato,Helvetica,Arial,sans-serif;
+    color:#000;
+    line-height:1.5;
+    letter-spacing:.29px;
+    font-size:12px
+}
+#lenovopcsd #introducao-e-formulario .formulario .mktoButtonWrap{
+    width:100%!important;
+    margin:0!important
+}
+#lenovopcsd #introducao-e-formulario .formulario .mktoButtonWrap .mktoButton{
+    background:#df140a;
+    font-family:Lato,Helvetica,Arial,sans-serif;
+    border:none;
+    width:100%!important;
+    font-size:20px;
+    color:#fff;
+    font-weight:900;
+    text-align:center;
+    height:64px;
+    text-transform:uppercase;
+    line-height:2;
+    margin:2px!important
+}
+@media screen and (max-width:1570px){
+    #lenovopcsd #introducao-e-formulario .formulario{
+        zoom:.9
+    }
+}
+@media screen and (max-width:1370px){
+    #lenovopcsd #introducao-e-formulario .formulario{
+        zoom:.83
+    }
+}
+@media screen and (max-width:1100px){
+    #lenovopcsd #introducao-e-formulario .formulario .mktoLabel{
+        word-wrap:break-word!important;
+        white-space:pre-line;
+        width:100%!important
+    }
+    #lenovopcsd #introducao-e-formulario .formulario{
+        width:100%;
+        max-height:1342px;
+        padding:30px 20px 30px 20px;
+        zoom:1;
+        top:0;
+        left:0;
+        z-index:99999;
+        margin:0!important;
+        box-sizing: border-box;
+    }
+    #lenovopcsd #introducao-e-formulario .formulario #close-form{
+        display:block
+    }
+    #lenovopcsd #introducao-e-formulario .formulario .chamada{
+        margin-bottom:30px
+    }
+    #lenovopcsd #introducao-e-formulario .formulario .chamada br{
+        display:none
+    }
+    #lenovopcsd #introducao-e-formulario .formulario .chamada h2{
+        font-size:26px;
+        margin:0 0 20px 0
+    }
+    #lenovopcsd #introducao-e-formulario .formulario .chamada p{
+        font-size:18px
+    }
+    #lenovopcsd #introducao-e-formulario .formulario .mktoFormCol{
+        width:100%!important
+    }
+    #lenovopcsd #introducao-e-formulario .formulario .mktoFormCol{
+        margin:0 0 22px 0!important
+    }
+    #lenovopcsd #introducao-e-formulario .formulario .mktoFormCol:nth-child(even){
+        float:left!important
+    }
+}
+.container2{
+    width: 90%;
+    max-width: 1224px;
+    margin: 0 auto;
+}
+#lenovopcsd #introducao-e-formulario {
+    background: url("https://pages.lenovo.com/rs/183-WCT-620/images/dcg-contato-bg01.png") center center no-repeat;
+    background-size:cover;
+    width: 100%;
+    padding: 80px 0;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+#lenovopcsd #introducao-e-formulario h2{
+    font-family: 'Gotham Bold';
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding: 40px 0;
+}
+#lenovopcsd #introducao-e-formulario h2 strong{
+  	color: #df140a;
+}
+#lenovopcsd #introducao-e-formulario b{
+    font-family: 'Gotham Bold';
+}
+#lenovopcsd #introducao-e-formulario h3{
+    font-family: 'Gotham Book';
+    font-size: 26px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+#lenovopcsd #introducao-e-formulario h4{
+    font-family: 'Gotham Bold';
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+#lenovopcsd #introducao-e-formulario h4 strong{
+    color: #df140a;
+
+}
+#lenovopcsd #introducao-e-formulario p{
+    font-family: 'Gotham Book';
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+#lenovopcsd #introducao-e-formulario .chamada p {
+    text-align: center;
+}
+#lenovopcsd a {
+    text-decoration: none;
+}
+
+#lenovopcsd #introducao-e-formulario h5{
+    font-family: 'Gotham Bold', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+#lenovopcsd .logo{
+    position: absolute;
+    right:0;
+    top:100px;
+    max-width: 50px;
+}
+@media screen and (min-width:1024px) and (max-width:1600px){
+    #lenovopcsd #introducao-e-formulario .introducao {
+        zoom: 0.8;
+    }
+    #lenovopcsd #introducao-e-formulario p{
+        padding-right: 20%;
+    }
+}
+@media screen and (max-width:1024px){
+    #lenovopcsd #introducao-e-formulario .introducao {
+        width: 69%;
+        padding-bottom: 40px;
+        padding: 30px;
+    }
+    #lenovopcsd #introducao-e-formulario {
+        padding: 0;
+    }
+    #lenovopcsd #introducao-e-formulario img {
+        max-width: 83%;
+    }
+    #lenovopcsd #introducao-e-formulario {
+        background: url(https://pages.lenovo.com/rs/183-WCT-620/images/dcg-contato-bg01.png) center left -380px no-repeat;
+    }
+}
+@media screen and (max-width:767px){
+    #lenovopcsd #introducao-e-formulario .introducao {
+        width: 80%;
+    }
+    #lenovopcsd #introducao-e-formulario p{
+        font-size: 16px!important
+    }
+    #lenovopcsd #introducao-e-formulario {
+    background: url(https://pages.lenovo.com/rs/183-WCT-620/images/dcg-contato-bg01.png) center left -750px no-repeat, #00000085;
+    }
+    #lenovopcsd #introducao-e-formulario{
+        padding: 0!important;
+    }
+    .container2 {
+        width: 100%;
+        max-width: 1224px;
+        margin: 0 auto;
+        background: #29000087;
+    }
+}
+@media screen and (max-width: 1100px){
+    #lenovopcsd img{
+        max-width: 100%;
+    }
+    #lenovopcsd #introducao-e-formulario .introducao {
+        margin-top: 0;
+    }
+}
+#cta-formulario-mobile {
+    background: #df140a;
+    font-family: 'Gotham Bold';
+    width: 100%;
+    height: 46px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0 0 0;
+    display: none;
+    font-weight: 900;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
+@media (max-width: 1100px){
+    .btn-form{
+        display:none;
+    }
+    #cta-formulario-mobile {
+        display: block;
+    }
+    #lenovopcsd #introducao-e-formulario h2 {
+        font-size: 31px;
+    }
+    #lenovopcsd #introducao-e-formulario h3{
+        font-size: 22px;
+    }
+    #lenovopcsd #introducao-e-formulario h4{
+        color: #ffffff;
+        font-size: 20px;
+    }
+    #lenovopcsd #introducao-e-formulario p {
+        font-family: 'Gotham Book';
+        font-size: 19px;
+    }   
+    #lenovopcsd #introducao-e-formulario {
+        background-size: cover;
+        width: 100%;
+        padding: 40px 0;
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+    #lenovopcsd #introducao-e-formulario h5 {
+        font-size: 16px;
+    }
+}
+#lenovopcsd #textojur{
+    background-color: #c4c4c4;
+    text-align: center;
+    padding: 38px 0;
+}
+#lenovopcsd #textojur p{
+    width: 916px;
+    font-family: 'Gotham Book';
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+}
+@media screen and (max-width:1100px){
+    #lenovopcsd #textojur p {
+        width: 90%;
+        font-size: 10px;
+        padding-bottom: 80px;
+    }
+}
+.mktoCheckboxList {
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+#Lbllvo_isoptinemailsent {
+    font-family: 'GothamPro',sans-serif;
+    color: #000;
+    line-height: 1.5;
+    letter-spacing: .29px;
+    font-size: 12px;
+    text-align: justify;
+    width: 567px!important;
+    text-indent: 23px;
+}
+@media screen and (max-width:767px){
+    #lenovopcsd #introducao-e-formulario .logo {
+    max-width: 50px;
+	}
+}
+#LblemailPermissionStatus {
+    font-family: 'GothamPro',sans-serif;
+    color: #000;
+    line-height: 1.5;
+    letter-spacing: .29px;
+    font-size: 12px;
+    text-align: justify;
+    width: 100%!important;
+    text-indent: 23px;
+}
+  </style>
+        
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXGF7WV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="lenovopcsd">
+
+    <section id="introducao-e-formulario">
+
+            <div class="container2">
+
+                <div class="formulario" id="form">
+
+                    <header class="chamada">
+
+                        <h5>Registro de leads de evento</h5>
+
+                    </header> <!-- chamada -->
+
+                    <form id="mktoForm_19458"></form>
+
+                </div> <!-- formulario -->
+
+                <div class="clearfix"></div>
+
+            </div> <!-- container -->
+
+    </section> <!-- introducao e formulario -->
+
+    <section id="textojur">
+        <p>A Lenovo realiza todos os esforços para garantir a precisão das informações, mas não é responsável por qualquer conteúdo editorial,
+fotográfico ou por erros tipográficos. Todas as imagens são apenas para fins ilustrativos. Para especificações completas de produto,
+informações de serviços e garantias Lenovo, visite www.lenovo.com. Lenovo, ThinkSystem, ThinkAgile e o logotipo da Lenovo são marcas
+registradas da Lenovo. A Lenovo não faz nenhuma representação ou dá garantia em relação a produtos ou serviços de terceiros.
+Outros nomes de empresas, produtos e serviços podem ser marcas registradas ou marcas de serviços de terceiros.
+©Lenovo <script>document.write(new Date().getFullYear());</script>.
+</p>
+    </section>
+
+<div class="mktoContent"></div>
+</body>
+</html>

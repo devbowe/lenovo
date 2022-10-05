@@ -1,0 +1,95 @@
+.max {
+    padding-block: var(--spacing);
+    color: var(--black);
+
+    &__container {
+        h2 {
+            max-width: 14ch;
+            text-align: center;
+            margin-inline: auto;
+            margin-bottom: 2.5rem;
+        }
+
+        p {
+            text-align: center;
+            margin-inline: auto;
+            margin-bottom: 3rem;
+            max-width: 65ch;
+        }
+
+        a {
+            margin-top: 3rem;
+            margin-inline: auto;
+            display: grid;
+            max-width: max-content;
+            text-align: center;
+
+            @media (max-width: 1100px) {
+                display: none;
+            }
+        }
+    }
+
+    .cards {
+        display: grid;
+        gap: 3.5rem;
+
+        @media (min-width: 42em) {
+            grid-template-columns: 1fr 1fr;
+            justify-items: start;
+        }
+
+        @media (min-width: 70em) {
+            grid-template-columns: repeat(3, 1fr);
+
+            gap: 4.25rem;
+        }
+
+        article {
+            display: grid;
+            max-width: max-content;
+
+            @media (min-width: 75em) {
+                grid-template-rows: 7rem min-content;
+            }
+
+            h3 {
+                font-weight: 700;
+                margin-bottom: 1.25rem;
+                font-size: 1.25rem;
+            }
+
+            ul {
+                display: grid;
+                gap: 0.25rem;
+
+                li {
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 0.5rem;
+                    position: relative;
+                    padding: 0.75rem 0;
+                    max-width: 30ch;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 1px;
+                        background-color: var(--lightGray);
+                        display: block;
+                        top: calc(-1 * 0.25rem);
+                        left: 0;
+                    }
+
+                    img {
+                        flex-shrink: 0;
+                        position: relative;
+                        top: 7px;
+                        width: 0.35rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1186 @@
+html,
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+    margin: 0;
+}
+.clearfix {
+    overflow: auto;
+    display: contents;
+}
+b,
+strong {
+    font-family: "Gotham Bold";
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#thinkagile-hx a:hover {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    transition-duration: 0.3s;
+}
+section {
+    scroll-behavior: smooth;
+}
+#thinkagile-hx a {
+    transition-duration: 0.3s;
+}
+@font-face {
+    font-family: "Gotham Bold";
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot"); /* IE9*/
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot?#iefix")
+            format("embedded-opentype"),
+        /* IE6-IE8 */
+            url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.woff")
+            format("woff"),
+        /* chrome、firefox */
+            url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.ttf")
+            format("truetype"),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+            url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.svg#Gotham Book")
+            format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: "Gotham Book";
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot"); /* IE9*/
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot?#iefix")
+            format("embedded-opentype"),
+        /* IE6-IE8 */
+            url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.woff")
+            format("woff"),
+        /* chrome、firefox */
+            url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.ttf")
+            format("truetype"),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+            url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.svg#Gotham Book")
+            format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: "Gotham Light";
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.eot"); /* IE9*/
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.eot?#iefix")
+            format("embedded-opentype"),
+        /* IE6-IE8 */
+            url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.woff")
+            format("woff"),
+        /* chrome、firefox */
+            url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.ttf")
+            format("truetype"),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+            url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.svg#Gotham Light")
+            format("svg"); /* iOS 4.1- */
+}
+
+/* Reset */
+
+/**formulário**/
+#thinkagile-hx #introducao-e-formulario .formulario {
+    margin-top: 75px;
+    background: #ffffff;
+    height: auto;
+    /* width:520px; */
+    width: 35%;
+    float: right;
+    padding: 45px 40px;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.16);
+    zoom: 0.9;
+
+    margin-right: 4.25rem;
+}
+#thinkagile-hx #introducao-e-formulario .formulario #close-form {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    padding: 10px;
+    display: none;
+}
+#thinkagile-hx #introducao-e-formulario .formulario .chamada {
+    text-align: center;
+    margin-bottom: 40px;
+}
+#thinkagile-hx #introducao-e-formulario .formulario .chamada h2 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1.25;
+    margin: 0 0 20px 0;
+}
+#thinkagile-hx #introducao-e-formulario .formulario .chamada p {
+    color: #000;
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 300;
+    margin: 0;
+}
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .chamada
+    p
+    strong {
+    font-weight: 500;
+}
+#thinkagile-hx #introducao-e-formulario .formulario .chamada p a {
+    background: #f06a22;
+    color: #fff;
+    display: inline-block;
+    padding: 1px 5px 0 5px;
+    font-weight: 500;
+}
+#thinkagile-hx #introducao-e-formulario .formulario .mktoForm {
+    width: 100% !important;
+}
+#thinkagile-hx #introducao-e-formulario .formulario .mktoButtonRow,
+#thinkagile-hx #introducao-e-formulario .formulario .mktoFieldWrap,
+#thinkagile-hx #introducao-e-formulario .formulario .mktoFormCol,
+#thinkagile-hx #introducao-e-formulario .formulario .mktoFormRow {
+    width: 100% !important;
+}
+#thinkagile-hx #introducao-e-formulario .formulario .mktoFormCol {
+    /* width:47%!important */
+    width: 100%important;
+}
+#thinkagile-hx #introducao-e-formulario .formulario .mktoFormCol {
+    margin: 0 0 12px 0 !important;
+}
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoFormCol:nth-child(even) {
+    float: right !important;
+}
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoFormRow:nth-child(8)
+    .mktoFormCol:nth-child(1) {
+    width: 100% !important;
+}
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoFormRow:nth-child(8)
+    .mktoFormCol:nth-child(2) {
+    display: none;
+}
+#thinkagile-hx #introducao-e-formulario .formulario .mktoAsterix,
+#thinkagile-hx #introducao-e-formulario .formulario .mktoGutter,
+#thinkagile-hx #introducao-e-formulario .formulario .mktoOffset {
+    display: none !important;
+}
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="date"],
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="email"],
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="number"],
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="tel"],
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="text"],
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="url"],
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    select.mktoField,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    textarea.mktoField {
+    width: 100% !important;
+    height: 40px;
+    border: solid 1px #c7c7c7;
+    font-family: "Gotham Book", Helvetica, Arial, sans-serif;
+    color: #000000;
+    font-size: 14px;
+    padding-left: 16px;
+    font-weight: 500;
+    line-height: 100%;
+}
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="date"]::-webkit-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="email"]::-webkit-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="number"]::-webkit-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="tel"]::-webkit-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="text"]::-webkit-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="url"]::-webkit-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    select.mktoField::-webkit-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    textarea.mktoField::-webkit-input-placeholder {
+    color: #f06a22;
+}
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="date"]:-ms-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="email"]:-ms-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="number"]:-ms-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="tel"]:-ms-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="text"]:-ms-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="url"]:-ms-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    select.mktoField:-ms-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    textarea.mktoField:-ms-input-placeholder {
+    color: #000000;
+}
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="date"]::-ms-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="email"]::-ms-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="number"]::-ms-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="tel"]::-ms-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="text"]::-ms-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="url"]::-ms-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    select.mktoField::-ms-input-placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    textarea.mktoField::-ms-input-placeholder {
+    color: #000000;
+}
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="date"]::placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="email"]::placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="number"]::placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="tel"]::placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="text"]::placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    input[type="url"]::placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    select.mktoField::placeholder,
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    textarea.mktoField::placeholder {
+    color: #000000;
+}
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    select.mktoField {
+    background: #ffffff
+        url(https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_seta-select.svg)
+        top 50% right 16px no-repeat !important;
+    -webkit-appearance: none !important;
+}
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoForm
+    textarea.mktoField {
+    padding-top: 15px !important;
+}
+#thinkagile-hx #introducao-e-formulario .formulario .mktoLabel {
+    font-family: "Gotham Book", Helvetica, Arial, sans-serif;
+    color: #000;
+    line-height: 1.5;
+    letter-spacing: 0.29px;
+    font-size: 12px;
+}
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoButtonWrap {
+    width: 100% !important;
+    margin: 0 !important;
+}
+#thinkagile-hx
+    #introducao-e-formulario
+    .formulario
+    .mktoButtonWrap
+    .mktoButton {
+    background: #DE241B;
+    font-family: "Gotham Book", Helvetica, Arial, sans-serif;
+    border: none;
+    width: 100% !important;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+    height: 64px;
+    text-transform: uppercase;
+    line-height: 2;
+    margin: 2px !important;
+}
+@media screen and (max-width: 1570px) {
+    #thinkagile-hx #introducao-e-formulario .formulario {
+        zoom: 0.9;
+        margin-top: 50px;
+    }
+    #thinkagile-hx #introducao-e-formulario .introducao {
+        margin: 50px 30px 0 0 !important;
+    }
+
+    img.logovpro {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    #thinkagile-hx #introducao-e-formulario {
+        padding: 50px 0 !important;
+    }
+}
+@media screen and (max-width: 1400px) {
+    #thinkagile-hx #introducao-e-formulario .formulario {
+        zoom: 0.83;
+        margin-top: 35px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    #thinkagile-hx #introducao-e-formulario .formulario .mktoLabel {
+        word-wrap: break-word !important;
+        white-space: pre-line;
+        width: 100% !important;
+    }
+    #thinkagile-hx #introducao-e-formulario .formulario {
+        width: 89%;
+        max-height: 1342px;
+        padding: 30px 20px 30px 20px;
+        zoom: 1;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+        margin: 0 !important;
+    }
+    #thinkagile-hx
+        #introducao-e-formulario
+        .formulario
+        #close-form {
+        display: block;
+    }
+    #thinkagile-hx #introducao-e-formulario .formulario .chamada {
+        margin-bottom: 30px;
+    }
+    #thinkagile-hx
+        #introducao-e-formulario
+        .formulario
+        .chamada
+        h2 {
+        font-size: 26px;
+        margin: 0 0 20px 0;
+    }
+    #thinkagile-hx #introducao-e-formulario .formulario .chamada p {
+        font-size: 18px;
+    }
+    #thinkagile-hx
+        #introducao-e-formulario
+        .formulario
+        .mktoFormCol {
+        width: 100% !important;
+    }
+    #thinkagile-hx
+        #introducao-e-formulario
+        .formulario
+        .mktoFormCol {
+        margin: 0 0 22px 0 !important;
+    }
+    #thinkagile-hx
+        #introducao-e-formulario
+        .formulario
+        .mktoFormCol:nth-child(even) {
+        float: left !important;
+    }
+}
+
+.mktoCheckboxList {
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+#Lbllvo_isoptinemailsent {
+    font-family: "GothamPro", sans-serif;
+    color: #000;
+    line-height: 1.5;
+    letter-spacing: 0.29px;
+    font-size: 12px;
+    text-align: justify;
+    width: 567px !important;
+    text-indent: 23px;
+}
+@media screen and (max-width: 1100px) {
+    #Lbllvo_isoptinemailsent {
+        width: 100% !important;
+    }
+}
+
+#thinkagile-hx .lenovo-logo {
+    position: fixed;
+    top: 100px;
+    right: -1px;
+    z-index: 9999;
+    max-width: 50px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+    position: relative;
+}
+
+.container2 {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+img.logo {
+    position: absolute;
+    left: 65px;
+    top: 65px;
+}
+
+#thinkagile-hx .logofix {
+    position: fixed;
+    right: 0;
+    top: 19%;
+    width: 60px;
+    z-index: 9;
+}
+#thinkagile-hx #introducao-e-formulario {
+    background: url(br-thinkagilehx-otimizacao-bg01.png)
+        center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 20px 0 70px 0;
+    height: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#thinkagile-hx #introducao-e-formulario .introducao {
+    width: 45%;
+    float: left;
+    margin: 100px 90px 0 0;
+}
+#thinkagile-hx #introducao-e-formulario h2 {
+    font-family: "Gotham Bold";
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: -0.49px;
+    text-align: left;
+    color: #ffffff;
+    margin: 30px 0 10px 0;
+}
+#thinkagile-hx #introducao-e-formulario h2 b{
+    color: #de241b;
+}
+#thinkagile-hx #introducao-e-formulario img.thinkagile {
+    margin-bottom: 90px;
+    width: 332px;
+}
+#thinkagile-hx #introducao-e-formulario h2 span {
+    color: #3e8ddd;
+}
+#thinkagile-hx #introducao-e-formulario b {
+    font-family: "Gotham Bold";
+}
+#thinkagile-hx #introducao-e-formulario h3 {
+    font-family: "Gotham Book";
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #DE241B;
+    padding: 0 0 45px 0;
+}
+#thinkagile-hx #introducao-e-formulario h3 b {
+    font-family: "Gotham Bold";
+}
+#thinkagile-hx #introducao-e-formulario p {
+    font-family: "Gotham Book";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 48px;
+}
+
+#thinkagile-hx #introducao-e-formulario p.disclaimer {
+    font-family: "Gotham Book";
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+img.logovpro {
+    width: 323px;
+}
+#thinkagile-hx #introducao-e-formulario .chamada p {
+    text-align: center;
+}
+#thinkagile-hx a {
+    text-decoration: none;
+}
+
+#thinkagile-hx label#Lbllvo_isoptinemailsent {
+    /* width: 525px;
+    max-width: 525px; */
+    width: 100% !important;
+}
+
+#thinkagile-hx #introducao-e-formulario h5 {
+    font-family: "Gotham Book", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+@media screen and (max-width: 1366px) {
+    #thinkagile-hx #introducao-e-formulario .introducao {
+        zoom: 0.8;
+    }
+    #thinkagile-hx #introducao-e-formulario .formulario .chamada p {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 1100px) {
+    #thinkagile-hx #introducao-e-formulario .introducao {
+        width: 85%;
+        margin: 0px !important;
+        padding: 30px;
+    }
+    #thinkagile-hx #introducao-e-formulario {
+        padding: 0;
+    }
+    #thinkagile-hx #introducao-e-formulario img.logopublicsector {
+        width: 82px;
+        height: 82px;
+        position: absolute;
+        top: -50px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    #thinkagile-hx #introducao-e-formulario .introducao {
+        margin-top: 0;
+        position: relative;
+        zoom: 1;
+    }
+    #thinkagile-hx img {
+        max-width: 100%;
+    }
+    #thinkagile-hx #introducao-e-formulario .formulario {
+        display: none;
+    }
+}
+.cta-formulario-mobile {
+    background: #DE241B;
+    font-family: "Gotham Bold";
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0 0 0;
+    display: none;
+    font-weight: 900;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
+@media (max-width: 1100px) {
+    .btn-form {
+        display: none;
+    }
+    .cta-formulario-mobile {
+        display: block;
+    }
+    #thinkagile-hx #introducao-e-formulario h3 {
+        font-size: 18px;
+    }
+    #thinkagile-hx #introducao-e-formulario .formulario {
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        box-sizing: border-box;
+        float: none;
+        padding: 30px 15px;
+        zoom: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow-y: auto;
+        z-index: 99999;
+        display: none;
+    }
+    #thinkagile-hx #introducao-e-formulario h2 {
+        padding-top: 20px;
+        font-size: 29px;
+    }
+
+    #thinkagile-hx #introducao-e-formulario h2 img {
+        width: 315px;
+        margin-top: 5px;
+    }
+    #thinkagile-hx #introducao-e-formulario p {
+        font-size: 16px;
+        margin-bottom: 45px;
+    }
+    #thinkagile-hx #introducao-e-formulario p.disclaimer {
+        width: 326px;
+    }
+    #thinkagile-hx #servers {
+        padding: 52px 0 !important;
+    }
+    #thinkagile-hx #servers .titulo2 {
+        margin: 0 auto;
+    }
+    #thinkagile-hx #introducao-e-formulario {
+        background-size: cover;
+        width: 100%;
+        padding: 70px 0 60px 0 !important;
+    }
+    .container {
+        margin: 0 auto;
+        max-width: 100% !important;
+    }
+}
+
+a.button {
+    width: 380px;
+    height: 64px;
+    font-family: "Gotham Bold";
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    background-color: #DE241B;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    padding: 24px 90px;
+    outline: none;
+}
+
+a.button:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+    transition-duration: 0.3s;
+}
+.divbutton {
+    text-align: center;
+    margin-top: 60px;
+}
+
+@media (max-width: 680px) and (min-width: 300px) {
+    #thinkagile-hx #introducao-e-formulario .arrow {
+        padding-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -45px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .desktop {
+        display: none !important;
+    }
+
+    .mobile {
+        display: block !important;
+    }
+
+    #thinkagile-hx .lenovo-logo {
+        position: absolute;
+        width: 40px;
+        z-index: 9999;
+    }
+
+    #thinkagile-hx #introducao-e-formulario h5 {
+        font-size: 16px;
+        padding: 0 40px;
+    }
+
+    a.button {
+        width: 100%;
+        height: 50px;
+        font-size: 11px;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: center;
+        padding: 15px 90px;
+        margin: 0 auto;
+    }
+
+    a.button,.divbutton {
+        display: none;
+    }
+}
+#LblemailPermissionStatus {
+    font-family: "Gotham Book", sans-serif;
+    color: #000;
+    line-height: 1.5;
+    letter-spacing: 0.29px;
+    font-size: 12px;
+    text-align: justify;
+    width: 100% !important;
+    text-indent: 23px;
+}
+#section02 {
+    padding: 80px 0;
+    background-size: 12%;
+}
+#section02 .items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+h2 {
+    font-family: "Gotham Book";
+    font-size: 42px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    padding-bottom: 26px;
+}
+p {
+    font-family: "Gotham Book";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+}
+#section02 .items2 {
+    padding: 80px 0 40px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    align-items: center;
+}
+#section02 .items2 p {
+    font-family: "Gotham Bold";
+    text-align: center;
+    padding-top: 24px;
+}
+#section02 h4 {
+    font-family: "Gotham Bold";
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #DE241B;
+    padding: 0;
+    border-radius: 100px;
+    border: solid 4px #DE241B;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    margin: 0 auto;
+}
+#section02 .disclaimer {
+    font-family: "Gotham Book";
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+#section02 .divbutton {
+    text-align: center;
+}
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#section03 {
+    background-color: #efefef;
+    padding: 80px 0;
+}
+#section03 .items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-sizing: border-box;
+}
+#section03 h4 {
+    font-family: "Gotham Bold";
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+#section03 ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+}
+#section03 .divbutton {
+    text-align: left;
+}
+#section03 .img {
+    padding-left: 20%;
+}
+#section04{
+    padding: 120px 0;
+}
+#section04 .col{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+}
+#section04 .col div{
+    padding: 48px;
+    border: solid 1px #edf2ee;
+}
+#section04 h2{
+    text-align: center;
+}
+#section04 p{
+    font-family: "Gotham Book";
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #313131;
+    padding: 20px 0 20px 0;
+}
+#section04 .col img:nth-child(3){
+    display: inline-block;
+    padding-right: 10px;
+}
+#section04 h4{
+    font-family: "Gotham Book";
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a3a3a3;
+    display: inline-block;
+}
+#section04 h4 b{
+    color: #000;
+}
+#section05{
+    padding: 120px 0;
+    background: url(br-thinkagilehx-otimizacao-bg02.png) center center;
+    background-size: cover;
+}
+#section05 h2{
+    font-family: "Gotham Bold";
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: center;
+    color: #de241b;
+}
+#section05 p{
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+#section06 {
+    background-image: linear-gradient(143deg, #de241b -43%, #1b0c35 85%);
+    color: #fff;
+    padding: 120px 0;
+}
+#section06 h2 {
+    color: #fff;
+    font-size: 35px;
+}
+#section06 .items {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+}
+#section06 .divbutton {
+    text-align: left;
+}
+#section06 img {
+    width: 500px;
+    max-width: 80%;
+}
+
+#disclaimer-final {
+    padding: 58px 0;
+    background-color: #c4c4c4;
+}
+#disclaimer-final p {
+    font-family: "Gotham Book";
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+    h2{
+        font-size: 28px!important;
+    }
+    #section02 h4 {
+        font-size: 33px;
+        width: 150px;
+        height: 150px;
+    }
+    #section04 .col {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+    #thinkagile-hx #introducao-e-formulario h2 br{
+        display: none;
+    }
+    #section02 .items,
+    #section03 .items,
+    #section06 .items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #section02 h4 {
+        font-family: "Gotham Bold";
+        font-size: 32px;
+    }
+    #section02 .items2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    h2 {
+        font-size: 26px !important;
+    }
+    p {
+        font-size: 16px !important;
+    }
+    #section04 .col div {
+        padding: 32px;
+    }    
+    #section03 ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin-top: 40px;
+    }
+    #section02 .img,#section03 .img {
+        padding-left: 0;
+        max-width: 70%;
+        padding-bottom: 20px;
+    }
+    #section03 .items {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #disclaimer-final {
+        padding-bottom: 110px;
+    }
+    #disclaimer-final p {
+        line-height: 1.8;
+        font-size: 10px!important;
+    }
+}

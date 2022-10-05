@@ -1,0 +1,40 @@
+.pre-footer {
+    padding-block: var(--spacing);
+    background-color: var(--black);
+    color: var(--white);
+
+    background-image: url("https://pages.lenovo.com/rs/183-WCT-620/images/hub_edu-pre-footer-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+    &__container {
+        display: grid;
+        gap: 3rem;
+
+        h3 {
+            font-size: clamp(1.75rem, 5vw, 2.5rem);
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            max-width: 18ch;
+        }
+
+        p {
+            font-size: clamp(1rem, 3.25vw, 1.125rem);
+            max-width: 32ch;
+        }
+
+        p + p {
+            margin-top: 1rem;
+        }
+
+        @media (min-width: 65em) {
+            grid-template-columns: 1fr 1fr;
+
+            h3 {
+                max-width: 10ch;
+            }
+        }
+    }
+}

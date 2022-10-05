@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="59.983" viewBox="0 0 60 59.983">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_696" data-name="Retângulo 696" width="60" height="59.983" fill="#de241b"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_2298" data-name="Grupo 2298" transform="translate(-1306 -2757)">
+    <g id="Grupo_2297" data-name="Grupo 2297" transform="translate(1306 2757)">
+      <g id="Grupo_2296" data-name="Grupo 2296" clip-path="url(#clip-path)">
+        <path id="Caminho_2525" data-name="Caminho 2525" d="M30.009,0V1.878h0A28.114,28.114,0,1,1,1.877,29.992,28.146,28.146,0,0,1,30.01,1.878V0h0A29.991,29.991,0,1,0,60,29.99,30.012,30.012,0,0,0,30.008,0" fill="#de241b"/>
+        <path id="Retângulo_695" data-name="Retângulo 695" d="M-1-1H34.923V22.386H-1ZM32.923,1H1V20.386H32.923Z" transform="translate(13.039 17.823)" fill="#de241b"/>
+        <path id="Linha_11" data-name="Linha 11" d="M12.537,1H0V-1H12.537Z" transform="translate(23.363 42.159)" fill="#fff"/>
+        <path id="Caminho_2526" data-name="Caminho 2526" d="M35.343,30.382l7.706,4.449L35.343,39.28Z" transform="translate(-7.555 -6.495)" fill="#de241b"/>
+        <path id="Caminho_2526_-_Contorno" data-name="Caminho 2526 - Contorno" d="M34.343,28.65l10.706,6.18L34.343,41.012Zm6.706,6.181-4.706-2.717v5.434Z" transform="translate(-7.555 -6.495)" fill="#fff"/>
+      </g>
+    </g>
+    <path id="Caminho_2527" data-name="Caminho 2527" d="M147.5,2814.093H115.261v-1H147.5Z" transform="translate(1204.911 -12.098)" fill="#de241b"/>
+  </g>
+</svg>

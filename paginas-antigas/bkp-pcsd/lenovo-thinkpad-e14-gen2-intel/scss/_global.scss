@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "Gotham Book";
+    font-display: swap;
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot");
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.woff")
+            format("woff"),
+        url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.ttf")
+            format("truetype"),
+        url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.svg#Gotham Book")
+            format("svg");
+}
+
+* {
+    font-family: "Gotham Book", sans-serif;
+}
+
+:root {
+    --spacing: 4rem;
+
+    --white: #fff;
+    --lightGray: #c4c4c4;
+    --black: #000;
+
+    --darkBlue: #2a3c46;
+    --red: #e1140a;
+
+    @media (min-width: 45em) {
+        --spacing: 5rem;
+    }
+
+    @media (min-width: 70em) {
+        --spacing: 6rem;
+    }
+}
+
+html {
+    font-size: 93.75%;
+
+    @media (min-width: 45em) {
+        font-size: 100%;
+    }
+}
+
+body {
+    color: var(--black);
+    overflow-x: hidden;
+}
+
+.container {
+    width: min(90%, 75rem);
+    margin-inline: auto;
+}
+
+.btn {
+    font-size: 1rem;
+    padding: 0.8rem 1.25rem;
+    background: linear-gradient(to right, #de241b, #6e47a5);
+    color: var(--white);
+    font-weight: 700;
+
+    display: inline-block;
+    min-width: 20rem;
+    text-align: center;
+
+    &:hover,
+    &:focus {
+        transition: all 200ms ease;
+        filter: brightness(1.2);
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+
+    &--outlined {
+        background: transparent;
+        border: 2px solid var(--white);
+        color: var(--white);
+    }
+
+    @media (max-width: 1100px) {
+        display: none;
+    }
+}
+
+.section-title {
+    font-size: 1.75rem;
+    line-height: 1.3;
+
+    margin-bottom: 2rem;
+    max-width: 25ch;
+    font-weight: 600;
+
+    @media (min-width: 70em) {
+        font-size: 2.5rem;
+        line-height: 1.4;
+        margin-bottom: 2.15rem;
+    }
+}
+
+.doted-list {
+    --fs: 1.125rem;
+    --gap: 0.75rem;
+
+    display: grid;
+    gap: var(--gap);
+
+    li {
+        display: flex;
+        align-items: center;
+        gap: 0.45rem;
+        font-size: var(--fs);
+
+        &::before {
+            content: "";
+            background-color: var(--red);
+            width: 5px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.found {
+    &__container {
+        padding-top: var(--spacing);
+        p {
+            max-width: 35ch;
+        }
+
+        p + p {
+            margin-top: 1rem;
+        }
+
+        a {
+            margin-top: 2rem;
+        }
+
+        display: grid;
+        gap: 3rem;
+
+        .image {
+            margin-inline: auto;
+        }
+    }
+
+    @media (min-width: 45em) {
+        &__container {
+            position: relative;
+            padding-block: 0;
+
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: center;
+
+            .content {
+                padding-block: var(--spacing);
+
+                margin-left: 0;
+            }
+        }
+    }
+}

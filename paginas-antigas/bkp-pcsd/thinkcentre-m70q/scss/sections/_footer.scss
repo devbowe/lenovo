@@ -1,0 +1,15 @@
+.footer {
+    background-color: var(--lightGray);
+    padding-block: calc(var(--spacing) / 2);
+
+    @media (max-width: 40em) {
+        padding-bottom: calc(1.25 * var(--spacing));
+    }
+
+    &__container {
+        display: grid;
+        gap: 1.5rem;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}

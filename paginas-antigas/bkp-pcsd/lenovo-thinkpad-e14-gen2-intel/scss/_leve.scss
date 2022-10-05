@@ -1,0 +1,46 @@
+.leve {
+    padding-block: var(--spacing);
+    padding-top: calc(var(--spacing) * 0);
+
+    &__container {
+        display: grid;
+        gap: 3rem;
+
+        grid-template-areas:
+            "content"
+            "image";
+
+        .image {
+            grid-area: image;
+        }
+
+        @media (min-width: 45em) {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "image" "content";
+            align-items: center;
+            gap: 3.5rem;
+        }
+
+        @media (min-width: 65em) {
+            gap: 5rem;
+        }
+
+        p + p {
+            margin-top: 1rem;
+        }
+
+        p {
+            max-width: 40ch;
+        }
+
+        span {
+            font-size: 0.8rem;
+            display: block;
+            margin-top: 1.5rem;
+        }
+
+        a {
+            margin-top: 2rem;
+        }
+    }
+}

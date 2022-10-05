@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="64" viewBox="0 0 54 64">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_247" data-name="Retângulo 247" width="54" height="64" transform="translate(660 1843)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_8" data-name="Grupo de máscara 8" transform="translate(-660 -1843)" clip-path="url(#clip-path)">
+    <g id="Grupo_1468" data-name="Grupo 1468" transform="translate(640.328 1846.033)" opacity="0.37">
+      <path id="Caminho_363" data-name="Caminho 363" d="M38.889,39.451a3.661,3.661,0,0,0-2.672,6.166l-.56,4.261h6.463l-.56-4.261a3.661,3.661,0,0,0-2.672-6.166Zm.317,5.226.394,2.991H38.18l.392-2.991-.533-.387a1.439,1.439,0,0,1-.6-1.175,1.453,1.453,0,0,1,2.907,0,1.437,1.437,0,0,1-.6,1.175Z" transform="translate(1.45 1.847)" fill="#fff"/>
+      <path id="Caminho_364" data-name="Caminho 364" d="M48.809,32.108c0-6.084-3.781-10.332-9.2-10.332s-9.2,4.248-9.2,10.332v4.549H27.478V55.968H51.745V36.657H48.809Zm-12.848,0c0-1.124.263-4.787,3.651-4.787s3.651,3.663,3.651,4.787v4.549h-7.3Zm3.651-7c-3.561,0-5.862,2.747-5.862,7v4.549H32.626V32.108c0-4.042,2.16-8.121,6.986-8.121s6.986,4.08,6.986,8.121v4.549H45.473V32.108C45.473,27.855,43.172,25.108,39.612,25.108Zm-9.923,28.65V38.866H49.532V53.758Z" transform="translate(0.728 0.2)" fill="#fff"/>
+      <path id="Caminho_365" data-name="Caminho 365" d="M50.075,21.819h5.911V27.73h2.186v-8.1h-8.1Z" transform="translate(2.834 0)" fill="#fff"/>
+      <path id="Caminho_366" data-name="Caminho 366" d="M19.672,27.73h2.186V21.819H27.77V19.632h-8.1Z" transform="translate(0 0)" fill="#fff"/>
+      <path id="Caminho_367" data-name="Caminho 367" d="M21.858,50.035H19.672v8.1h8.1V55.947H21.858Z" transform="translate(0 2.834)" fill="#fff"/>
+      <path id="Caminho_368" data-name="Caminho 368" d="M55.986,55.947H50.075v2.186h8.1v-8.1H55.986Z" transform="translate(2.834 2.834)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+.ideas {
+    padding-block: var(--spacing);
+
+    &__container {
+        display: grid;
+        gap: 4rem;
+        overflow: hidden;
+
+        @media (min-width: 55em) {
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+        }
+
+        .content {
+            h2 {
+                margin-bottom: 2rem;
+                max-width: 18ch;
+            }
+
+            p {
+                margin-bottom: 1.75rem;
+                max-width: 40ch;
+            }
+
+            ul {
+                display: grid;
+                gap: 1rem;
+                max-width: 35rem;
+
+                @media (min-width: 40em) {
+                    grid-template-columns: 1fr 1fr;
+                    gap: 2rem;
+                }
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    gap: 0.75rem;
+
+                    img {
+                        flex-shrink: 0;
+                        max-width: 3.5rem;
+                    }
+                }
+            }
+
+            a {
+                margin-top: 1.75rem;
+            }
+        }
+    }
+}

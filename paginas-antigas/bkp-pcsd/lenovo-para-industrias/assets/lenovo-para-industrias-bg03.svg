@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="491.713" viewBox="0 0 1920 491.713">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.117" y1="1.083" x2="0.899" y2="-0.076" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#503371"/>
+      <stop offset="1" stop-color="#1b0c35"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_194" data-name="Rectangle 194" width="82.135" height="164.269" fill="#8246af"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1573" data-name="Group 1573" transform="translate(0 -4345.287)">
+    <g id="Group_1487" data-name="Group 1487" transform="translate(0 -255.644)">
+      <rect id="_4k-wallpaper-android-wallpaper-astro-1146134" data-name="4k-wallpaper-android-wallpaper-astro-1146134" width="1920" height="491.713" transform="translate(0 4600.931)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_1534" data-name="Group 1534" transform="translate(1426.966 4508.41)">
+      <rect id="Rectangle_189" data-name="Rectangle 189" width="82.135" height="164.269" transform="translate(82.135 0)" fill="#8246af"/>
+      <path id="Intersection_3" data-name="Intersection 3" d="M0,164.27V.039C1.191.013,2.39,0,3.587,0,92.329,0,164.27,72.256,164.27,161.387q0,1.444-.025,2.882Z" transform="translate(493.034 328.539) rotate(180)" fill="#8246af"/>
+      <ellipse id="Ellipse_42" data-name="Ellipse 42" cx="82.135" cy="82.135" rx="82.135" ry="82.135" transform="translate(0 0)" fill="#46c8e1" style="mix-blend-mode: color-burn;isolation: isolate"/>
+      <g id="Group_1535" data-name="Group 1535" transform="translate(164.382 164.27)">
+        <ellipse id="Ellipse_44" data-name="Ellipse 44" cx="82.135" cy="82.135" rx="82.135" ry="82.135" fill="#8246af" style="mix-blend-mode: overlay;isolation: isolate"/>
+        <ellipse id="Ellipse_45" data-name="Ellipse 45" cx="35.028" cy="35.028" rx="35.028" ry="35.028" transform="translate(47.279 46.934)" fill="#8246af"/>
+      </g>
+      <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(82.135 0)" clip-path="url(#clip-path)">
+        <ellipse id="Ellipse_43" data-name="Ellipse 43" cx="82.135" cy="82.135" rx="82.135" ry="82.135" transform="translate(-82.135 0)" fill="#21486f"/>
+      </g>
+      <g id="Group_1527" data-name="Group 1527" transform="translate(164.326 164.207) rotate(90)">
+        <path id="Union_5" data-name="Union 5" d="M0,164.27V118.562H0V.1S48.689-3.572,81.126,33.05s29.547,85.537,29.547,85.537h-.016V164.27Z" transform="translate(110.738 164.27) rotate(180)" fill="#46c8e1"/>
+        <path id="Union_6" data-name="Union 6" d="M0,164.27V118.562H0V.1S48.689-3.572,81.126,33.05s29.547,85.537,29.547,85.537h-.016V164.27Z" transform="translate(164.382 164.27) rotate(180)" fill="#2b5886" style="mix-blend-mode: overlay;isolation: isolate"/>
+        <path id="Intersection_4" data-name="Intersection 4" d="M0,152.534V106.786H0V0A92.794,92.794,0,0,1,27.482,21.2c32.437,36.655,29.547,85.613,29.547,85.613h-.016v45.723Z" transform="translate(110.738 152.534) rotate(180)" fill="#8246af"/>
+      </g>
+    </g>
+    <g id="Group_1536" data-name="Group 1536" transform="translate(1428.411 4345.426)" style="mix-blend-mode: color-burn;isolation: isolate">
+      <g id="Group_1515" data-name="Group 1515" transform="translate(0 0)">
+        <ellipse id="Ellipse_37" data-name="Ellipse 37" cx="81.321" cy="81.492" rx="81.321" ry="81.492" transform="translate(0 0)" fill="#f5f6f6"/>
+        <ellipse id="Ellipse_38" data-name="Ellipse 38" cx="34.754" cy="34.583" rx="34.754" ry="34.583" transform="translate(46.567 46.909)" fill="#e5e7e7"/>
+        <rect id="Rectangle_177" data-name="Rectangle 177" width="164.354" height="162.984" transform="translate(162.642 0)" fill="#ececed"/>
+        <path id="Path_384" data-name="Path 384" d="M0,0H164.265L82.149,162.833Z" transform="translate(162.731 0.006)" fill="#f5f6f6"/>
+      </g>
+    </g>
+    <g id="Group_1541" data-name="Group 1541" transform="translate(1427.022 4835.69) rotate(180)" style="mix-blend-mode: color-burn;isolation: isolate">
+      <rect id="Rectangle_198" data-name="Rectangle 198" width="164.354" height="162.984" fill="#ececed"/>
+      <path id="Path_397" data-name="Path 397" d="M0,0H164.265L82.149,162.833Z" transform="translate(0.09 0.006)" fill="#f5f6f6" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+.needs {
+    padding-block: var(--spacing);
+    color: var(--white);
+
+    background-color: var(--green);
+    background-image: url("https://pages.lenovo.com/rs/183-WCT-620/images/neo50s__needs-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+    @media (min-width: 45em) {
+        background-position: top center;
+
+        &__container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .content {
+                grid-column: 2/3;
+            }
+        }
+    }
+
+    &__container {
+        --mt: 2rem;
+
+        p {
+            max-width: 40ch;
+        }
+
+        ul {
+            margin-top: var(--mt);
+        }
+
+        a {
+            margin-top: var(--mt);
+        }
+    }
+}

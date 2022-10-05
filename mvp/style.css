@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Gotham Book";
+  font-display: swap;
+  src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot");
+  src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.ttf")
+      format("truetype"),
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.svg#Gotham Book")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot");
+  src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.ttf")
+      format("truetype"),
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.svg#Gotham Book")
+      format("svg");
+}
+
+.justify-center {
+  justify-content: center !important;
+}
+
+.inline li {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+  align-items: center;
+}
+
+.list-001 {
+  justify-content: initial;
+}

@@ -1,0 +1,58 @@
+.sup {
+    padding-block: var(--spacing);
+    color: var(--white);
+
+    background-color: #511c62;
+    background-image: url("https://pages.lenovo.com/rs/183-WCT-620/images/m70q__sup-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        p {
+            max-width: 65ch;
+        }
+
+        a {
+            margin-top: 2rem;
+            padding-inline: 3rem;
+        }
+
+        ul {
+            display: grid;
+            gap: 1rem;
+            padding-block: 3rem;
+
+            li {
+                &::after {
+                    content: "";
+                    width: 4rem;
+                    height: 2px;
+                    background-color: var(--red);
+                    display: block;
+                    margin-inline: auto;
+                    margin-top: 0.5em;
+                }
+            }
+
+            @media (min-width: 45em) {
+                display: flex;
+                align-items: center;
+
+                li:not(:last-child) {
+                    border-right: 2px solid var(--red);
+                    padding-right: 1rem;
+                }
+
+                li::after {
+                    display: none;
+                }
+            }
+        }
+    }
+}

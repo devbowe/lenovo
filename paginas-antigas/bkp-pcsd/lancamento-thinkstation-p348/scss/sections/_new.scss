@@ -1,0 +1,72 @@
+.new {
+    padding-top: var(--spacing);
+
+    background: linear-gradient(to right, #424242, #000000);
+    color: var(--white);
+    position: relative;
+
+    display: grid;
+    gap: 3rem;
+    img {
+        grid-row: 2/3;
+    }
+
+    .content {
+        grid-row: 1/2;
+    }
+
+    @media (min-width: 40em) {
+        padding-block: var(--spacing);
+        img {
+            position: absolute;
+            bottom: 0;
+            max-width: min(48%, 40rem);
+
+            @media (min-width: 1600px) {
+                left: 10vw;
+            }
+
+            @media (min-width: 1900px) {
+                left: 15vw;
+            }
+        }
+    }
+
+    &__container {
+        display: grid;
+        gap: 3rem;
+
+        @media (min-width: 40em) {
+            grid-template-columns: 1fr 1fr;
+
+            .content {
+                grid-column: 2/3;
+                grid-row: 1/2;
+            }
+        }
+
+        .content {
+            h2 {
+                max-width: 16ch;
+                margin-bottom: 2.5rem;
+            }
+
+            p {
+                max-width: 41ch;
+            }
+
+            p + p {
+                margin-top: 1rem;
+            }
+
+            a {
+                margin-top: 2rem;
+            }
+
+            .lg {
+                font-size: 1.125rem;
+                font-weight: 700;
+            }
+        }
+    }
+}

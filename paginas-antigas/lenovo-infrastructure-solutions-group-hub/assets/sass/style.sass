@@ -1,0 +1,722 @@
+// cores
+$vermelho: #E1140A
+$preto: #000000
+$roxo: #7624A3
+$branco: #FFFFFF
+$cinza: #EEEEEE
+$cinzaclaro: #F4F4F4
+
+@import 'font.sass'
+@import 'reset.sass'
+@import 'form.sass'
+
+//font
+$font-book: 'Lato', sans-serif
+$font-bold: 'Lato', sans-serif
+
+b,strong
+    font-family: $font-bold
+    font-weight: 700
+
+p
+    font-family: $font-book
+
+.container
+    width: 75rem
+    margin: 0 auto
+
+//conteudos e padroes
+.text-title-center
+    font-family: $font-bold
+    font-style: normal
+    font-weight: bold
+    font-size: 2.0625rem
+    line-height: 2.5rem
+    text-align: center
+    color: $preto
+    padding: 3.75rem 0
+.text-title-left
+    font-family: $font-bold
+    font-style: normal
+    font-weight: bold
+    font-size: 2.0625rem
+    line-height: 2.5rem
+    text-align: left
+    color: $preto
+    padding: 3.75rem 0
+.roxo
+    color: $roxo
+.conteudos
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    img
+        width: 95%
+        height: 20.625rem
+        object-fit: cover
+        transition-duration: 0.3s
+        &:hover
+            filter: brightness(0.8)
+            transition-duration: 0.3s
+    .tipo
+        color: #7F7F7F
+        text-transform: uppercase
+        font-family: $font-book
+        letter-spacing: 0.2em
+        opacity: 0.8
+        font-size: 1rem
+    h3
+        font-family: $font-bold
+        font-style: normal
+        font-weight: bold
+        font-size: 1.125rem
+        line-height: 1.5625rem
+        padding: 2.3125rem 2.5rem 1.5rem 0
+        color: $preto
+    p
+        font-family: $font-book
+        font-style: normal
+        font-weight: normal
+        font-size: 1rem
+        line-height: 1.5rem
+        padding-bottom: 1.4375rem
+        padding-right: 2.5rem
+    a
+        font-family: $font-bold
+        color: $vermelho
+        font-weight: 500
+        font-size: 1rem
+        line-height: 2.125rem
+        display: inline-block
+        margin-bottom: 2.5rem
+        width: 100%
+        transition-duration: 0.6s
+        &:after
+            content: url('../images/arrow.svg')
+            padding-left: 0.625rem
+            transition-duration: 1s
+        &:hover
+            &:after
+                padding-left: 50%
+                transition-duration: 0.6s
+.conteudos-4
+    grid-template-columns: repeat(4, 1fr)
+    img
+        height: 11.625rem
+.conteudos-2
+    grid-template-columns: repeat(2, 1fr)
+    gap: 30px
+    img
+        height: 17.5rem
+        width: 100%
+    div
+        background: $cinza
+    h3,p,a
+        padding-left: 40px
+#header 
+    background: $cinza
+    height: 3.125rem
+    z-index: 999
+    width: 100%
+    .container
+        margin-top: -30px
+        z-index: 9
+        position: relative
+        background: $preto
+    img
+        height: 3.125rem
+    a
+        font-family: $font-book
+        color: $branco
+        font-style: normal
+        font-weight: bold
+        font-size: 1.05rem  
+        line-height: 3.125rem
+    .consultor
+        background: $roxo
+        text-transform: uppercase
+        width: 100%
+        display: block
+        text-align: center
+    ul
+        display: flex
+        justify-content: center
+        li
+            padding: 0 1.25rem
+
+#section01
+    background: $preto url("../images/section01-bg.png") center center no-repeat
+    background-size: cover
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 48rem
+    z-index: 1
+    position: relative
+    h1
+        color: $branco
+        font-family: $font-bold
+        font-size: 2.625rem
+        font-weight: 700
+        line-height: 3.0625rem
+        text-align: center
+    #typed
+        background: rgba(255, 255, 255, 0.34)
+        mix-blend-mode: normal
+    .typed-cursor
+        display: none
+    p  
+        font-family: $font-book
+        color: $branco
+        font-style: normal
+        font-weight: normal
+        font-size: 1.125rem
+        line-height: 1.625rem
+        text-align: center
+        width: 70%
+        padding-top: 1.25rem
+        margin: 0 auto
+    .divbutton
+        display: grid
+        grid-template-columns: 50% 50%
+        width: 66%
+        margin-right: auto
+        margin-left: auto
+.section01-solucoes
+        background: $preto url("../images/solucoes-bg01.png") center center no-repeat!important
+        background-size: cover!important
+        h1
+            margin-top: 0!important
+.divbutton
+    margin-top: 2.5rem
+    a
+        background: $roxo
+        font-family: $font-book
+        color: $branco
+        font-style: normal
+        font-weight: bold
+        font-size: 1rem
+        line-height: 0.9375rem
+        text-transform: uppercase
+        width: 24.125rem
+        display: block
+        text-align: center
+        padding: 1.25rem 0
+        margin: 0 auto
+#section02
+    padding-top: 5rem
+    background: $cinza
+    .container
+        background: url("../images/section02-bg.png") center center no-repeat
+        background-size: cover
+        padding: 6.25rem
+    .interno
+        width: 50%
+    h2
+        font-family: $font-bold
+        color: $branco
+        font-style: normal
+        font-weight: bold
+        font-size: 2.5rem
+        line-height: 2.75rem
+        padding-bottom: 1.5rem
+    p
+        font-family: $font-book
+        color: $branco
+        font-style: normal
+        font-weight: normal
+        font-size: 1rem
+        line-height: 1.5rem
+    a
+        font-family: $font-book
+        text-transform: uppercase
+        font-style: normal
+        font-weight: 500
+        font-size: 1.1875rem
+        line-height: 1.3125rem
+        color: $branco
+        border: 0.125rem solid $branco
+        box-sizing: border-box
+        border-radius: 31.25rem
+        padding: 1.25rem 6.25rem 1.25rem 1.25rem
+        margin-top: 1.875rem
+        display: inline-block
+        transition-duration: 0.3s
+        &:after
+            content: url('../images/play.svg')
+            position: absolute
+            margin-left: 2.5rem
+            margin-top: -0.625rem
+        &:hover
+            background-color: $vermelho
+            border-color: $vermelho
+            transition-duration: 0.3s
+#section03
+    background: $cinza
+    padding-bottom: 12.5rem
+
+#section04
+    margin-top: -9.375rem
+    .container
+        background: $cinzaclaro url('../images/section04-bg.svg') center center no-repeat
+        display: grid
+        grid-template-columns: 70% 30%
+        align-items: center
+    h2
+        padding-left: 6.25rem
+
+#section05
+    padding: 6.25rem 0
+
+#section06
+    background: url('../images/section06-bg.png') center center no-repeat
+    background-size: cover
+    height: 15.375rem
+    img
+        padding-top: 4.75rem
+    .interno
+        background: $branco
+        width: 50%
+        padding: 1.875rem 3.125rem
+        font-family: $font-book
+        font-style: normal
+        font-weight: bold
+        font-size: 1.3125rem
+        line-height: 1.9375rem
+        float: right
+        margin-top: 5.625rem
+
+#section07
+    background: $cinza
+    padding: 8.75rem 0 6.25rem 0
+
+.newsletter
+    .container
+        padding: 3.75rem
+        background: $preto
+        color: $branco
+        display: grid
+        grid-template-columns: 60% 40%
+    h2
+        font-family: $font-book
+        font-style: normal
+        font-weight: normal
+        font-size: 1.875rem
+        line-height: 2.3125rem
+        max-width: 22ch
+    .form-newsletter
+        .mktoForm,.mktoForm .mktoFormCol,.mktoForm .mktoFieldWrap,.mktoButtonRow
+            width: 100%!important
+        .mktoForm .mktoGutter,.mktoOffset
+            height: 0!important
+            display: none!important
+        label,.mktoAsterix
+            display: none!important
+        input
+            font-family: $font-book!important
+            font-style: normal!important
+            font-weight: normal!important
+            font-size: 0.875rem!important
+            line-height: 1.3125rem!important
+            text-align: center!important
+            height: 3.125rem!important
+        input[type=text],input[type=email]
+            width: 100%!important
+        #LblemailPermissionLastSource
+            display: block!important
+            color: $branco!important
+            width: 100%!important
+            text-align: justify!important
+            line-height: 1.125rem!important
+            text-indent: 1.875rem!important
+            font-family: $font-book!important
+        #emailPermissionLastSource
+            position: absolute!important
+            top: 0!important
+            margin-top: -0.75rem!important
+            a
+                text-decoration: none!important
+                color: inherit!important
+        .mktoButton
+            display: block!important
+            width: 100%!important
+            background: none!important
+            font-family: "Gotham Book"!important
+            padding: 1.25rem!important
+            border: 0.0625rem solid $branco!important
+            padding: 1.25rem!important
+            font-size: 1.125rem!important
+            text-transform: uppercase!important
+            margin-top: -1.25rem!important
+
+#section11
+    padding: 5rem 0
+    .imagens
+        display: grid
+        grid-template-columns: repeat(3,1fr)
+        gap: 0.625rem
+    .canal-youtube
+        background: url('../images/section11-bg.png') center center no-repeat
+        background-size: cover
+        padding: 5rem
+        margin-top: 5rem
+        img
+            float: right
+            margin-bottom: -90px
+        h2
+            font-family: $font-bold
+            font-style: normal
+            font-weight: bold
+            font-size: 2.125rem
+            line-height: 2.75rem
+            color: $branco
+            max-width: 25ch
+        a
+            margin-top: 40px
+            font-family: $font-bold
+            color: $branco
+            font-weight: 500
+            font-size: 1.1875rem
+            line-height: 2.125rem
+            display: inline-block
+            margin-bottom: 2.5rem
+            width: 100%
+            transition-duration: 0.6s
+            &:after
+                content: url('../images/arrow.svg')
+                padding-left: 0.625rem
+                transition-duration: 1s
+            &:hover
+                &:after
+                    padding-left: 20%
+                    transition-duration: 0.6s
+
+#form-contato
+    background: url('../images/section12-bg.png')
+    padding: 5rem 0
+    .container
+        display: grid
+        grid-template-columns: 60% 40%
+        align-items: center
+    h2
+        font-family: $font-bold
+        font-style: normal
+        font-weight: bold
+        font-size: 2.5rem
+        line-height: 2.75rem
+        color: $branco
+        padding-bottom: 2.1875rem
+        max-width: 18ch
+    p 
+        font-family: $font-book
+        font-style: normal
+        font-weight: normal
+        font-size: 1.25rem
+        line-height: 1.875rem
+        color: $branco
+    #LblemailPermissionStatus
+        display: block!important
+        width: 100%!important
+        text-align: justify!important
+        line-height: 1.125rem!important
+        text-indent: 1.875rem!important
+    #emailPermissionStatus
+        position: absolute!important
+        top: 0!important
+        margin-top: 0.25rem!important
+        a
+            text-decoration: none!important
+            color: inherit!important
+    .formulario
+        .mktoFormCol
+            margin-bottom: 10px!important
+.rodape
+    background: #C4C4C4
+    padding: 5rem 0
+    p
+        font-family: $font-book
+        font-style: normal
+        font-weight: normal
+        font-size: 0.875rem
+        line-height: 1.25rem
+        text-align: center
+
+.header-mobile,.menu-mobile
+    display: none
+
+
+// página solucoes
+.section02-solucoes
+    padding: 5rem 0
+
+.solucoes-bloco
+    padding: 80px 0
+    h2
+        font-family: $font-book
+        font-style: normal
+        font-weight: bold
+        font-size: 1.5rem
+        line-height: 2.125rem
+        padding-bottom: 40px
+    ul
+        margin-left: 24px
+    li
+        font-family: $font-book
+        font-style: normal
+        font-weight: normal
+        font-size: 1.125rem
+        line-height: 1.5625rem
+        width: 60%
+        padding-bottom: 20px
+        &::before
+            content: url(../images/icon-check.svg)
+            position: absolute
+            margin-left: -26px
+    a
+        background: transparent
+        color: $roxo
+        border: 2px $roxo solid
+        margin: inherit
+    .divbutton
+        margin-top: inherit
+.section03-solucoes,.section05-solucoes,.section07-solucoes
+    .items
+        display: grid
+        grid-template-columns: 60% 40%
+        gap: 40px
+.section04-solucoes,.section06-solucoes,.section08-solucoes
+    .items
+        display: grid
+        grid-template-columns: 40% 60%
+        gap: 40px
+.menu-interno
+    position: sticky
+    top: 3.125rem
+    z-index: 999
+    ul
+        display: grid
+        grid-template-columns: repeat(7,1fr)
+        text-align: center
+    a
+        border-top: 0.25rem solid transparent
+        font-size: 1rem
+        line-height: 4.125rem
+        color: $preto
+        opacity: 0.2
+        font-family: $font-book
+        font-style: normal
+        font-weight: normal
+        font-size: 1rem
+        line-height: 4.125rem
+        display: block
+        align-items: center
+        text-align: center
+        transition-duration: .3s
+        &:hover
+            border-top: 0.25rem solid #E1140A
+            transition-duration: .3s
+            opacity: 1
+    .active
+        a
+            opacity: 1
+            border-top: 0.25rem solid #E1140A
+            transition-duration: .3s
+
+.box-info-img
+    padding: 5rem 0
+    .container
+        background: $cinzaclaro
+        display: grid
+        grid-template-columns: 70% 30%
+        align-items: center
+    h2
+        padding-left: 6.25rem
+
+.cinza
+    background: $cinza
+
+
+// pagina materiais
+    
+.section01-materiais
+    background: $preto url("../images/materiais-bg01.png") center center no-repeat!important
+    background-size: cover!important
+    h1
+        margin-top: 0!important
+
+#section02-materiais
+    padding-top: 5rem
+    position: relative
+    z-index: 2
+
+#materiais-ricos
+    padding: 80px 0
+    .items
+        display: grid
+        grid-template-columns: 20% 80%
+    nav
+        cursor: pointer
+        p
+            font-family: $font-book
+            font-style: normal
+            font-weight: normal
+            font-size: 24px
+            line-height: 34px
+            padding-bottom: 40px
+        a
+            font-family: $font-book
+            font-style: normal
+            font-weight: normal
+            font-size: 1.125rem
+            line-height: 3.5rem
+            transition-duration: .3s
+            &.active,&:hover
+                font-weight: bold
+                border-left: 3px solid #E1140A
+                padding-left: 16px
+                transition-duration: .3s
+    .conteudos img
+        width: 95%
+        height: 11.625rem
+    .materiais-edge-computing,.materiais-ai-analytics,.materiais-as-a-service
+        display: none
+    .title-cloud-computing
+        background: url('../images/solucoes-cloud-computing.png') center center no-repeat
+        background-size: cover
+        padding: 47px
+        margin-bottom: 100px
+        h2
+            font-family: $font-book
+            font-style: normal
+            font-weight: bold
+            font-size: 44.5872px
+            line-height: 49px
+            color: $branco
+            padding-top: 200px
+        p
+            padding: 36px
+            background: $branco
+            font-size: 18px
+            width: 400px
+            float: right
+            line-height: 25px
+            margin-top: -100px
+
+    .title-edge-computing
+        background: url('../images/material-rico-edge-computing.png') center center no-repeat
+        background-size: cover
+        padding: 47px
+        margin-bottom: 100px
+        h2
+            font-family: $font-book
+            font-style: normal
+            font-weight: bold
+            font-size: 44.5872px
+            line-height: 49px
+            color: $branco
+            padding-top: 200px
+        p
+            padding: 36px
+            background: $branco
+            font-size: 18px
+            width: 400px
+            float: right
+            line-height: 25px
+            margin-top: -100px
+            
+    .title-ai-analytics
+        background: url('../images/material-rico-ai-analytics.png') center center no-repeat
+        background-size: cover
+        padding: 47px
+        margin-bottom: 100px
+        h2
+            font-family: $font-book
+            font-style: normal
+            font-weight: bold
+            font-size: 44.5872px
+            line-height: 49px
+            color: $branco
+            padding-top: 200px
+        p
+            padding: 36px
+            background: $branco
+            font-size: 18px
+            width: 400px
+            float: right
+            line-height: 25px
+            margin-top: -100px
+    .title-as-a-service
+        background: url('../images/material-rico-as-a-service.png') center center no-repeat
+        background-size: cover
+        padding: 47px
+        margin-bottom: 100px
+        h2
+            font-family: $font-book
+            font-style: normal
+            font-weight: bold
+            font-size: 44.5872px
+            line-height: 49px
+            color: $branco
+            padding-top: 200px
+        p
+            padding: 36px
+            background: $branco
+            font-size: 18px
+            width: 400px
+            float: right
+            line-height: 25px
+            margin-top: -100px
+
+    .easyPaginateNav
+        padding-top: 40px
+        a
+            text-decoration: none
+            background: #F4F4F4
+            color: #C4C4C4
+            font-family: Lato
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            line-height: 25px
+            text-align: center
+            padding: 10px 15px
+            margin: 5px
+            border: 1px solid #C4C4C4
+            &.current
+                border: 1px solid #E1140A
+                color: #E1140A
+                text-decoration: none
+
+//página de posts
+.section01-posts
+    height: 30rem!important
+    h1
+        margin-top: 0!important
+#artigo
+    padding: 60px 0
+    .container
+        width: 50%
+        margin: 0 auto
+    p
+        font-style: normal
+        font-weight: normal
+        font-size: 1rem
+        line-height: 1.5rem
+        padding-bottom: 1.4375rem
+        padding-right: 2.5rem
+    a
+        font-family: $font-bold
+        color: $vermelho
+        font-weight: 500
+        font-size: 1rem
+        line-height: 2.125rem
+        display: inline-block
+        margin-bottom: 2.5rem
+        width: 100%
+        transition-duration: 0.6s
+        img
+            transform: rotate(180deg)
+
+
+
+
+@import 'responsive.sass'

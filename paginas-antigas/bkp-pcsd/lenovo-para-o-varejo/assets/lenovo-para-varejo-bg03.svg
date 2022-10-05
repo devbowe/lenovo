@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="482.733" viewBox="0 0 1920 482.733">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.117" y1="1.083" x2="0.899" y2="-0.076" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8f1546"/>
+      <stop offset="1" stop-color="#1b0c35"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_194" data-name="Rectangle 194" width="80.629" height="161.259" fill="#8246af"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1573" data-name="Group 1573" transform="translate(0 -4214.43)">
+    <g id="Group_1487" data-name="Group 1487" transform="translate(0 -386.501)">
+      <rect id="_4k-wallpaper-android-wallpaper-astro-1146134" data-name="4k-wallpaper-android-wallpaper-astro-1146134" width="1920" height="482.646" transform="translate(0 4600.931)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_1543" data-name="Group 1543" transform="translate(-28.125 -0.14)">
+      <g id="Group_1534" data-name="Group 1534" transform="translate(1464.183 4374.566)">
+        <path id="Intersection_3" data-name="Intersection 3" d="M0,161.259V.039C1.169.013,2.346,0,3.521,0,90.637,0,161.259,70.931,161.259,158.43q0,1.418-.025,2.829Z" transform="translate(483.942 322.517) rotate(180)" fill="#ce4173"/>
+        <g id="Group_1535" data-name="Group 1535" transform="translate(161.314 161.259)">
+          <ellipse id="Ellipse_44" data-name="Ellipse 44" cx="80.629" cy="80.629" rx="80.629" ry="80.629" fill="#ce4173" style="mix-blend-mode: overlay;isolation: isolate"/>
+          <ellipse id="Ellipse_45" data-name="Ellipse 45" cx="34.386" cy="34.386" rx="34.386" ry="34.386" transform="translate(46.413 46.074)" fill="#e74881"/>
+        </g>
+        <g id="Group_1527" data-name="Group 1527" transform="translate(161.259 161.198) rotate(90)">
+          <path id="Union_5" data-name="Union 5" d="M0,161.259v-44.87H0V.1S47.8-3.507,79.639,32.444s29.005,83.969,29.005,83.969h-.016v44.845Z" transform="translate(108.709 161.259) rotate(180)" fill="#e74881"/>
+          <path id="Union_6" data-name="Union 6" d="M0,161.259v-44.87H0V.1S47.8-3.507,79.639,32.444s29.005,83.969,29.005,83.969h-.016v44.845Z" transform="translate(161.369 161.259) rotate(180)" fill="#cd2968" style="mix-blend-mode: overlay;isolation: isolate"/>
+          <path id="Intersection_4" data-name="Intersection 4" d="M0,149.738V104.829H0V0A91.093,91.093,0,0,1,26.978,20.81c31.842,35.983,29.005,84.043,29.005,84.043h-.016v44.885Z" transform="translate(108.709 149.738) rotate(180)" fill="#822051"/>
+        </g>
+      </g>
+      <g id="Group_1536" data-name="Group 1536" transform="translate(1465.546 4214.569)" style="mix-blend-mode: color-burn;isolation: isolate">
+        <g id="Group_1515" data-name="Group 1515" transform="translate(0 0)">
+          <ellipse id="Ellipse_37" data-name="Ellipse 37" cx="79.831" cy="79.999" rx="79.831" ry="79.999" transform="translate(0 0)" fill="#f5f6f6"/>
+          <ellipse id="Ellipse_38" data-name="Ellipse 38" cx="34.117" cy="33.949" rx="34.117" ry="33.949" transform="translate(45.714 46.05)" fill="#e5e7e7"/>
+          <rect id="Rectangle_177" data-name="Rectangle 177" width="161.342" height="159.997" transform="translate(159.661 0)" fill="#ececed"/>
+          <path id="Path_384" data-name="Path 384" d="M0,0H161.254L80.644,159.848Z" transform="translate(159.749 0.006)" fill="#f5f6f6"/>
+        </g>
+      </g>
+      <path id="Exclusion_1" data-name="Exclusion 1" d="M161.283,161.283H81.08c43.892-.237,79.87-36.133,80.2-80.021l0,80.021Zm-80.642,0h-.009A80.662,80.662,0,0,1,49.252,6.337,80.137,80.137,0,0,1,80.641,0Zm80.642-81.259h0A80.855,80.855,0,0,0,80.641,0h80.642Z" transform="translate(1464.214 4374.566)" fill="#ba1f59"/>
+      <g id="Group_1541" data-name="Group 1541" transform="translate(1464.183 4697.303) rotate(180)" style="mix-blend-mode: color-burn;isolation: isolate">
+        <rect id="Rectangle_198" data-name="Rectangle 198" width="161.342" height="159.997" transform="translate(0)" fill="#ececed"/>
+        <path id="Path_397" data-name="Path 397" d="M0,0H161.254L80.644,159.848Z" transform="translate(0.088 0.006)" fill="#f5f6f6" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+      </g>
+    </g>
+  </g>
+</svg>

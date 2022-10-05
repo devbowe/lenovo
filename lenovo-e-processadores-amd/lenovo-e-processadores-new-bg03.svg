@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="320" viewBox="0 0 1920 320">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.132" y1="-0.315" x2="1" y2="1.354" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ae2b34"/>
+      <stop offset="1" stop-color="#4e2a73"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_1526" data-name="Grupo 1526" transform="translate(0 -3550)">
+    <rect id="DataFlow_G954077270" width="1920" height="320" transform="translate(0 3550)" fill="url(#linear-gradient)"/>
+    <g id="Grupo_1521" data-name="Grupo 1521" transform="translate(0 3550)" opacity="0.22" style="mix-blend-mode: overlay;isolation: isolate">
+      <g id="Grupo_1514" data-name="Grupo 1514" transform="translate(0 0)">
+        <rect id="Retângulo_237" data-name="Retângulo 237" width="213.354" height="106.667" transform="translate(106.645 213.333)" fill="#9a97a2"/>
+        <rect id="Retângulo_238" data-name="Retângulo 238" width="213.354" height="213.302" transform="translate(106.646 0.032)" fill="#dfdbdd"/>
+        <rect id="Retângulo_239" data-name="Retângulo 239" width="106.679" height="213.331" fill="#9a97a2"/>
+      </g>
+      <g id="Grupo_1515" data-name="Grupo 1515" transform="translate(320 0)">
+        <path id="Caminho_393" data-name="Caminho 393" d="M655.451,196.906C607.22,81.278,493.108,0,360,0V320l162.14-67.494Z" transform="translate(-360)" fill="#9a97a2"/>
+        <path id="Caminho_394" data-name="Caminho 394" d="M522.14,277.119,360,344.613H680a319,319,0,0,0-24.549-123.094Z" transform="translate(-360 -24.613)" fill="#dfdbdd"/>
+      </g>
+      <g id="Grupo_1516" data-name="Grupo 1516" transform="translate(640 0)">
+        <path id="Caminho_395" data-name="Caminho 395" d="M840,0V28.542A213.2,213.2,0,0,1,946.667,213.3V320h106.667V213.3C1053.333,95.5,957.821,0,840,0Z" transform="translate(-733.333)" fill="#9a97a2"/>
+        <path id="Caminho_396" data-name="Caminho 396" d="M720,0V320H826.667V28.542A212.374,212.374,0,0,0,720,0Z" transform="translate(-720 0)" fill="#9a97a2"/>
+        <path id="Caminho_397" data-name="Caminho 397" d="M840,32.11V323.568H946.667v-106.7A213.2,213.2,0,0,0,840,32.11Z" transform="translate(-733.333 -3.568)" fill="#dfdbdd"/>
+      </g>
+      <g id="Grupo_1518" data-name="Grupo 1518" transform="translate(959.011 0)">
+        <g id="Grupo_1517" data-name="Grupo 1517" transform="translate(0 0)">
+          <ellipse id="Elipse_36" data-name="Elipse 36" cx="160.807" cy="159.607" rx="160.807" ry="159.607" fill="#9a97a2"/>
+        </g>
+        <circle id="Elipse_37" data-name="Elipse 37" cx="69.278" cy="69.278" r="69.278" transform="translate(92.064 90.723)" fill="#dfdbdd"/>
+      </g>
+      <g id="Grupo_1519" data-name="Grupo 1519" transform="translate(1280 0)">
+        <path id="Caminho_398" data-name="Caminho 398" d="M1620,320l160,0V0Z" transform="translate(-1460 0)" fill="#dfdbdd"/>
+        <path id="Caminho_399" data-name="Caminho 399" d="M1440,320l160,0L1440,0Z" transform="translate(-1440 0)" fill="#dfdbdd"/>
+        <path id="Caminho_400" data-name="Caminho 400" d="M1440,0l160,320L1760,0Z" transform="translate(-1440 0)" fill="#9a97a2"/>
+      </g>
+      <g id="Grupo_1520" data-name="Grupo 1520" transform="translate(1600 0)">
+        <path id="Caminho_401" data-name="Caminho 401" d="M1800,160a160.006,160.006,0,0,0,159.988,160V0A160.006,160.006,0,0,0,1800,160Z" transform="translate(-1800)" fill="#dfdbdd"/>
+        <path id="Caminho_402" data-name="Caminho 402" d="M2140,158.139V0H1980.013A160,160,0,0,1,2140,158.139Z" transform="translate(-1820.001)" fill="#dfdbdd"/>
+        <path id="Caminho_403" data-name="Caminho 403" d="M1980.013,340.233H2140V182.094A160,160,0,0,1,1980.013,340.233Z" transform="translate(-1820.001 -20.233)" fill="#dfdbdd"/>
+        <path id="Caminho_404" data-name="Caminho 404" d="M2140,161.861v-3.723A160,160,0,0,0,1980.01,0h-.024V320h.024A160,160,0,0,0,2140,161.861Z" transform="translate(-1819.998 0)" fill="#9a97a2"/>
+      </g>
+    </g>
+  </g>
+</svg>

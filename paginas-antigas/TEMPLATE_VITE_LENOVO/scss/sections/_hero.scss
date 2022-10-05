@@ -1,0 +1,96 @@
+.hero {
+    padding-block: var(--spacing);
+
+    color: var(--white);
+
+    background-color: var(--clr-fallback);
+    background-image: url("../images/thinkmx__otim-hero-bg.png");
+    background-size: cover;
+    background-position: left;
+
+    @media (min-width: 45em) {
+        background-position: left;
+    }
+
+    @media (min-width: 70em) {
+        background-position: right;
+    }
+
+    &__container {
+        display: grid;
+        position: relative;
+        gap: 2rem;
+
+        @media (min-width: 1100px) {
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            gap: 6rem;
+        }
+
+        .think {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+
+            span {
+                font-size: 2rem;
+                display: block;
+                position: relative;
+                top: -5px;
+                font-weight: 300;
+            }
+
+            @media (min-width: 45em) {
+                img {
+                    width: 12rem;
+                }
+            }
+
+            @media (min-width: 80em) {
+                img {
+                    width: 14rem;
+                }
+            }
+        }
+
+        .content {
+            h1 {
+                line-height: 1.3;
+                font-size: 2.25rem;
+                margin-block: 3rem;
+                color: var(--white);
+                font-weight: 700;
+                max-width: 20ch;
+                font-family: "Gotham Book", sans-serif;
+
+                strong {
+                    display: block;
+                    font-weight: 400;
+                    color: var(--clr-accent);
+                }
+            }
+
+            p + p {
+                margin-top: 1rem;
+            }
+
+            p {
+                font-size: 1.075rem;
+            }
+
+            .logos {
+                margin-top: 4rem;
+            }
+
+            @media (min-width: 45em) {
+                h1 {
+                    font-size: 2.5rem;
+                }
+
+                p {
+                    max-width: 44ch;
+                }
+            }
+        }
+    }
+}

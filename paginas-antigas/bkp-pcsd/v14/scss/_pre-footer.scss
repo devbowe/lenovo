@@ -1,0 +1,24 @@
+.pre-footer {
+    padding-block: var(--spacing);
+
+    background-image: linear-gradient(to right, #46c8e1, #6e47a5);
+    color: var(--white);
+
+    .container {
+        text-align: center;
+
+        h2 {
+            font-size: 1.75rem;
+            line-height: 1.2;
+        }
+
+        p {
+            font-size: 1.125rem;
+            margin-top: 1.25rem;
+        }
+
+        a {
+            margin-top: 1.25rem;
+        }
+    }
+}

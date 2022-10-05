@@ -1,0 +1,70 @@
+.pagination-hero {
+    background-image: url("../images/hub_edu-hero-pagination-bg.png");
+
+    a {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+.fullbleed-content {
+    padding-block: var(--spacing);
+
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        gap: 1.5rem;
+        row-gap: 2.5rem;
+
+        > .article-card {
+            grid-template-rows: 13rem 1fr max-content;
+
+            h3 {
+                font-size: 1.15rem;
+                line-height: 1.2;
+            }
+
+            main {
+                padding: 1rem 0;
+            }
+
+            footer {
+                padding: 0;
+            }
+        }
+    }
+}
+
+.pagination-buttons {
+    margin-top: var(--spacing);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    button,
+    a {
+        background: none;
+        cursor: pointer;
+        border: none;
+        background-color: #f4f4f4;
+        color: #c4c4c4;
+        display: grid;
+        place-items: center;
+        width: 2.75rem;
+        aspect-ratio: 1;
+        font-weight: 400;
+
+        &:hover,
+        &:focus {
+            outline: 1px dotted #c4c4c4;
+            outline-offset: 1px;
+        }
+
+        &.current {
+            background-color: var(--white);
+            color: var(--blue-light);
+            border: 1px solid var(--blue-light);
+        }
+    }
+}

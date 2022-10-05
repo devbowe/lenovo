@@ -1,0 +1,26 @@
+.sup {
+    padding-block: var(--spacing);
+
+    &__container {
+        display: grid;
+        gap: 3rem;
+
+        @media (min-width: 45em) {
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            gap: 4rem;
+
+            h2 {
+                max-width: 15ch;
+            }
+        }
+
+        @media (min-width: 60em) {
+            gap: 5rem;
+        }
+
+        a {
+            margin-top: 2.25rem;
+        }
+    }
+}

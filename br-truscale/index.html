@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-br" style>
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                "gtm.start": new Date().getTime(),
+                event: "gtm.js",
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-5T2DP24");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="keywords" content="lenovo, think, technology, thinkpad, thinksmart, Lenovo">
+    <meta name="title" content="Lenovo TruScale | Infraestrutura de TI | Tudo Como Serviço">
+    <meta name="description"
+        content="O Lenovo TruScale tem o portfólio mais completo do mercado em soluções de infraestrutura: tudo como serviço, em qualquer lugar, no modelo pas-as-you-go.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Gabriel Oliveira - bowe.com.br">
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="https://www.lenovo.com/favicon.ico">
+    <title>Lenovo TruScale | Infraestrutura de TI | Tudo Como Serviço</title>
+
+    <!-- FB -->
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Lenovo ThinkAgile VX™ | Armazenamento Corporativo">
+    <meta property="og:description"
+        content="O Lenovo TruScale tem o portfólio mais completo do mercado em soluções de infraestrutura: tudo como serviço, em qualquer lugar, no modelo pas-as-you-go.">
+    <meta property="og:url" content>
+    <meta property="og:site_name" content="Lenovo">
+    <script src="https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_assets.min.js"></script>
+    <script src="https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_scripts.js"></script>
+    <script src="//app-ab27.marketo.com/js/forms2/js/forms2.min.js"></script>
+
+    <meta property="og:image" content="https://pages.lenovo.com/rs/183-WCT-620/images/br-truscale-thumb.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="628" />
+    <meta property="og:image:secure_url" content>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        !function (a) { "function" == typeof define && define.amd ? define(["jquery"], a) : a(window.jQuery || window.Zepto) }(function (a) { var c = function (e, f, c) { var i, h, b = this; e = a(e), f = "function" == typeof f ? f(e.val(), void 0, e, c) : f; var g, d = { getCaret: function () { try { var c, a = 0, f = e.get(0), d = document.selection, b = f.selectionStart; return d && !~navigator.appVersion.indexOf("MSIE 10") ? ((c = d.createRange()).moveStart("character", e.is("input") ? -e.val().length : -e.text().length), a = c.text.length) : (b || "0" === b) && (a = b), a } catch (g) { } }, setCaret: function (a) { try { if (e.is(":focus")) { var b, c = e.get(0); c.setSelectionRange ? c.setSelectionRange(a, a) : c.createTextRange && ((b = c.createTextRange()).collapse(!0), b.moveEnd("character", a), b.moveStart("character", a), b.select()) } } catch (d) { } }, events: function () { e.on("keydown.mask", function () { i = d.val() }).on("keyup.mask", d.behaviour).on("paste.mask drop.mask", function () { setTimeout(function () { e.keydown().keyup() }, 100) }).on("change.mask", function () { e.data("changed", !0) }).on("blur.mask", function () { i === e.val() || e.data("changed") || e.trigger("change"), e.data("changed", !1) }).on("focusout.mask", function () { c.clearIfNotMatch && !h.test(d.val()) && d.val("") }) }, getRegexMask: function () { for (var c, g, h, d, a = [], e = 0; e < f.length; e++)(c = b.translation[f[e]]) ? (g = c.pattern.toString().replace(/.{1}$|^.{1}/g, ""), h = c.optional, (c = c.recursive) ? (a.push(f[e]), d = { digit: f[e], pattern: g }) : a.push(h || c ? g + "?" : g)) : a.push(f[e].replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&")); return a = a.join(""), d && (a = a.replace(new RegExp("(" + d.digit + "(.*" + d.digit + ")?)"), "($1)?").replace(new RegExp(d.digit, "g"), d.pattern)), new RegExp(a) }, destroyEvents: function () { e.off("keydown keyup paste drop change blur focusout DOMNodeInserted ".split(" ").join(".mask ")).removeData("changeCalled") }, val: function (a) { var b = e.is("input"); return 0 < arguments.length ? b ? e.val(a) : e.text(a) : b ? e.val() : e.text() }, getMCharsBeforeCount: function (a, e) { for (var d = 0, c = 0, g = f.length; c < g && c < a; c++)b.translation[f.charAt(c)] || (a = e ? a + 1 : a, d++); return d }, caretPos: function (a, e, c, g) { return b.translation[f.charAt(Math.min(a - 1, f.length - 1))] ? Math.min(a + c - e - g, c) : d.caretPos(a + 1, e, c, g) }, behaviour: function (c) { var e = (c = c || window.event).keyCode || c.which; if (-1 === a.inArray(e, b.byPassKeys)) { var f = d.getCaret(), i = d.val(), g = i.length, k = f < g, h = d.getMasked(), j = h.length, l = d.getMCharsBeforeCount(j - 1) - d.getMCharsBeforeCount(g - 1); return h !== i && d.val(h), !k || 65 === e && c.ctrlKey || (8 !== e && 46 !== e && (f = d.caretPos(f, g, j, l)), d.setCaret(f)), d.callbacks(c) } }, getMasked: function (i) { var g, m, j = [], r = d.val(), a = 0, n = f.length, h = 0, s = r.length, e = 1, o = "push", k = -1; for (c.reverse ? (o = "unshift", e = -1, g = 0, a = n - 1, h = s - 1, m = function () { return -1 < a && -1 < h }) : (g = n - 1, m = function () { return a < n && h < s }); m();) { var p = f.charAt(a), q = r.charAt(h), l = b.translation[p]; l ? (q.match(l.pattern) ? (j[o](q), l.recursive && (-1 === k ? k = a : a === g && (a = k - e), g === k && (a -= e)), a += e) : l.optional && (a += e, h -= e), h += e) : (i || j[o](p), q === p && (h += e), a += e) } return i = f.charAt(g), n !== s + 1 || b.translation[i] || j.push(i), j.join("") }, callbacks: function (b) { var a = d.val(), g = a !== i; !0 === g && "function" == typeof c.onChange && c.onChange(a, b, e, c), !0 === g && "function" == typeof c.onKeyPress && c.onKeyPress(a, b, e, c), "function" == typeof c.onComplete && a.length === f.length && c.onComplete(a, b, e, c) } }; b.mask = f, b.options = c, b.remove = function () { var a; return d.destroyEvents(), d.val(b.getCleanVal()).removeAttr("maxlength"), a = d.getCaret(), d.setCaret(a - d.getMCharsBeforeCount(a)), e }, b.getCleanVal = function () { return d.getMasked(!0) }, b.init = (c = c || {}, b.byPassKeys = [9, 16, 17, 18, 36, 37, 38, 39, 40, 91,], b.translation = { 0: { pattern: /\d/ }, 9: { pattern: /\d/, optional: !0 }, "#": { pattern: /\d/, recursive: !0 }, A: { pattern: /[a-zA-Z0-9]/ }, S: { pattern: /[a-zA-Z]/ } }, b.translation = a.extend({}, b.translation, c.translation), b = a.extend(!0, {}, b, c), h = d.getRegexMask(), !1 !== c.maxlength && e.attr("maxlength", f.length), c.placeholder && e.attr("placeholder", c.placeholder), e.attr("autocomplete", "off"), d.destroyEvents(), d.events(), g = d.getCaret(), void (d.val(d.getMasked()), d.setCaret(g + d.getMCharsBeforeCount(g, !0)))) }, d = {}, b = function () { var b = a(this), c = {}; b.attr("data-mask-reverse") && (c.reverse = !0), "false" === b.attr("data-mask-maxlength") && (c.maxlength = !1), b.attr("data-mask-clearifnotmatch") && (c.clearIfNotMatch = !0), b.mask(b.attr("data-mask"), c) }; a.fn.mask = function (f, g) { var b = this.selector, e = function () { var b = a(this).data("mask"), d = JSON.stringify; if ("object" != typeof b || d(b.options) !== d(g) || b.mask !== f) return a(this).data("mask", new c(this, f, g)) }; this.each(e), b && !d[b] && (d[b] = !0, setTimeout(function () { a(document).on("DOMNodeInserted.mask", b, e) }, 500)) }, a.fn.unmask = function () { try { return this.each(function () { a(this).data("mask").remove().removeData("mask") }) } catch (b) { } }, a.fn.cleanVal = function () { return this.data("mask").getCleanVal() }, a("*[data-mask]").each(b), a(document).on("DOMNodeInserted.mask", "*[data-mask]", b) })
+
+        MktoForms2.loadForm(
+            "//app-ab27.marketo.com",
+            "183-WCT-620",
+            2583,
+            function (form) {
+                $("#Phone").mask("00000000009");
+
+                $("#Phone").blur(function (event) {
+                    if ($(this).val().length == 15) {
+                        // Celular com 9 digitos + 2 digitos DDD e 4 da mascara
+                        $("#Phone").mask("00000000009");
+                    } else {
+                        $("#Phone").mask("00000000009");
+                    }
+                });
+
+                $("#FirstName").keypress(function (e) {
+                    var keyCode = e.keyCode ? e.keyCode : e.which;
+                    if (keyCode > 47 && keyCode < 58) {
+                        e.preventDefault();
+                    }
+                });
+
+                $("#FirstName").on("input", function () {
+                    $(this).val(
+                        $(this)
+                            .val()
+                            .replace(/[^a-z0-9]/gi, "")
+                    );
+                });
+
+                $("#LastName").keypress(function (e) {
+                    var keyCode = e.keyCode ? e.keyCode : e.which;
+                    if (keyCode > 47 && keyCode < 58) {
+                        e.preventDefault();
+                    }
+                });
+
+                $("#LastName").on("input", function () {
+                    $(this).val(
+                        $(this)
+                            .val()
+                            .replace(/[^a-z0-9]/gi, "")
+                    );
+                });
+
+                $("input").change(function () {
+                    comentarios =
+                        "Cargo: " +
+                        $("select[name='Title']").val() +
+                        " - " +
+                        "Segmento: " +
+                        $("select[name='segment']").val() +
+                        " - " +
+                        "Número de Funcionários: " +
+                        $("input[name='employeeSizeRange']").val() +
+                        " - " +
+                        "utm_campaign: " +
+                        $("input[name='mktoutmcampaign']").val() +
+                        " - " +
+                        "utm_content: " +
+                        $("input[name='mktoutmcontentdownload']").val() +
+                        " - " +
+                        "utm_medium: " +
+                        $("input[name='mktoutmmedium']").val() +
+                        " - " +
+                        "utm_source: " +
+                        $("input[name='mktoutmsource']").val() +
+                        " - " +
+                        "Lead Source: " +
+                        $("input[name='sourceCampaign']").val() +
+                        " - " +
+                        "Página: " +
+                        window.location.href;
+
+                    $("input[name='dCGPersonNotes']").val(comentarios);
+                    $("input[name='iDGPersonNotes']").val(comentarios);
+                });
+                $("input[name='leadSourceLastDCG']").val(
+                    "DCG_23FY_LA_LAHQ_EAAS_BRND_TRUS_MED_563731_Bowe-TruScale-ContactMe"
+                );
+                $("input[name='leadSourceLast']").val(
+                    "DCG_23FY_LA_LAHQ_EAAS_BRND_TRUS_MED_563731_Bowe-TruScale-ContactMe"
+                );
+                $("input[name='sourceCampaign']").val(
+                    "DCG_23FY_LA_LAHQ_EAAS_BRND_TRUS_MED_563731_Bowe-TruScale-ContactMe"
+                );
+            }
+        );
+    </script>
+
+    </style>
+
+</head>
+
+<body id="conheca-lenovo-truscale">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5T2DP24" height="0" width="0"
+            style="display: none; visibility: hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->
+
+    <section id="introducao-e-formulario">
+        <img src="https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_logo-lenovo.svg" alt="Lenovo"
+            title="Lenovo" class="lenovo-logo">
+        <div class="container">
+            <div class="introducao">
+                <h2>
+                    Lenovo<br>
+                    <b>TruScale™</b>
+                </h2>
+                <h3>Tudo como serviço.<br>
+                    Em qualquer lugar do mundo.<br>
+                    Com pagamento conforme o uso.</h3>
+                <p>
+                    Com o Lenovo TruScale, a sua organização
+                    tem o <b>portfólio mais completo do mercado em soluções</b>, dos dispositivos ao data-center, tudo
+                    como serviço, em qualquer lugar, com pagamento conforme o uso, <b>para extrair todo o potencial da
+                        tecnologia, de suas equipes e do seu negócio.</b>
+                    <br><br>
+                    <b>Do bolso à nuvem,</b> tudo para que você possa
+                    <b>inovar mais rápido e sonhar mais alto</b> para
+                    chegar aonde só era possível imaginar.<br><br>
+                    Powered by
+                </p>
+                <img src="https://pages.lenovo.com/rs/183-WCT-620/images/conheca-lenovo-truscale-logo-intel.svg">
+            </div>
+            <!-- introducao -->
+
+            <div class="formulario" id="form">
+                <a href="#" id="close-form" title="Fechar formulário">
+                    <img src="https://pages.lenovo.com/rs/183-WCT-620/images/lpthinkmarketo_close-form.svg"
+                        alt="Fechar formulário">
+                </a>
+
+                <header class="chamada">
+                    <h5>
+                        <b>Preencha o formulário e vamos conversar.
+                        </b>
+                    </h5>
+                </header>
+                <!-- chamada -->
+
+                <form id="mktoForm_2583"></form>
+            </div>
+            <!-- formulario -->
+
+            <div class="clearfix"></div>
+        </div>
+        <!-- container -->
+    </section><!-- introducao e formulario -->
+
+    <section id="section02">
+        <div class="container">
+            <h2>
+                Tudo como serviço
+            </h2>
+            <p>
+                Do data center à borda e muito mais. Combine a conveniência e flexibilidade de uma infraestrutura
+                cloud-like que pode ser dimensionada de acordo com as demandas da sua organização, com toda a segurança
+                e controle de uma solução on-premise tradicional.
+            </p>
+            <div class="divbutton">
+                <a href="#form">Quero tudo como serviço</a>
+            </div>
+        </div>
+        <!--container-->
+    </section><!-- section02 -->
+
+    <section id="section03">
+        <div class="container">
+            <h2>
+                92% das empresas vão adotar soluções como serviço nos próximos dois anos
+            </h2>
+            <h5>Lenovo's Global Study of CIOs 2022</h5>
+        </div>
+        <!--container-->
+    </section><!-- section03 -->
+
+    <section id="section04">
+        <div class="container">
+            <div class="items">
+                <div>
+                    <h2>
+                        Em qualquer lugar do mundo
+                    </h2>
+                    <p>
+                        Com empresas distribuídas e equipes híbridas,
+                        você não terá dificuldades para garantir performance, eficiência, controle e escalabilidade, já
+                        que o Lenovo TruScale oferece soluções de infraestrutura mais inteligentes que permitem que você
+                        e todos os seus profissionais extraiam o máximo da tecnologia.
+                    </p>
+                </div>
+                <div>
+                    <h2>
+                        Com pagamento conforme o uso
+                    </h2>
+                    <p>
+                        Migre do modelo CAPEX para OPEX e reduza
+                        custos com infraestrutura, equipamentos, licenças
+                        de softwares, equipe de TI, treinamentos e outros. Pague somente pelo que usar e ajuste,
+                        dimensione
+                        e escale de forma fácil e rápida, de acordo com
+                        as necessidades do seu negócio.
+                    </p>
+                </div>
+            </div>
+            <div class="divbutton">
+                <a href="#form">Quero expandir</a>
+            </div>
+        </div>
+        <!--container-->
+    </section><!-- section04 -->
+
+    <section id="section05">
+        <div class="container">
+            <h2>
+                E diversas vantagens competitivas
+            </h2>
+            <ul>
+                <li>
+                    <img src="br-truscale-icon01.svg">
+                    <h3>+ ESCALABILIDADE</h3>
+                    <p>Aumente ou diminua hardware, software ou serviços à medida que suas necessidades mudam.</p>
+                </li>
+                <li>
+                    <img src="br-truscale-icon02.svg">
+                    <h3>+ FLEXIBILIDADE</h3>
+                    <p>Fique à vontade para fazer alterações sempre que precisar e pague apenas pelo que você usar.</p>
+                </li>
+                <li>
+                    <img src="br-truscale-icon03.svg">
+                    <h3>+ PRATICIDADE</h3>
+                    <p>A implementação, o gerenciamento e o suporte ficam por nossa conta. Concentre-se no seu negócio.
+                    </p>
+                </li>
+                <li>
+                    <img src="br-truscale-icon04.svg">
+                    <h3>+ ECONOMIA</h3>
+                    <p>Reduza custos com infraestrutura de TI e invista na melhoria de seus produtos e/ou serviços e na
+                        expansão
+                        do seu negócio.</p>
+                </li>
+                <li>
+                    <img src="br-truscale-icon05.svg">
+                    <h3>+ CONTROLE</h3>
+                    <p>A Lenovo monitora o seu ambiente de TI 24x7x365 e atua de forma proativa para prevenir falhas e
+                        erros.</p>
+                </li>
+                <li>
+                    <img src="br-truscale-icon06.svg">
+                    <h3>+ SEGURANÇA</h3>
+                    <p>Com o monitoramento contínuo, reduzimos o risco de ataques virtuais como roubo de dados.</p>
+                </li>
+            </ul>
+            <div class="divbutton">
+                <a href="#form">Quero tudo isso</a>
+            </div>
+        </div>
+        <!--container-->
+    </section><!-- section05 -->
+
+    <section id="section06">
+        <div class="container">
+            <h2>
+                A escolha das mais inteligentes
+            </h2>
+            <ul>
+                <li>
+                    <h3>Hubei</h3>
+                    <p>Otimização de serviços, redução de custos e fortalecimento da rede</p>
+                </li>
+                <li>
+                    <h3>Konecta</h3>
+                    <p>Adaptação às mudanças
+                        e transformação digital
+                        em prazo recorde</p>
+                </li>
+                <li>
+                    <h3>Servimed</h3>
+                    <p>Processos mais ágeis
+                        e sistemas unificados
+                        para crescer mais rápido</p>
+                </li>
+                <li>
+                    <h3>STGT</h3>
+                    <p>Análise de dados
+                        mais rápida e maior disponibilidade dos serviços</p>
+                </li>
+            </ul>
+            <div class="divbutton">
+                <a href="#form">Quero o truscale</a>
+            </div>
+        </div>
+        <!--container-->
+    </section><!-- section06 -->
+
+    <section id="section07">
+        <div class="container">
+            <h2>
+                77% dos CIOs recorrerão aos seus fornecedores de TI nos próximos cinco anos para enfrentar desafios de
+                tecnologia
+            </h2>
+            <p>
+                E você? Vai remar contra a maré ou fazer como os mais inteligentes?
+            </p>
+            <h5>Lenovo's Global Study of CIOs 2022</h5>
+        </div>
+        <!--container-->
+    </section><!-- section07 -->
+
+    <section id="section08">
+        <div class="container">
+            <div class="item">
+                <h2>
+                    Inove mais rápido para sonhar mais alto com o Lenovo TruScale
+                </h2>
+                <p>
+                    <b>Fale com a equipe da Lenovo e comece
+                        a escalar a sua organização</b> com o TruScale.
+                    Tudo como serviço, em qualquer lugar do mundo,
+                    pagando apenas pelo que usar.
+                    <br><br>
+                    Acelere a <b>digitalização</b> do seu negócio, aumente
+                    sua <b>mobilidade corporativa</b> e a performance de seus
+                    profissionais, extraindo todo o potencial da tecnologia.
+                    <br><br>
+                    <b>Chegue lá com o Lenovo TruScale.</b>
+                </p>
+                <div class="divbutton">
+                    <a href="#form">Quero conversar</a>
+                </div>
+            </div>
+        </div>
+        <!--container-->
+    </section><!-- section08 -->
+
+
+
+
+    <a href="#" class="cta-formulario-mobile" id="cta-formulario-mobile">Fale conosco</a>
+
+    <div class="mktoContent"></div>
+
+    <section id="disclaimer-final">
+        <div class="container">
+            <p>
+                A Lenovo realiza todos os esforços para garantir a precisão das informações, mas não é responsável por
+                qualquer conteúdo editorial, fotográfico ou por erros tipográficos. Todas as imagens são apenas para
+                fins ilustrativos. Para especificações completas de produto, informações de serviços e garantias Lenovo,
+                visite www.lenovo.com. Lenovo, ThinkSystem, ThinkAgile e o logotipo da Lenovo são marcas registradas da
+                Lenovo. A Lenovo não faz nenhuma representação ou dá garantia em relação a produtos ou serviços de
+                terceiros. Outros nomes de empresas, produtos e serviços podem ser marcas registradas ou marcas de
+                serviços de terceiros. ©Lenovo 2022.
+            </p>
+        </div>
+    </section>
+
+</html>

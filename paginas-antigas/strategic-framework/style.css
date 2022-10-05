@@ -1,0 +1,426 @@
+html, body{
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: "Gotham Book";
+}
+h1,h2,h3,h4,h5,h6,p,span,a{
+    margin: 0;
+}
+.clearfix {
+    overflow: auto;
+    display: contents;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#lenovo-thinkpad-l14 a:hover{
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    transition-duration: .3s;
+}
+img{
+    max-width:100%;
+}
+section{
+    scroll-behavior: smooth;
+}
+#lenovo-thinkpad-l14 a{
+    transition-duration: .3s;
+}
+b{
+    font-family: 'Gotham Bold';
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+@font-face {font-family: "Gotham Bold";
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot"); /* IE9*/
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.woff") format("woff"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Bold.svg#Gotham Book") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Gotham Book";
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot"); /* IE9*/
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.woff") format("woff"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Book.svg#Gotham Book") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: 'Gotham Light';
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.eot"); /* IE9*/
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.woff") format("woff"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham Light.svg#Gotham Light") format("svg"); /* iOS 4.1- */
+}
+
+    /* Reset */
+    
+
+#lenovo-thinkpad-l14 #textojur{
+    background-color: #c4c4c4;
+    text-align: center;
+    padding: 38px 0;
+}
+#lenovo-thinkpad-l14 #textojur p{
+    width: 916px;
+    font-family: 'Gotham Book';
+    font-size: 11px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+}
+@media screen and (max-width:1100px){
+    #lenovo-thinkpad-l14 #textojur p {
+        width: 90%;
+        font-size: 10px;
+        padding-bottom: 80px;
+    }
+}
+.desktop{
+    display:block;
+}
+.mobile{
+    display:none!important;
+}
+@media screen and (max-width:1024px){
+    .desktop{
+        display:none;
+    }
+    .mobile{
+        display:block!important;
+    }
+}
+@media screen /*and (min-width:480px)*/ and (max-width:1024px){
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+.logolenovo{
+    position: absolute;
+    width: 40px;
+    right: 0;
+    top: 100px;
+    z-index: 9;
+}
+#section-final{
+    background: url("https://pages.lenovo.com/rs/183-WCT-620/images/strategic-framework-bg2.jpg") center center no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+#section-final h2{
+    font-family: 'Gotham Bold';
+    font-size: 32px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding: 40px 0;
+    max-width: 35ch;
+    margin: 0 auto;
+    width: 90%;
+}
+#section-final p{
+    font-family: 'Gotham Bold';
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.22;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto 40px auto;
+}
+#section-final .btn{
+    max-width: 492px;
+    width: 90%;
+    padding: 20px 0;
+    font-family: "Gotham Bold";
+    border-radius: 133px;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.22;
+    letter-spacing: 0.96px;
+    text-align: center;
+    color: #fff;
+    background-color: #de241b;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-decoration: none;
+}
+#section01{
+    background: url(https://pages.lenovo.com/rs/183-WCT-620/images/strategic-framework-bg.jpg) center center no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 140px 0;
+    text-align: center;
+}
+#section01 h2{
+    font-family: "Gotham Bold";
+    font-size: 61px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: -3.05px;
+    text-align: center;
+    color: #fff;
+    width: 90%;
+    max-width: 20ch;
+    margin: 50px auto 50px auto;
+}
+#section01 h2 b{
+    color: #de241b
+}
+#section01 p{
+    width: 90%;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    max-width: 50ch;
+    margin: 50px auto 50px auto;
+}
+#section01 h5{
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 1.8px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 600px;
+}
+#section01 h5:before, #section01 h5:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #de241b;
+    margin: auto;
+}
+#section02{
+    padding: 100px 0;
+}
+#section02 h2{
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #de241b;
+    text-align: center;
+}
+#section02 p{
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000;
+}
+#section02 > div > p{
+    text-align: center;
+    padding: 27px 0;
+}
+#section02 > div > img{
+    display: block;
+    margin: 0 auto;
+}
+#section02 h3{
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.84px;
+    text-align: left;
+    color: #000;
+}
+#section02 textarea::placeholder{
+    color: #c2d0db;
+}
+#section02 textarea{
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    width: 100%;
+    height: 93px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px #c2d0db;
+    margin: 10px 0 40px 0;
+}
+li,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#section02 button{
+    padding: 15px;
+    text-align: center;
+    border-radius: 133px;
+    background-color: #de241b;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.22;
+    letter-spacing: 0.96px;
+    text-align: center;
+    color: #fff;
+    max-width: 440px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+#section03{
+    background-color: #f8f8f8;
+    padding: 120px 0;
+}
+#section03 h2{
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+    font-family: "Gotham Bold";
+    padding-bottom: 26px;
+}
+#section03 p{
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+    padding-bottom: 60px;
+}
+#section03 h4{
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #de241b;
+    width: 50px;
+    height: 50px;
+    border: solid 2px #de241b;
+    border-radius: 100px;
+}
+#section03 li{
+    display: grid;
+    grid-template-columns: 7% 93%;
+    padding-bottom: 40px;
+}
+#section03 h3{
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+
+/** ipad, surface e tablets **/
+@media screen and (min-width:766px) and (max-width:1024px){
+    h2,h3{
+        font-size:30px!important;
+    }
+    #section-final {
+        padding: 80px 0;
+    }
+    #section01 h2 {
+        letter-spacing: -0.8px;
+    }
+    #section03 li {
+        grid-template-columns: 10% 90%;
+    }
+}
+
+/**iphone, android, celulares e demais**/
+@media screen and (max-width:766px){
+    .logolenovo {
+        width: 35px;
+        top: 60px;
+    }
+    #section03 li {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        padding-bottom: 40px;
+    }
+    h2{
+        font-size: 22px!important;
+    }
+    h3{
+        font-size: 18px!important;
+    }
+    p {
+        font-size: 16px!important;
+    }
+    #section01 h2 {
+        letter-spacing: -0.8px;
+    }
+    #section-final{
+        padding: 40px 0;
+    }
+    .divbutton {
+        display: none;
+    }
+    #section-final p{
+        width:100%;
+    }
+    #lenovo-thinkpad-l14 #textojur p {
+        width: 90%;
+        font-size: 10px!important;
+    }
+}
